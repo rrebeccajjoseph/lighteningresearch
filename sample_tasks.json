@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "query": "What are the latest developments in quantum computing hardware in 2024?",
+      "field": "Physics"
+    },
+    {
+      "id": "task_002",
+      "query": "How is CRISPR gene editing being used to treat genetic diseases?",
+      "field": "Biology"
+    },
+    {
+      "id": "task_003",
+      "query": "What are the main challenges and solutions for scaling large language models?",
+      "field": "Computer Science"
+    }
+  ]
+}

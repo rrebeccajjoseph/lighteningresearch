@@ -1,0 +1,8 @@
+{
+  "graphs": {
+    "lightningresearch": {
+      "path": "lighteningresearch.graph:build_app"
+    }
+  },
+  "env": ".env"
+}
