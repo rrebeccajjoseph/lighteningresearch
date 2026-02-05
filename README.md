@@ -95,7 +95,6 @@ TAVILY_API_KEY=
 
 
 3. Run
-
 python run.py "What are the latest advances in quantum computing?"
 
 ⸻
@@ -103,18 +102,15 @@ python run.py "What are the latest advances in quantum computing?"
 Basic Usage
 
 Time presets
-
 # ~45 seconds
 python run.py "Your question"
-
 # ~2 minutes
 python run.py --time standard "Your question"
-
 # ~10 minutes
 python run.py --time deep "Your question"
 
-Custom budget:
 
+Custom budget:
 python run.py --time-seconds 180 "Your question"
 
 
@@ -122,23 +118,19 @@ python run.py --time-seconds 180 "Your question"
 
 Configuration Presets
 
-These tune search domains, depth, and report style.
-
 Academic research
-
 python run.py --preset academic "CRISPR applications in medicine"
-
 Uses:
 	•	deeper search
 	•	academic domains
 	•	structured report
 
-News / current events
 
+News / current events
 python run.py --preset news "Latest AI regulation developments"
 
-Technical / developer research
 
+Technical / developer research
 python run.py --preset technical "React performance optimization"
 
 
@@ -147,11 +139,11 @@ python run.py --preset technical "React performance optimization"
 Model Configuration
 
 Use one model:
-
 python run.py --model gpt-4o "Complex topic"
 
-Or separate models:
 
+
+Or separate models:
 python run.py \
   --planner-model gpt-4o \
   --synth-model gpt-4o-mini \
@@ -164,17 +156,16 @@ This allows cost vs quality tradeoffs.
 Search Controls
 
 More results per search:
-
 python run.py --max-results 10 "Your query"
 
-Restrict domains:
 
+Restrict domains:
 python run.py \
   --include-domains arxiv.org nature.com \
   "Scientific topic"
 
-Exclude domains:
 
+Exclude domains:
 python run.py \
   --exclude-domains pinterest.com facebook.com \
   "Your query"
@@ -185,11 +176,10 @@ python run.py \
 Research Controls
 
 Deeper exploration:
-
 python run.py --max-depth 3 --max-breadth 8 "Complex topic"
 
-Stop earlier:
 
+Stop earlier:
 python run.py --stop-threshold 0.7 "Simple topic"
 
 
@@ -198,24 +188,23 @@ python run.py --stop-threshold 0.7 "Simple topic"
 Evaluation & Output
 
 Run evaluation:
-
 python run.py --eval "Your query"
 
-Save results:
 
+
+Save results:
 python run.py --eval --output results.json "Your query"
 
-Quiet mode:
 
+
+Quiet mode (Prints only final report!):
 python run.py --quiet "Your query"
 
 
 ⸻
 
 ## Python Usage 
-You don't just have to use
-
-You can also use LightningResearch as a library.
+You don't just have to use a terminal arg command - you can also use LightningResearch as a library.
 
 from lighteningresearch import AgentConfig, ModelConfig, SearchConfig, build_app
 
@@ -244,7 +233,6 @@ result = await app.ainvoke({
     "config": config,
 })
 
-
 ⸻
 
 Project Structure
@@ -261,47 +249,12 @@ Project Structure
 │   └── evaluation.py     # RACE + FACT scoring
 
 
-⸻
-
-If I had more time (next improvements)
-
-Reliability
-	•	retry logic + exponential backoff for searches
-	•	better timeout handling
-	•	partial failure recovery
-
-Cost/latency optimization
-	•	caching search results
-	•	dynamic model routing
-	•	early exit when confidence high
-
-Better evaluation
-	•	human preference scoring
-	•	retrieval grounding benchmarks
-	•	hallucination detection
-
-Deployment
-	•	FastAPI service wrapper
-	•	streaming responses
-	•	Docker image
-	•	async queue for long research jobs
-
-⸻
-
 Why I built this
 
 Most deep research agents today are sequential and slow.
-I wanted to explore what happens when you treat research as a parallel, adaptive system instead of a prompt chain.
+I wanted to explore what happens when you treat research as an adaptive system instead of a prompt chain.
 
 This project focuses on:
 	•	orchestration design
 	•	evaluation
-	•	configurability
-	•	real-world system tradeoffs
-
-⸻
-
-License
-
-MIT
-
+	•	configurability/real-world system tradeoffs
