@@ -1,0 +1,32 @@
+{
+  "query": "What ethical considerations and regulatory challenges are associated with the use of CRISPR in treating genetic diseases?",
+  "query_hash": "c8cd8ab4e26c6cdf",
+  "timestamp": "2026-02-05T17:50:33.783491",
+  "results": [
+    {
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202402630",
+      "title": "Exploring the Potential and Challenges of CRISPR Delivery and ...",
+      "content": "6.3 Ethical Considerations. CRISPR applications for treating human genetic diseases raise complex and multifaceted ethical concerns. Central"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/genome-editing/articles/10.3389/fgeed.2025.1593172/full",
+      "title": "Ethical dimensions and societal implications: ensuring the social ...",
+      "content": "Another ethical concern regarding the misuse of CRISPR is the ability to choose traits that may be a result of social stigmas."
+    },
+    {
+      "url": "https://innovativegenomics.org/crisprpedia/crispr-ethics/",
+      "title": "CRISPR & Ethics - Innovative Genomics Institute (IGI)",
+      "content": "In this chapter, we survey some of the ethical issues that span uses of genome editing, and then dive into some of the key questions and concerns."
+    },
+    {
+      "url": "https://www.cornellhealthcarereview.org/post/the-ethical-implications-of-gene-therapy",
+      "title": "The Ethical Implications of Gene Therapy",
+      "content": "Genome editing allows scientists to alter an organism\u2019s DNA. Specifically, there has been \u201can international effort led by the US, UK, and China to harmonize regulation of the application of genome editing technologies. Furthermore, in 2019, the World Health Organization established an international registry of all trials involving human genome editing aiming to establish a more transparent approach to gene editing. While genome editing can be used to help fight against disease, there is an ethical concern that this gives scientists the power to commence unnecessary genetic enhancements, which will disproportionately benefit the wealthier populations that can afford them. Moreover, such technology is relatively new and its safety in genome editing has yet to be tested. Of course, with the continual fine-tuning of the technology, genome editing can become increasingly specific and accurate. **What is genome editing?**\u00a0MedlinePlus. **Stanford explainer: CRISPR gene editing and beyond.**\u00a0Stanford News."
+    },
+    {
+      "url": "https://criticaldebateshsgj.scholasticahq.com/article/144179-ethical-and-scientific-concerns-relating-to-crispr-cas-gene-therapy",
+      "title": "Ethical and Scientific Concerns Relating to CRISPR/Cas Gene ...",
+      "content": "CRISPR is a genome editing tool that uses the Cas protein to edit genes. CRISPR/Cas9 is a targeted genome editing technology that uses the Cas protein from certain species of bacteria and archaea. Due to the possibility of off-target effects with no way to definitively prevent them, CRISPR\u2019s use in human clinical research has been heavily set back making it nearly impossible to continue progress until this issue has been addressed. CRISPR works by targeting certain sequences of DNA and manually editing them to cure certain diseases, but off-target effects happen when other sequences are unintentionally changed causing major complications (Guo et al., 2023). Fortunately, through continued research, these problems are being solved through new developments like *in silico* tools which can find off-target effects and improved viral delivery services that prevent continued gene editing. Off-target effects in CRISPR/Cas9 gene editing. Latest Developed Strategies to Minimize the Off-Target Effects in CRISPR-Cas-Mediated Genome Editing."
+    }
+  ]
+}

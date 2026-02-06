@@ -1,0 +1,32 @@
+{
+  "query": "What are the most common genetic diseases currently being targeted by CRISPR gene editing therapies?",
+  "query_hash": "6b873b4694409b5d",
+  "timestamp": "2026-02-05T17:50:31.574979",
+  "results": [
+    {
+      "url": "https://crisprmedicinenews.com/diseases/",
+      "title": "Overview Genetic Diseases CRISPR Could Cure",
+      "content": "Sickle Cell Disease, Cancer, Beta-Thalassemia, Haemophilia, HIV, Leber Congenital Amaurosis, Herpes Simplex Virus, Diabetes."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1877117324001649",
+      "title": "Current approaches in CRISPR-Cas systems for hereditary diseases",
+      "content": "Additionally, it is predicted that CRISPR-based therapies will be able to treat complex genetic illnesses such as cancer predisposition syndromes, neurological"
+    },
+    {
+      "url": "https://www.aarp.org/health/conditions-treatments/crispr-gene-editing-treatments/",
+      "title": "CRISPR Could Be the Key to Treating These 5 Diseases - AARP",
+      "content": "A new sickle cell treatment opens the door for other potential gene-modifying therapies \u00b7 1. Certain cancers \u00b7 2. High cholesterol \u00b7 3. Hereditary"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6150104/",
+      "title": "CRISPR-mediated genome editing and human diseases - PMC - NIH",
+      "content": "The CRISPR/Cas9 approach could also be potentially applied to the in vivo treatment of other genetic diseases. Duchenne muscular dystrophy (DMD), a fatal"
+    },
+    {
+      "url": "https://www.autoimmuneinstitute.org/articles/crispr-cas9-gene-editing-revolutionizing-autoimmune-disease-treatment",
+      "title": "CRISPR/Cas9 Gene Editing: Revolutionizing Autoimmune Disease ...",
+      "content": "Discover how CRISPR/Cas9 technology is revolutionizing the treatment of autoimmune diseases like Rheumatoid Arthritis, Type 1 Diabetes, and Multiple"
+    }
+  ]
+}

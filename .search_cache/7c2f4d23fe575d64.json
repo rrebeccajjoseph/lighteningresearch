@@ -1,0 +1,32 @@
+{
+  "query": "Which companies and research institutions are leading the development of solid-state battery technology, and what are their latest projects?",
+  "query_hash": "7c2f4d23fe575d64",
+  "timestamp": "2026-02-05T17:49:14.857751",
+  "results": [
+    {
+      "url": "https://www.techblick.com/festival/solid-state-satteries-2026",
+      "title": "Solid-State Batteries: Innovations, Promising Start-Ups, & Future ...",
+      "content": "P3 automotive GmbH. Theion GmbH. General Motors Global R&D Center ; BTRY. Tyfast. Elestor hydrogen flow battery ; Graphenix Development (GDI). Up Catalyst."
+    },
+    {
+      "url": "https://ceramics.org/ceramic-tech-today/ces-2026-solid-state-batteries/",
+      "title": "Solid-state batteries turn heads at CES 2026",
+      "content": "ProLogium Technology is a Taiwan-based energy innovation company focused on lithium ceramic battery research, development, and manufacturing."
+    },
+    {
+      "url": "https://www.idtechex.com/tw/research-report/solid-state-batteries/1130",
+      "title": "Solid-State Batteries 2026-2036: Technology, Forecasts, Players",
+      "content": "The development of solid-state batteries is a collaborative global effort involving research institutes, material suppliers, battery manufacturers"
+    },
+    {
+      "url": "https://www.startus-insights.com/innovators-guide/top-new-battery-storage-companies/",
+      "title": "10 New Battery Storage Companies and Startups to Watch in 2026",
+      "content": "Switzerland-based startup BTRY manufactures solid-state lithium-ion batteries through a production method that simplifies battery manufacturing."
+    },
+    {
+      "url": "https://www.kennesaw.edu/news/stories/2026/researcher-develops-safer-solid-state-battery.php",
+      "title": "Kennesaw State researcher develops safer, faster solid-state battery ...",
+      "content": "The race is on to find safer alternatives to lithium-ion batteries, and a Kennesaw State University researcher is helping lead the way with"
+    }
+  ]
+}

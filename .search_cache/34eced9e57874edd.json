@@ -1,0 +1,32 @@
+{
+  "query": "What are the advancements in superconducting qubit technology in 2024?",
+  "query_hash": "34eced9e57874edd",
+  "timestamp": "2026-02-05T17:50:04.740083",
+  "results": [
+    {
+      "url": "https://link.springer.com/article/10.1140/epjqt/s40507-025-00405-7",
+      "title": "Superconducting quantum computers: who is leading the future?",
+      "content": "Condor sets a new standard in chip design, achieving an impressive 50% increase in qubit density, along with advancements in qubit fabrication"
+    },
+    {
+      "url": "https://thequantuminsider.com/2025/11/05/princeton-engineers-say-new-qubit-could-make-current-quantum-computers-1000-times-more-reliable/",
+      "title": "Princeton Engineers Say New Qubit Could Make Current Quantum ...",
+      "content": "Princeton engineers have built a superconducting qubit with a lifetime exceeding one millisecond, lasting longer than previous bests."
+    },
+    {
+      "url": "https://academic.oup.com/nsr/article/12/8/nwaf246/8165689",
+      "title": "Advancements in superconducting quantum computing",
+      "content": "This review summarizes the development of superconducting quantum computing, including recent experimental breakthroughs, challenges in scalability, and th."
+    },
+    {
+      "url": "https://www.idtechex.com/en/research-report/quantum-computing-market/996",
+      "title": "Quantum Computing Market 2024-2044: Technology, Trends ...",
+      "content": "Semiconductors, Computing & AI Advanced Semiconductor Packaging AI Chips for Data Centers and Cloud AI Chips for Edge Applications Antenna in Package (AiP) for 5G and 6G Battery Storage for Data Centers, Commercial & Industrial Applications Chiplet Technology Co-Packaged Optics (CPO) Emerging Memory and Storage Technology Flexible Hybrid Electronics Glass in Semiconductors Hardware for HPC, Data Centers, and AI Humanoid Robots In-Cabin Sensing Materials and Processing for Advanced Semiconductor Packaging Materials Informatics Next-Generation MEMS Quantum Communication Market Quantum Computing Market Quantum Technology Market. # Quantum Computing Market 2024-2044: Technology, Trends, Players, Forecasts. Includes twenty-year quantum computing market forecasts, with superconducting, photonic, silicon-spin, neutral-atom, trapped-ion, diamond defect, topological, and annealing categories. Drawing on extensive primary and secondary research, including interviews with companies and attendance at multiple conferences, this report provides an in-depth evaluation of the competing quantum computing technologies: superconducting, silicon-spin, photonic, trapped-ion, neutral-atom, topological, diamond-defect and annealing. These competing quantum computing technologies are compared by key benchmarks including qubit number, coherence time and fidelity."
+    },
+    {
+      "url": "https://www.scaleway.com/en/blog/quantum-computing-in-2024-the-state-of-play/",
+      "title": "Quantum computing in 2024: The State of Play | Scaleway Blog",
+      "content": "In 2024, there are at best a few hundred qubits on some computers. An article from 2022 estimates about 372 near-perfect qubits (99.9"
+    }
+  ]
+}

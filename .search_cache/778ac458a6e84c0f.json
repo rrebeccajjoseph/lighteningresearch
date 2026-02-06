@@ -1,0 +1,32 @@
+{
+  "query": "How are researchers addressing potential off-target effects and other risks associated with CRISPR gene editing in clinical applications?",
+  "query_hash": "778ac458a6e84c0f",
+  "timestamp": "2026-02-05T17:50:38.417191",
+  "results": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10034092/",
+      "title": "Off-target effects in CRISPR/Cas9 gene editing - PMC - NIH",
+      "content": "The tremendous potential of genome editing for gene therapy urges scientists to fully address its safety concerns, particularly the off-target effects."
+    },
+    {
+      "url": "https://www.seqanswers.com/articles/326026-addressing-off-target-effects-in-crispr-technologies",
+      "title": "Addressing Off-Target Effects in CRISPR Technologies - SEQanswers",
+      "content": "Among the earliest and most widely used techniques is GUIDE-seq (genome-wide, unbiased identification of DSBs enabled by sequencing)4,5, which integrates double-stranded oligodeoxynucleotides at CRISPR-induced breaks to map off-target sites across the genome. DISCOVER-seq (discovery of in situ Cas off-targets and verification by sequencing)7 offers another layer of insight by capturing DNA-protein interactions that occur during CRISPR-induced breaks. Originating from academic research, Broken String\u2019s work led to the development of INDUCE-seq\u00ae, an NGS-based platform that enables high-precision measurement of CRISPR off-target effects25. Dobbs noted that INDUCE-seq offers several advantages over alternative methods for detecting CRISPR off-target effects. GUIDE-seq enables genome-wide profiling of off-target cleavage by CRISPR-Cas nucleases. Digenome-seq: genome-wide profiling of CRISPR-Cas9 off-target effects in human cells. Tracking-seq reveals the heterogeneity of off-target effects in CRISPR\u2013Cas9-mediated genome editing. Off-Target Analysis in Gene Editing and Applications for Clinical Translation of CRISPR/Cas9 in HIV-1 Therapy. Genome-wide CRISPR off-target prediction and optimization using RNA-DNA interaction fingerprints. Off-target effects in CRISPR/Cas9 gene editing."
+    },
+    {
+      "url": "https://www.researchgate.net/post/How_can_off-target_effects_in_CRISPR-Cas9_gene_editing_be_minimized_in_practical_applications",
+      "title": "How can off-target effects in CRISPR-Cas9 gene editing be ...",
+      "content": "What are the most effective strategies or techniques currently being used to reduce or avoid off-target effects? Are there specific improvements"
+    },
+    {
+      "url": "https://researchprofiles.ku.dk/en/publications/off-target-effects-in-crispr-cas-genome-editing-for-human-therape/",
+      "title": "Off-target effects in CRISPR-Cas genome editing for human ...",
+      "content": "This review highlights the key challenges and potential solutions in ensuring the safety of gene editing studies for therapeutic applications, focusing on gRNA"
+    },
+    {
+      "url": "https://drug-dev.com/gene-editing-technology-the-importance-of-assessing-off-target-effects-of-crispr-gene-editing/",
+      "title": "The Importance of Assessing Off-Target Effects of CRISPR Gene ...",
+      "content": "A challenge for CRISPR will be that adverse effects may not become known for many years, and risks may vary between individuals because all of"
+    }
+  ]
+}

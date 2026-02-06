@@ -1,45 +1,42 @@
 # LighteningResearch
 
-LightningResearch is a LangGraph based deep research agent that overcomes the high latency of sequential research systems by using adaptive planning and runtime orchestration to dynamically spawn, parallelize, and prune breadth/depth-wise web search branches from a user query.
+LightningResearch is a LangGraph based deep research agent that usese adaptive planning and runtime orchestration to dynamically spawn, parallelize, and prune breadth/depth-wise web search branches from a user query. 
 
 ## What did you try, what worked well, and what didn’t work well. How did this influence changes you made. Specific examples are good!
 
-What worked well:
+**Initial approach: Direct worker-to-worker communication**
+At first, I had workers calling each other directly and sharing the full graph state. This got messy fast—workers were tightly coupled and it was hard to track what was happening when things ran in parallel.
 
-1. Reducers in LangGraph state
-Using reducers let multiple workers update shared state at the same time without conflicts. The only awkward part is clearing lists, since reducers are additive by design, so the orchestrator has to manually reset them.
+**What I changed:** Introduced the orchestrator pattern with Command-based routing. Now workers report back to a central orchestrator that decides what happens next. This cleaned up responsibilities and made the flow way easier to follow.
 
-2. Command-based routing
-Switching to Command made the system way more flexible. The orchestrator can fan out to any number of workers and workers can route back dynamically. 
+**Early state management: Simple shared dictionaries**
+I started with basic state updates where workers would just write to shared fields. This immediately broke when multiple workers tried updating the same thing simultaneously race conditions everywhere.
 
-3. Passing context through Send
-Workers only get the context they need instead of the full graph state. That kept things clean and predictable, especially with parallel execution. It does mean you have to be explicit about what you pass, but that’s a good constraint.
-
-4. Orchestrator pattern
-Having a central orchestrator simplified the whole system. Workers do the work, the orchestrator decides when to stop, spawn tasks, or continue. It kept responsibilities clear and made the system easier to extend.
+**What I changed:** Switched to reducers for anything that needed concurrent updates. Now workers can safely append results in parallel without conflicts. The only rough edge is clearing lists, since reducers are additive—I have to manually reset them in the orchestrator, which feels a bit hacky but works.
 
 
-What didn’t work well
+**Context passing: Full graph state everywhere**
+Every worker got the entire graph state at first. This worked but felt wasteful and made it hard to reason about what each worker actually depended on. With parallel execution, it also made state mutations unpredictable.
 
-1. Result normalization was messy
-Tavily responses came back in inconsistent shapes, so normalization logic ended up scattered and fragile. This should really live in a dedicated parser/validator.
-
-2. Reducers make clearing state awkward
-Reducers are great for accumulation but not for resets. Manually overwriting fields works, but it’s not intuitive and needs clearer patterns.
-
-3. Timeouts live outside the graph
-Right now time limits are enforced externally. It works, but the graph itself should own that logic.
-
-4. Dedup is too shallow
-Only deduping by URL misses duplicate content from different sites. Content-based dedup would be a big improvement.
-
-5. No streaming output
-Everything happens and then you get a final report. Streaming intermediate results would make the system feel much more responsive.
+**What I changed:** Started using Send to pass only the specific context each worker needs. More deliberate, but that's actually good—forces you to think about dependencies and keeps parallel execution predictable.
 
 
-It pushed the design toward reliability over cleverness.
+**Timeout management: External wrapper**
+Initially had a simple timeout wrapper around the whole graph execution—just kill everything after N seconds. This worked but the graph had no awareness of time pressure, so it couldn't make smart decisions about prioritization.
 
-I leaned more on the orchestrator, separated concerns more cleanly, and started prioritizing retries, logging, and validation. Reducers and Command routing stayed — those were clear wins. 
+**What I changed:** Moved timeout tracking into the graph state itself with a `time_left()` helper. Now the orchestrator and workers can check remaining time and decide whether to spawn more work or start wrapping up.
+
+
+**What still needs work:**
+
+**Result normalization is scattered**
+Tavily responses come back in inconsistent shapes, and right now normalization logic lives in the worker code. Would be cleaner to have a dedicated parser that validates and normalizes before results hit the graph.
+
+**Deduplication is too simple**
+Currently just deduping by URL with `seen_urls`. This misses duplicate content from different sources—same article from multiple aggregators shows up multiple times. Content-based dedup would help but isn't implemented yet.
+
+**No streaming feedback**
+The graph runs and then prints a final report. Everything happens in a black box. Streaming intermediate results would make it feel more responsive and help with debugging or even human in the loop features.
 
 
 ## What are known shortcomings that you didn’t have time to address. How would you fix them if you had more time?

@@ -1,0 +1,32 @@
+{
+  "query": "What role does distributed training play in scaling large language models, and what are the challenges associated with it?",
+  "query_hash": "ecf3d3d4da821921",
+  "timestamp": "2026-02-05T17:50:59.419843",
+  "results": [
+    {
+      "url": "https://jicrcr.com/index.php/jicrcr/article/download/3189/2721/6817",
+      "title": "[PDF] Scalability And Resilience In Distributed LLM Training - jicrcr",
+      "content": "This article scrutinizes the shifting terrain of distributed training systems for Large. Language Models (LLMs), tackling the pivotal challenges of scalability"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/392224090_Distributed_Training_Frameworks_for_Large_Language_Models_Architectures_Challenges_and_Innovations",
+      "title": "(PDF) Distributed Training Frameworks for Large Language Models",
+      "content": "The article further investigates persistent challenges in distributed training, including communication overhead, memory management limitations,"
+    },
+    {
+      "url": "https://milvus.io/ai-quick-reference/how-do-distributed-systems-aid-in-llm-training",
+      "title": "How do distributed systems aid in LLM training?",
+      "content": "Distributed systems play a critical role in training large language models (LLMs) by addressing computational, memory, and scalability challenges."
+    },
+    {
+      "url": "https://medium.com/@bibhuashish/scaling-the-heights-distributed-parallel-training-of-large-language-models-fa836caf7eb1",
+      "title": "Scaling the Heights: Distributed Parallel Training of Large Language ...",
+      "content": "Distributed parallel training has become a cornerstone technique to overcome these challenges, enabling the efficient training of LLMs across multiple GPUs and"
+    },
+    {
+      "url": "https://dev.to/nareshnishad/day-22-distributed-training-in-large-language-models-4bg1",
+      "title": "Day 22: Distributed Training in Large Language Models",
+      "content": "Distributed training enables parallel processing, which significantly reduces the time needed for training, enhances model accuracy, and allows"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "query": "What are the ethical considerations and biases associated with scaling large language models, and what solutions exist to mitigate these issues?",
+  "query_hash": "b81b2a066ad05529",
+  "timestamp": "2026-02-05T17:51:03.367735",
+  "results": [
+    {
+      "url": "https://www.bitfount.com/post/ethical-considerations-in-ai-large-language-models",
+      "title": "Ethical Considerations in AI Large Language Models - Bitfount",
+      "content": "The emergence of AI and LLMs raises significant ethical concerns, particularly regarding bias, privacy, and accountability."
+    },
+    {
+      "url": "https://www.jmir.org/2024/1/e60083/",
+      "title": "Ethical Considerations and Fundamental Principles of Large ...",
+      "content": "This viewpoint article first explores the ethical challenges associated with the future application of large language models (LLMs) in the context of medical"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00797-3",
+      "title": "Deconstructing the ethics of large language models from long ...",
+      "content": "Unlike prior surveys [57, 34\u201348 (2024)\"), 65\"), 249, pages 15762\u201315782, (2023)\")], which primarily focus on fairness within specific subdomains (e.g., information retrieval or model compression), in this survey, we aim to investigate ethical issues in the development of LLMs and propose a new taxonomy to help readers better understand the ethical issues and corresponding techniques that are proposed to solve these issues. * We systematically summarize and categorize existing ethical issues into two main categories: 1) we discuss **longstanding** problems of data privacy, copyright, and fairness; 2) we investigate **new-emerging** problems that are pertinent to LLMs, including truthfulness and social norms, and further discuss the design and requirement of law and regulatory compliance in guiding future explorations. Zhu, K., Wang, J., Zhou, J., Wang, Z., Chen, H., Wang, Y., Yang, L., Ye, W., Gong, N\u00a0Z., Zhang, Y., et\u00a0al.: Promptbench: Towards evaluating the robustness of large language models on adversarial prompts."
+    },
+    {
+      "url": "https://neptune.ai/blog/llm-ethical-considerations",
+      "title": "Ethical Considerations and Best Practices in LLM Development",
+      "content": "Just like the mortgage model, large language models (LLMs) influence critical decisions, and training them on biased data can perpetuate harmful stereotypes, exclude marginalized voices, or even generate unsafe recommendations. By focusing on measurable solutions: differential privacy techniques to protect user data, bias-mitigation benchmarks to identify gaps, and reproducible tracking with tools like neptune.ai to ensure accountability. You can use tools like neptune.ai to track bias metrics (e.g., fairness or disparate impact) across model versions. Opt-out mechanisms allow users to control whether their data is used to train AI models and other software, giving them some agency over how their data is processed and used. * **Protect user privacy from start to finish**: Think less about the mathematical structure of your model (that is usually handled by the provider, they will keep it law-compliant) and more about how data is handled in practice during your model\u2019s lifecycle (this is where you are responsible to keep your system law-compliant)."
+    },
+    {
+      "url": "https://dl.acm.org/doi/full/10.1145/3701268.3701272",
+      "title": "Ethical Risks and Future Direction in Building Trust for Large ...",
+      "content": "This research examines the ethical risks associated with large language models and explores how organizations can build trust in LLM"
+    }
+  ]
+}

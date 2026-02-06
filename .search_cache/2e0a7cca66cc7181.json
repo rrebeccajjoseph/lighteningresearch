@@ -1,0 +1,32 @@
+{
+  "query": "What are the computational resource requirements for training large language models, and how do they impact scalability?",
+  "query_hash": "2e0a7cca66cc7181",
+  "timestamp": "2026-02-05T17:51:05.240781",
+  "results": [
+    {
+      "url": "https://www.linkedin.com/posts/kit-yu-27753534_2-rapid-growth-in-computational-resources-activity-7420037252715823106-fObH",
+      "title": "LLM Training Compute to Increase 2.6x by 2030 | Kit Yu posted on ...",
+      "content": "Rapid growth in computational resources used to train LLMs. EpochAI, in a recent study, projects a 2.6x annual increase in compute used for"
+    },
+    {
+      "url": "https://www.ics.forth.gr/jobs/en/Early-stage-researcher-in-storage-architectures?page=37",
+      "title": "Jobs | Institute of Computer Science-FORTH",
+      "content": "... training of Large Language Models. The interconnect forms the backbone of such systems, and their overall performance is intimately tied to the scalability"
+    },
+    {
+      "url": "https://arxiv.org/html/2509.05258v1",
+      "title": "Scaling Performance of Large Language Model Pretraining - arXiv",
+      "content": "Training these models is an extremely computationally expensive task; frontier Artificial Intelligence (AI) research companies are investing billions of dollars into supercomputing infrastructure to train progressively larger models on increasingly massive datasets. Working with large-scale datasets and models can be complex and practical recommendations are scarce in the public literature for tuning training performance when scaling up large language models. In this paper, we aim to demystify the large language model pretraining pipeline somewhat - in particular with respect to distributed training, managing large datasets across hundreds of nodes, and scaling up data parallelism with an emphasis on fully leveraging available GPU compute capacity. The size of our dataset leads to our first roadblock in scaling training - sharing 2 TB of data across hundreds of nodes in a supercomputing environment can have considerable performance impacts."
+    },
+    {
+      "url": "https://research.aimultiple.com/large-language-model-training/",
+      "title": "Large Language Model Training in 2026 - AIMultiple research",
+      "content": "Learn about large language model training with insights on large language model examples, model architecture, and model training guide."
+    },
+    {
+      "url": "https://www.edge-ai-vision.com/2024/08/quantization-unlocking-scalability-for-large-language-models/",
+      "title": "Quantization: Unlocking Scalability for Large Language Models",
+      "content": "By converting floating-point representations to lower-bit integers, quantization significantly reduces the memory requirements and speeds up the"
+    }
+  ]
+}

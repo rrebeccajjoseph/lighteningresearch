@@ -1,0 +1,32 @@
+{
+  "query": "How does CRISPR gene editing compare to traditional gene therapy methods in terms of efficacy and safety for treating genetic disorders?",
+  "query_hash": "3801ba2cad925e4f",
+  "timestamp": "2026-02-05T17:50:40.658940",
+  "results": [
+    {
+      "url": "https://denikenews.com/first-crispr-treatment-baby/",
+      "title": "First CRISPR Treatment Baby A Deep Dive | DenikeNews",
+      "content": "Comparison with Other Gene Therapy Methods . CRISPR offers a more precise and targeted approach to gene editing compared to traditional gene therapies ."
+    },
+    {
+      "url": "https://dromicslabs.com/crispr-for-genetic-disease-treatment/",
+      "title": "CRISPR for Genetic Disease Treatment: Current... - DrOmics Labs",
+      "content": "CRISPR -Cas technology has revolutionised gene editing , but how does it compare to other gene editing techniques in the realm of genetic disease treatment? Let\u2019s delve into the comparison between CRISPR and alternative gene editing methods ."
+    },
+    {
+      "url": "https://bgpt.pro/?sc=85786",
+      "title": "BGPT: What is CRISPR ?",
+      "content": "How does CRISPR compare to traditional gene editing methods ?Investigate the long- term effects of CRISPR -induced mutations in a model organism to assess potential off-target effects and their implications for gene therapy ."
+    },
+    {
+      "url": "https://www.sciencetimes.com/articles/61238/20260202/crispr-gene-editing-revolution-how-biotechnology-advances-are-rewriting-human-dna.htm",
+      "title": "CRISPR Gene Editing Revolution: How Biotechnology Advances Are...",
+      "content": "The scientific world experienced a watershed moment in late 2023 when the U.S. FDA approved Casgevy, the first CRISPR gene therapy to treat patients with sickle cell disease and beta-thalassemia. For the first time in human history, a therapy powered by CRISPR gene editing transformed a chronic genetic disorder into a treatable, and potentially curable, condition. Unlike earlier gene-editing technologies that required designing custom DNA-cutting enzymes for each target sequence, CRISPR works with a guide RNA and a protein called Cas9. Beyond blood disorders, CRISPR gene editing addresses rare genetic conditions previously considered hopeless. CRISPR-edited CAR-T cell therapies for cancer eliminate checkpoint inhibitors that allow tumors to evade immune detection, potentially extending survival in patients with otherwise resistant cancers. In-vivo CRISPR therapies, those administered directly to patients rather than editing cells in the laboratory, are under investigation for transthyretin amyloidosis, a protein-misfolding disease affecting the heart and nerves. As CRISPR gene editing matures, the fundamental nature of medical practice may shift from chronic disease management to genetic correction at the source."
+    },
+    {
+      "url": "https://www.vaia.com/en-us/explanations/biology/plant-biology/gene-editing-crispr/",
+      "title": "Gene Editing CRISPR : Techniques & Sickle Cell | Vaia",
+      "content": "CRISPR gene editing has potential applications in medicine, including the treatment of genetic disorders , cancer therapies , and the development of personalized medicine. It can be used to correct mutations, enhance immune responses, and potentially eliminate viral infections."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 """
 Table 1 Reproduction: DeepResearchGym Performance.
 
-Compares FlashResearch against GPT-Researcher baseline
+Compares LightningResearch against GPT-Researcher baseline
 at 2-minute and 10-minute time budgets.
 
 Paper configuration:
@@ -28,7 +28,7 @@ class Table1Result:
     """Result for a single Table 1 experiment run."""
     question_id: str
     query: str
-    system: str                  # "flashresearch" or "baseline"
+    system: str                  # "lightningresearch" or "baseline"
     time_budget_s: int           # 120 or 600
     elapsed_time: float
     node_count: int
@@ -102,7 +102,7 @@ async def run_flashresearch_single(
     config: AgentConfig,
 ) -> Dict[str, Any]:
     """
-    Run FlashResearch on a single question with hard timer interrupt.
+    Run LightningResearch on a single question with hard timer interrupt.
 
     Implements the paper's time control: once timer hits,
     trigger synthesis immediately with gathered findings.
@@ -177,9 +177,9 @@ async def run_table1_experiment(
             if verbose:
                 print(f"\n[{i+1}/{len(questions)}] {question.id}: {question.query[:50]}...")
 
-            # Run FlashResearch
+            # Run LightningResearch
             if verbose:
-                print("  Running FlashResearch...")
+                print("  Running LightningResearch...")
 
             fr_result = await run_flashresearch_single(question, config)
             fr_scores = await judge.score(
@@ -191,7 +191,7 @@ async def run_table1_experiment(
             all_results.append(Table1Result(
                 question_id=question.id,
                 query=question.query,
-                system="flashresearch",
+                system="lightningresearch",
                 time_budget_s=time_budget,
                 elapsed_time=fr_result["elapsed_time"],
                 node_count=fr_result["node_count"],
@@ -202,7 +202,7 @@ async def run_table1_experiment(
             ))
 
             if verbose:
-                print(f"    FlashResearch: Q={fr_scores.quality:.0f} R={fr_scores.relevance:.0f} F={fr_scores.faithfulness:.0f} Overall={fr_scores.overall:.1f}")
+                print(f"    LightningResearch: Q={fr_scores.quality:.0f} R={fr_scores.relevance:.0f} F={fr_scores.faithfulness:.0f} Overall={fr_scores.overall:.1f}")
 
             # Run baseline
             if run_baseline:

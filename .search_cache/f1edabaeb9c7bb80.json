@@ -1,0 +1,32 @@
+{
+  "query": "How are topological qubits being developed and tested by leading research institutions in 2024?",
+  "query_hash": "f1edabaeb9c7bb80",
+  "timestamp": "2026-02-05T17:50:07.481630",
+  "results": [
+    {
+      "url": "https://thequantuminsider.com/2024/11/26/research-team-achieves-first-ever-topological-qubit-a-step-along-the-path-toward-fault-tolerant-quantum-computing/",
+      "title": "Research Team Achieves First-Ever Topological Qubit, A Step Along ...",
+      "content": "Researchers have created what they are referring to as the first-ever experimentally demonstrated true topological qubit."
+    },
+    {
+      "url": "https://www.nature.com/articles/d41586-025-00683-2",
+      "title": "Microsoft quantum computing 'breakthrough' faces fresh challenge",
+      "content": "# Microsoft quantum computing \u2018breakthrough\u2019 faces fresh challenge. A physicist has cast doubt on a test that underlies a high-profile claim by Microsoft to have created the first \u2018topological qubits\u2019, a long-sought goal of the company\u2019s quantum-computing effort. Access Nature and 54 other Nature Portfolio journals. Get Nature+, our best-value online-access subscription. *Nature* **639**, 555-556 (2025). *Nature* **638**, 651\u2013655 (2025). * Inside Microsoft\u2019s quest for a topological quantum computer. * Quantum computing\u2019s reproducibility crisis: Majorana fermions. * Optical control over topological Chern number in moir\u00e9 materials. * AI and quantum science take centre stage under Trump \u2014 but with little new proposed funding. Dongguan Institute of Materials Science and Technology, Chinese Academy of Sciences (DIMST, CAS). of Computational and Systems Biology at Pitt is hiring two positions, a full-time Assistant Professor and a full-time Associate Professor. Sign up for the *Nature Briefing* newsletter \u2014 what matters in science, free to your inbox daily. Sign up for Nature Briefing."
+    },
+    {
+      "url": "https://quantumcomputingreport.com/microsoft-announces-development-of-its-first-operational-topological-qubit-device/",
+      "title": "Microsoft Announces Development of Its First Operational ...",
+      "content": "Microsoft has developed a controllable topological qubit module design that they intend on scaling up very quickly to produce a 1 million qubit error corrected"
+    },
+    {
+      "url": "https://www.universityofcalifornia.edu/news/we-have-created-new-state-matter-new-topological-quantum-processor-marks-breakthrough",
+      "title": "'We have created a new state of matter': New topological quantum ...",
+      "content": "# \u2018We have created a new state of matter\u2019: New topological quantum processor marks breakthrough in computing. Majorana 1, the eight-qubit topological quantum processor unveiled at Microsoft Station Q's 2025 conference. **In a leap forward for quantum computing, a Microsoft team led by UC Santa Barbara physicists on Wednesday unveiled an eight-qubit topological quantum processor, the first of its kind. \u201cWe\u2019ve got a bunch of stuff that we\u2019ve been keeping under wraps that we\u2019re dropping all at once now,\u201d said\u00a0Microsoft Station Q\u00a0Director\u00a0Chetan Nayak, a professor of physics at UC Santa Barbara and a Technical Fellow for Quantum Hardware at Microsoft. At eight qubits, the researchers\u2019 topological processor is a mere embryo in the world of quantum computers, but marks a major milestone in the scientists\u2019 decades-long quest to develop a topological quantum computer. Along the way, Nayak said, there have been fruitful partnerships between Station Q and the university, especially in the realm of creating the materials that host topological quantum behaviors."
+    },
+    {
+      "url": "https://www.bluequbit.io/quantum-chips",
+      "title": "Quantum Chips: The Brains Behind Quantum Computing - BlueQubit",
+      "content": "With major tech companies and startups actively working to improve performance, reduce error rates, and expand qubit counts, the development of quantum computer chips is a key focus in the global tech industry. ## What Are Quantum Chips? Quantum chips use superposition to allow qubits to exist in multiple states (0 and 1) at the same time, making it possible to carry out parallel computation. As a result, quantum chips can perform complex calculations that scale exponentially with more qubits. Quantum chips work by manipulating quantum bits, or qubits, which can exist in a superposition of states\u2014unlike classical bits that are either 0 or 1. Quantum chips control and measure qubit states using precise microwave pulses, lasers, or magnetic fields. ### Who makes quantum computing chips? Several leading companies and research institutions are developing quantum computing chips. Yes, Google has developed a real quantum chip named Sycamore, which uses 53 superconducting qubits. Quantum chips use qubits, which can exist in superposition and entanglement, allowing them to process multiple possibilities at once."
+    }
+  ]
+}

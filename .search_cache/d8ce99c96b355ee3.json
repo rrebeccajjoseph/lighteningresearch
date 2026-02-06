@@ -1,0 +1,32 @@
+{
+  "query": "What are the latest milestones in quantum error correction techniques achieved in 2024?",
+  "query_hash": "d8ce99c96b355ee3",
+  "timestamp": "2026-02-05T17:50:02.551060",
+  "results": [
+    {
+      "url": "https://www.nextbigfuture.com/2024/12/updates-on-quantum-error-correction-roadmaps.html",
+      "title": "Updates on Quantum Error Correction Roadmaps | NextBigFuture.com",
+      "content": "Achieved in 2024 with the Boson chip series, this milestone established a reliable, reproducible cat qubit capable of storing quantum"
+    },
+    {
+      "url": "https://www.oreilly.com/radar/quantum-error-correction-update-2024/",
+      "title": "Quantum Error Correction Update 2024 - O'Reilly",
+      "content": "The toric code can be used to encode two logical qubits in a minimum of 21 physical qubits for resiliency to up to three correlated errors,"
+    },
+    {
+      "url": "https://medium.com/@meisshaily/shocking-breakthroughs-in-quantum-error-correction-b10946b37c36",
+      "title": "Shocking Breakthroughs in Quantum Error Correction - Medium",
+      "content": "Shocking Breakthroughs in Quantum Error Correction Discover the 2026 Milestones That Transform Computing Quantum error correction"
+    },
+    {
+      "url": "https://www.riverlane.com/blog/2024-s-qec-highlights-aka-the-12-days-of-qechristmas",
+      "title": "2024's QEC Highlights (aka the 12 Days of QEChristmas) - Riverlane",
+      "content": "2024's Quantum Error Correction Highlights (aka the 12 Days of QEChristmas) \u00b7 Twelve logical qubits... \u00b7 Eleven roadmaps mapping... \u00b7 Ten(th) fewer"
+    },
+    {
+      "url": "https://www.networkworld.com/article/3618098/10-quantum-computing-milestones-of-2024.html",
+      "title": "10 quantum computing milestones | Network World",
+      "content": "1. QuEra demonstrates new error correction method \u00b7 2. Alice & Bob devise cat qubits \u00b7 3. Nord Quantique claims industry-first quantum error"
+    }
+  ]
+}

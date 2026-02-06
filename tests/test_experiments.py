@@ -212,7 +212,7 @@ class TestTable1Result:
         result = Table1Result(
             question_id="q1",
             query="Test query",
-            system="flashresearch",
+            system="lightningresearch",
             time_budget_s=120,
             elapsed_time=115.0,
             node_count=25,
@@ -221,7 +221,7 @@ class TestTable1Result:
             scores=scores,
         )
         assert result.question_id == "q1"
-        assert result.system == "flashresearch"
+        assert result.system == "lightningresearch"
         assert result.node_count == 25
 
     def test_to_dict(self):
@@ -251,7 +251,7 @@ class TestFormatTable1Results:
         data = {
             "summaries": [
                 {
-                    "system": "flashresearch",
+                    "system": "lightningresearch",
                     "time_budget_s": 120,
                     "avg_quality": 80.0,
                     "avg_relevance": 85.0,
@@ -268,7 +268,7 @@ class TestFormatTable1Results:
 
         assert "Table 1" in formatted
         assert "|" in formatted  # Table separators
-        assert "flashresearch" in formatted
+        assert "lightningresearch" in formatted
         assert "2min" in formatted
 
 

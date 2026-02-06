@@ -4,6 +4,8 @@ LightningResearch is a LangGraph-based deep research agent that plans, searches,
 
 The goal of this project is to demonstrate how a research agent can move beyond simple sequential prompting, and now has parallel orchestration, adaptive planning, and evaluation for real-world LLM systems.
 
+All experiments are run using the FlashResearch architecture — a planner-orchestrated, parallel research system that decomposes queries into subquestions, executes concurrent search workers, and synthesizes results under a fixed time budget.
+
 ---
 
 # What this system does
@@ -17,7 +19,8 @@ Given a research question, LightningResearch:
 5. Synthesizes a structured research report  
 6. Evaluates output quality automatically  
 
-The system is built on*LangGraph, enabling dynamic routing, concurrency, and stateful orchestration rather than a static DAG.
+The system is built on 
+LangGraph, enabling dynamic routing, concurrency, and stateful orchestration rather than a static DAG.
 
 ---
 
@@ -116,6 +119,23 @@ python run.py --time-seconds 180 "Your question"
 
 ⸻
 
+Testing (short)
+Run all tests:
+pytest
+
+Fast unit-only subset:
+pytest tests/test_config.py tests/test_models.py tests/test_cache.py
+
+What the unit tests cover:
+- Config loading/validation and env handling
+- Core data models (state, tasks, findings)
+- Search cache behavior and reproducible corpus
+
+Integration tests:
+pytest tests/test_evaluation.py tests/test_baselines.py tests/test_experiments.py
+
+⸻
+
 Configuration Presets
 
 Academic research
@@ -187,8 +207,28 @@ python run.py --stop-threshold 0.7 "Simple topic"
 
 Evaluation & Output
 
-Run evaluation:
+Run a single evaluation:
 python run.py --eval "Your query"
+
+All experiments use the FlashResearch architecture and are scored using two frameworks:
+- RACE: evaluates comprehensiveness, depth, instruction following, and readability
+- FACT: evaluates citation accuracy, efficiency, and source verification
+
+Table 1 — Throughput vs. Quality:
+Runs `run_experiments.py --table1` to compare LightningResearch report quality under strict
+time budgets (default 2 vs 10 minutes), optionally including a baseline.
+
+Figure 2 — Breadth/Depth trade-off:
+Runs `run_experiments.py --figure2` to vary LightningResearch breadth/depth and see where
+quality saturates under RACE+FACT scoring.
+
+Quick Test — Sanity check:
+Runs `run_experiments.py --quick-test` to validate orchestration, scoring, and output
+formatting on a small batch before full experiments.
+
+Benchmarking (batch regression):
+Uses `benchmark.py` to run a task file with a chosen time budget and optionally compare
+against baselines.
 
 
 
