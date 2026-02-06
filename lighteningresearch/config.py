@@ -23,9 +23,9 @@ LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT", "lightningresearch")
 def validate_config():
     """Validate required environment variables are set."""
     missing = []
-    if not OPENAI_API_KEY:
+    if not os.getenv("OPENAI_API_KEY"):
         missing.append("OPENAI_API_KEY")
-    if not TAVILY_API_KEY:
+    if not os.getenv("TAVILY_API_KEY"):
         missing.append("TAVILY_API_KEY")
     if missing:
         raise ValueError(f"Missing required environment variables: {', '.join(missing)}")
@@ -140,7 +140,14 @@ Related to the main query: {root_query}"""
 class ReportSection:
     """A section in the research report."""
     name: str
-    instruction: str
+    instruction: str = ""
+    description: str = ""
+
+    def __post_init__(self) -> None:
+        if not self.instruction and self.description:
+            self.instruction = self.description
+        if not self.description and self.instruction:
+            self.description = self.instruction
 
 
 @dataclass

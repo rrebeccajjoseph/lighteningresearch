@@ -10,6 +10,7 @@ Provides:
 import hashlib
 import json
 import os
+import threading
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 from dataclasses import dataclass, asdict
@@ -205,7 +206,31 @@ def create_reproducible_corpus(
             stats["total_queries"] += 1
             stats["queries"].append(query)
 
-    asyncio.run(fetch_all())
+    try:
+        asyncio.get_running_loop()
+        has_loop = True
+    except RuntimeError:
+        has_loop = False
+
+    if not has_loop:
+        asyncio.run(fetch_all())
+    else:
+        result: Dict[str, Any] = {}
+        error: Optional[BaseException] = None
+
+        def runner():
+            nonlocal result, error
+            try:
+                asyncio.run(fetch_all())
+                result = {}
+            except BaseException as exc:
+                error = exc
+
+        thread = threading.Thread(target=runner)
+        thread.start()
+        thread.join()
+        if error:
+            raise error
 
     # Save corpus metadata
     metadata = {

@@ -1,5 +1,6 @@
 from __future__ import annotations
 import operator
+import uuid
 from dataclasses import dataclass
 from typing import Optional, List, Set, TypedDict, Annotated, Any
 
@@ -13,19 +14,35 @@ def union_sets(a: Set[str], b: Set[str]) -> Set[str]:
 
 @dataclass(frozen=True)
 class Task:
-    id: str
     query: str
     depth: int
     parent_id: Optional[str] = None
+    id: str = ""
+
+    def __post_init__(self) -> None:
+        if not self.id:
+            object.__setattr__(self, "id", str(uuid.uuid4()))
+
+    def __eq__(self, other: object) -> bool:
+        if not isinstance(other, Task):
+            return NotImplemented
+        return (
+            self.query == other.query
+            and self.depth == other.depth
+            and self.parent_id == other.parent_id
+        )
+
+    def __hash__(self) -> int:
+        return hash((self.query, self.depth, self.parent_id))
 
 @dataclass(frozen=True)
 class Finding:
-    task_id: str
-    query: str
     url: str
     title: str
     content: str
     score: float
+    task_id: str
+    query: str = ""
 
 class FRState(TypedDict):
     # messages field for LangGraph compliance
