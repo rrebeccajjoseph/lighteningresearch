@@ -4,13 +4,14 @@ import re
 from dataclasses import dataclass, asdict
 from functools import lru_cache
 from typing import List, Dict, Any, Tuple
-from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
 
+from .llm_factory import get_eval_llm
+
 @lru_cache(maxsize=1)
-def get_llm() -> ChatOpenAI:
+def _cached_eval_llm():
     """Create the evaluator LLM lazily to avoid import-time side effects."""
-    return ChatOpenAI(model="gpt-4o-mini", temperature=0.1)
+    return get_eval_llm()
 
 
 @dataclass
@@ -64,7 +65,7 @@ Respond with ONLY four numbers separated by commas, nothing else.
 Example: 85,78,92,88"""
 
     try:
-        resp = get_llm().invoke([
+        resp = _cached_eval_llm().invoke([
             SystemMessage(content="You are a research quality evaluator. Output only the four scores as comma-separated numbers."),
             HumanMessage(content=prompt)
         ])

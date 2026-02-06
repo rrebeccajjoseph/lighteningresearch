@@ -15,11 +15,9 @@ import time
 from dataclasses import dataclass, field, asdict
 from typing import List, Dict, Any, Optional
 
-from langchain_core.messages import HumanMessage
-
 from ..config import AgentConfig, ModelConfig
 from ..graph import build_app
-from ..memory import apply_memory_seed
+from ..state_builder import build_initial_state
 from ..baselines import run_sequential_baseline, BaselineResult
 from .judge import LLMJudge, JudgeScores
 from .datasets import ResearchyQuestion
@@ -111,28 +109,7 @@ async def run_flashresearch_single(
     """
     app = build_app()
 
-    state = {
-        "messages": [HumanMessage(content=question.query)],
-        "root_query": question.query,
-        "config": config,
-        "start_time": time.time(),
-        "time_budget_s": config.time_budget_s,
-        "stop": False,
-        "max_depth": config.max_depth,
-        "max_breadth": config.max_breadth,
-        "max_concurrency": config.max_concurrency,
-        "pending": [],
-        "in_flight": 0,
-        "child_tasks": [],
-        "findings": [],
-        "seen_urls": set(),
-        "best_score": 0.0,
-        "stop_threshold": config.stop_threshold,
-        "tasks_dispatched": 0,
-        "tasks_completed": 0,
-        "final_report": "",
-    }
-    state = apply_memory_seed(state, config, question.query)
+    state = build_initial_state(question.query, config)
 
     try:
         # Run with timeout (hard interrupt)

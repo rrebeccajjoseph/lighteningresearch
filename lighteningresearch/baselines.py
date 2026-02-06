@@ -11,11 +11,11 @@ import time
 import asyncio
 from typing import Dict, Any, List, Optional
 from dataclasses import dataclass
-from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
 from .tools import make_search_tool
 from .config import AgentConfig
+from .llm_factory import get_research_llm, get_fast_llm
 
 
 @dataclass
@@ -115,7 +115,7 @@ async def run_sequential_baseline(
     This represents naive single-query approach.
     """
     start_time = time.time()
-    llm = ChatOpenAI(model=config.models.synthesizer_model, temperature=0.2)
+    llm = get_research_llm(model=config.models.synthesizer_model, temperature=0.2)
     search_tool = make_search_tool(max_results=config.search.max_results_per_search)
 
     results = await search_tool.ainvoke(query)
@@ -168,7 +168,7 @@ async def run_parallel_no_scoring(
     Tests whether scoring/filtering adds value.
     """
     start_time = time.time()
-    llm = ChatOpenAI(model=config.models.planner_model, temperature=0.3)
+    llm = get_research_llm(model=config.models.planner_model, temperature=0.3)
     search_tool = make_search_tool(max_results=config.search.max_results_per_search)
 
     # Generate subqueries
@@ -205,7 +205,7 @@ async def run_parallel_no_scoring(
 
     evidence = "\n".join(f"- {f['title']} ({f['url']})\n  {f['content']}" for f in findings[:12])
 
-    synth_llm = ChatOpenAI(model=config.models.synthesizer_model, temperature=0.2)
+    synth_llm = get_research_llm(model=config.models.synthesizer_model, temperature=0.2)
     resp = synth_llm.invoke([HumanMessage(
         content=f"Write research report for: {query}\n\nEvidence:\n{evidence}"
     )])
@@ -234,8 +234,8 @@ async def run_no_adaptive_depth(
     Tests whether adaptive depth adds value.
     """
     start_time = time.time()
-    llm = ChatOpenAI(model=config.models.planner_model, temperature=0.3)
-    scorer = ChatOpenAI(model=config.models.scorer_model, temperature=0.1)
+    llm = get_research_llm(model=config.models.planner_model, temperature=0.3)
+    scorer = get_fast_llm(model=config.models.scorer_model, temperature=0.1)
     search_tool = make_search_tool(max_results=config.search.max_results_per_search)
 
     # Generate subqueries
@@ -286,7 +286,7 @@ async def run_no_adaptive_depth(
 
     evidence = "\n".join(f"- {f['title']} ({f['url']})\n  {f['content']}" for f in top)
 
-    synth_llm = ChatOpenAI(model=config.models.synthesizer_model, temperature=0.2)
+    synth_llm = get_research_llm(model=config.models.synthesizer_model, temperature=0.2)
     resp = synth_llm.invoke([HumanMessage(
         content=f"Write research report for: {query}\n\nEvidence:\n{evidence}"
     )])

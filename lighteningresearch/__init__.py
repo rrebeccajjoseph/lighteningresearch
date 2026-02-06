@@ -24,6 +24,8 @@ Example:
 
 from .models import FRState, Task, Finding
 from .graph import build_app
+from .state_builder import build_initial_state
+from .llm_factory import get_research_llm, get_eval_llm, get_fast_llm
 from .config import (
     AgentConfig,
     ModelConfig,
@@ -78,6 +80,10 @@ __all__ = [
     "Task",
     "Finding",
     "build_app",
+    "build_initial_state",
+    "get_research_llm",
+    "get_eval_llm",
+    "get_fast_llm",
 
     # Configuration
     "AgentConfig",

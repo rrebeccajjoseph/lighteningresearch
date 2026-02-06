@@ -206,7 +206,7 @@ python run.py --quiet "Your query"
 ## Python Usage 
 You don't just have to use a terminal arg command - you can also use LightningResearch as a library.
 
-from lighteningresearch import AgentConfig, ModelConfig, SearchConfig, build_app
+from lighteningresearch import AgentConfig, ModelConfig, SearchConfig, build_app, build_initial_state
 
 config = AgentConfig(
     time_budget_s=300,
@@ -227,11 +227,8 @@ config = AgentConfig(
 )
 
 app = build_app()
-
-result = await app.ainvoke({
-    "root_query": "Your research question",
-    "config": config,
-})
+state = build_initial_state("Your research question", config)
+result = await app.ainvoke(state)
 
 ⸻
 
@@ -245,6 +242,7 @@ Project Structure
 │   ├── graph.py          # LangGraph orchestration
 │   ├── nodes.py          # Planner/search/synth nodes
 │   ├── tools.py          # Search tools
+│   ├── state_builder.py  # Shared initial state builder
 │   ├── memory.py         # Memory seeding
 │   └── evaluation.py     # RACE + FACT scoring
 

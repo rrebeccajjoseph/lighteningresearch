@@ -25,12 +25,10 @@ from datetime import datetime
 from typing import List, Dict, Any
 
 from dotenv import load_dotenv
-from langchain_core.messages import HumanMessage
-
 load_dotenv()
 
 from lighteningresearch.graph import build_app
-from lighteningresearch.memory import apply_memory_seed
+from lighteningresearch.state_builder import build_initial_state
 from lighteningresearch.config import (
     AgentConfig,
     DEFAULT_STOP_THRESHOLD,
@@ -111,28 +109,7 @@ async def run_single_task(
     print(f"Time budget: {config.time_budget_s}s")
     print('='*60)
 
-    state = {
-        "messages": [HumanMessage(content=query)],
-        "root_query": query,
-        "config": config,
-        "start_time": time.time(),
-        "time_budget_s": config.time_budget_s,
-        "stop": False,
-        "max_depth": config.max_depth,
-        "max_breadth": config.max_breadth,
-        "max_concurrency": config.max_concurrency,
-        "pending": [],
-        "in_flight": 0,
-        "child_tasks": [],
-        "findings": [],
-        "seen_urls": set(),
-        "best_score": 0.0,
-        "stop_threshold": config.stop_threshold,
-        "tasks_dispatched": 0,
-        "tasks_completed": 0,
-        "final_report": "",
-    }
-    state = apply_memory_seed(state, config, query)
+    state = build_initial_state(query, config)
 
     try:
         out = await app.ainvoke(state, config={

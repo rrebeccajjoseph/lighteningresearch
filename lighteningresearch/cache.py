@@ -16,6 +16,8 @@ from typing import Dict, Any, List, Optional
 from dataclasses import dataclass, asdict
 from datetime import datetime
 
+from .utils.search_normalization import normalize_search_results
+
 
 @dataclass
 class CachedSearchResult:
@@ -79,18 +81,7 @@ class SearchCache:
         query_hash = self._hash_query(query)
         cache_file = self.cache_dir / f"{query_hash}.json"
 
-        # Normalize results to dicts
-        if isinstance(results, dict):
-            results = results.get("results") or results.get("data") or []
-
-        normalized = []
-        for r in results:
-            if isinstance(r, dict):
-                normalized.append({
-                    "url": r.get("url", ""),
-                    "title": r.get("title", ""),
-                    "content": r.get("content", r.get("snippet", "")),
-                })
+        normalized = normalize_search_results(results)
 
         cached = CachedSearchResult(
             query=query,
@@ -158,9 +149,7 @@ class CachedSearchTool:
         self.cache.set(query, results)
 
         # Return normalized format
-        if isinstance(results, dict):
-            return results.get("results") or results.get("data") or []
-        return results
+        return normalize_search_results(results)
 
     def invoke(self, query: str) -> List[Dict[str, Any]]:
         """Sync search with caching."""

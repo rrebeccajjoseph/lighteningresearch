@@ -12,8 +12,9 @@ import re
 from dataclasses import dataclass, asdict
 from typing import Optional, List, Dict, Any
 
-from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
+
+from ..llm_factory import get_eval_llm
 
 
 @dataclass
@@ -93,7 +94,7 @@ class LLMJudge:
         model: str = "gpt-4o",
         temperature: float = 0.1,
     ):
-        self.llm = ChatOpenAI(model=model, temperature=temperature)
+        self.llm = get_eval_llm(model=model, temperature=temperature)
 
     async def score(
         self,

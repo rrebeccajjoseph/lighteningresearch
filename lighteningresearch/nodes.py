@@ -11,7 +11,6 @@ import random
 import uuid
 from typing import Any, Dict, List, Set, Optional
 from langgraph.types import Send, Command
-from langchain_openai import ChatOpenAI
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 from .models import Task, Finding, FRState
@@ -19,6 +18,8 @@ from .memory import update_memory_async
 from .tools import make_search_tool
 from .cache import CachedSearchTool
 from .config import AgentConfig, ModelConfig, PromptConfig, ReportConfig
+from .llm_factory import get_research_llm, get_fast_llm
+from .utils.search_normalization import normalize_search_results
 
 
 # =============================================================================
@@ -28,11 +29,6 @@ from .config import AgentConfig, ModelConfig, PromptConfig, ReportConfig
 def get_config(state: Dict[str, Any]) -> AgentConfig:
     """Get AgentConfig from state, or return defaults."""
     return state.get("config") or AgentConfig()
-
-
-def get_llm(model: str, temperature: float) -> ChatOpenAI:
-    """Create an LLM instance with given settings."""
-    return ChatOpenAI(model=model, temperature=temperature)
 
 
 def time_left(state: Dict[str, Any]) -> float:
@@ -89,7 +85,7 @@ def planner(state: FRState) -> Dict[str, Any]:
     max_depth = state["max_depth"] if not broad else max(1, state["max_depth"] - 1)
 
     # Use configured model and prompts
-    llm = get_llm(config.models.planner_model, config.models.planner_temperature)
+    llm = get_research_llm(config.models.planner_model, config.models.planner_temperature)
 
     prompt = config.prompts.planner_template.format(
         max_breadth=max_breadth,
@@ -196,25 +192,15 @@ async def worker(input_state: Dict[str, Any]) -> Command:
     max_depth = input_state["max_depth"]
 
     # Normalize Tavily result shapes
-    if isinstance(results, dict):
-        results_iter = results.get("results") or results.get("data") or []
-    else:
-        results_iter = results
+    results_iter = normalize_search_results(results)
 
     # Create scorer LLM
-    scorer_llm = get_llm(config.models.scorer_model, config.models.scorer_temperature)
+    scorer_llm = get_fast_llm(config.models.scorer_model, config.models.scorer_temperature)
 
-    for r in (results_iter or []):
-        if isinstance(r, str):
-            url = r if r.startswith("http") else ""
-            title = ""
-            content = ""
-        elif isinstance(r, dict):
-            url = r.get("url") or ""
-            title = r.get("title") or ""
-            content = (r.get("content") or r.get("snippet") or "").strip()
-        else:
-            continue
+    for r in results_iter:
+        url = r["url"]
+        title = r["title"]
+        content = r["content"]
 
         if not url or url in seen_urls or url in new_urls:
             continue
@@ -352,7 +338,7 @@ def synthesize(state: FRState) -> Dict[str, Any]:
         evidence=evidence
     )
 
-    llm = get_llm(config.models.synthesizer_model, config.models.synthesizer_temperature)
+    llm = get_research_llm(config.models.synthesizer_model, config.models.synthesizer_temperature)
 
     resp = llm.invoke([
         SystemMessage(content=config.prompts.synthesizer_system),
