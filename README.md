@@ -97,7 +97,7 @@ TAVILY_API_KEY=
 
 
 3. Run
-python run.py "What are the latest advances in quantum computing?"
+python -m lighteningresearch.cli.run "What are the latest advances in quantum computing?"
 
 ⸻
 
@@ -105,15 +105,15 @@ Basic Usage
 
 Time presets
 # ~45 seconds
-python run.py "Your question"
+python -m lighteningresearch.cli.run "Your question"
 # ~2 minutes
-python run.py --time standard "Your question"
+python -m lighteningresearch.cli.run --time standard "Your question"
 # ~10 minutes
-python run.py --time deep "Your question"
+python -m lighteningresearch.cli.run --time deep "Your question"
 
 
 Custom budget:
-python run.py --time-seconds 180 "Your question"
+python -m lighteningresearch.cli.run --time-seconds 180 "Your question"
 
 
 ⸻
@@ -138,7 +138,7 @@ pytest tests/integration/test_evaluation.py tests/integration/test_baselines.py 
 Configuration Presets
 
 Academic research
-python run.py --preset academic "CRISPR applications in medicine"
+python -m lighteningresearch.cli.run --preset academic "CRISPR applications in medicine"
 Uses:
 	•	deeper search
 	•	academic domains
@@ -146,11 +146,11 @@ Uses:
 
 
 News / current events
-python run.py --preset news "Latest AI regulation developments"
+python -m lighteningresearch.cli.run --preset news "Latest AI regulation developments"
 
 
 Technical / developer research
-python run.py --preset technical "React performance optimization"
+python -m lighteningresearch.cli.run --preset technical "React performance optimization"
 
 
 ⸻
@@ -158,12 +158,12 @@ python run.py --preset technical "React performance optimization"
 Model Configuration
 
 Use one model:
-python run.py --model gpt-4o "Complex topic"
+python -m lighteningresearch.cli.run --model gpt-4o "Complex topic"
 
 
 
 Or separate models:
-python run.py \
+python -m lighteningresearch.cli.run \
   --planner-model gpt-4o \
   --synth-model gpt-4o-mini \
   "Your query"
@@ -175,17 +175,17 @@ This allows cost vs quality tradeoffs.
 Search Controls
 
 More results per search:
-python run.py --max-results 10 "Your query"
+python -m lighteningresearch.cli.run --max-results 10 "Your query"
 
 
 Restrict domains:
-python run.py \
+python -m lighteningresearch.cli.run \
   --include-domains arxiv.org nature.com \
   "Scientific topic"
 
 
 Exclude domains:
-python run.py \
+python -m lighteningresearch.cli.run \
   --exclude-domains pinterest.com facebook.com \
   "Your query"
 
@@ -195,11 +195,11 @@ python run.py \
 Research Controls
 
 Deeper exploration:
-python run.py --max-depth 3 --max-breadth 8 "Complex topic"
+python -m lighteningresearch.cli.run --max-depth 3 --max-breadth 8 "Complex topic"
 
 
 Stop earlier:
-python run.py --stop-threshold 0.7 "Simple topic"
+python -m lighteningresearch.cli.run --stop-threshold 0.7 "Simple topic"
 
 
 ⸻
@@ -207,37 +207,37 @@ python run.py --stop-threshold 0.7 "Simple topic"
 Evaluation & Output
 
 Run a single evaluation:
-python run.py --eval "Your query"
+python -m lighteningresearch.cli.run --eval "Your query"
 
 All experiments use the FlashResearch architecture and are scored using two frameworks:
 - RACE: evaluates comprehensiveness, depth, instruction following, and readability
 - FACT: evaluates citation accuracy, efficiency, and source verification
 
 Table 1 — Throughput vs. Quality:
-Runs `run_experiments.py --table1` to compare LightningResearch report quality under strict
+Runs `python -m lighteningresearch.cli.run_experiments --table1` to compare LightningResearch report quality under strict
 time budgets (default 2 vs 10 minutes), optionally including a baseline.
 
 Figure 2 — Breadth/Depth trade-off:
-Runs `run_experiments.py --figure2` to vary LightningResearch breadth/depth and see where
+Runs `python -m lighteningresearch.cli.run_experiments --figure2` to vary LightningResearch breadth/depth and see where
 quality saturates under RACE+FACT scoring.
 
 Quick Test — Sanity check:
-Runs `run_experiments.py --quick-test` to validate orchestration, scoring, and output
+Runs `python -m lighteningresearch.cli.run_experiments --quick-test` to validate orchestration, scoring, and output
 formatting on a small batch before full experiments.
 
 Benchmarking (batch regression):
-Uses `benchmark.py` to run a task file with a chosen time budget and optionally compare
+Uses `python -m lighteningresearch.cli.benchmark` to run a task file with a chosen time budget and optionally compare
 against baselines.
 
 
 
 Save results:
-python run.py --eval --output results.json "Your query"
+python -m lighteningresearch.cli.run --eval --output results.json "Your query"
 
 
 
 Quiet mode (Prints only final report!):
-python run.py --quiet "Your query"
+python -m lighteningresearch.cli.run --quiet "Your query"
 
 
 ⸻
@@ -273,9 +273,6 @@ result = await app.ainvoke(state)
 
 Project Structure
 
-├── run.py                # CLI entry (shim)
-├── benchmark.py          # Benchmark CLI (shim)
-├── run_experiments.py    # Experiments CLI (shim)
 ├── sample_tasks.json
 ├── lighteningresearch/
 │   ├── config.py         # Configuration system
