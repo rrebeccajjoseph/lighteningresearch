@@ -1,0 +1,32 @@
+{
+  "query": "What are the most prominent quantum error correction codes currently in use, and how do they function?",
+  "query_hash": "4618bd4144229c13",
+  "timestamp": "2026-02-05T20:18:48.120082",
+  "results": [
+    {
+      "url": "https://www.riverlane.com/blog/quantum-error-correction-our-2025-trends-and-2026-predictions",
+      "title": "Quantum Error Correction: Our 2025 trends and 2026 predictions",
+      "content": "Following IBM's transition to qLDPC codes in 2024, we predict other industry players will follow suit in 2026, yielding diverse fault-tolerant"
+    },
+    {
+      "url": "https://phys.org/news/2026-02-surgery-quantum-bits-bit-flip.html",
+      "title": "Surgery for quantum bits: Bit-flip errors corrected during ... - Phys.org",
+      "content": "One way to ensure that bit- and phase-flip errors are corrected is to use so-called surface codes. In these codes, the state of a qubit is"
+    },
+    {
+      "url": "https://www.cqt.sg/highlight/2026-01-contextuality-quantum-error-correction/",
+      "title": "New role discovered for contextuality in quantum error correction",
+      "content": "Researchers find that contextuality is necessary for error correction schemes that use code-switching to deliver fault-tolerant quantum"
+    },
+    {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-takes-leap-forward-code-designs/",
+      "title": "Quantum Error Correction Takes A Leap Forward With New Code ...",
+      "content": "Researchers are actively seeking quantum low-density parity-check (qLDPC) codes offering constant rate, linear distance and bounded-weight"
+    },
+    {
+      "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/",
+      "title": "Dynamic surface codes open new avenues for quantum error ...",
+      "content": "We present results showing the operation of new dynamic circuits for quantum error correction, going beyond their static counterparts by"
+    }
+  ]
+}

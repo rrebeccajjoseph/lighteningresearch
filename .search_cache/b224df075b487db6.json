@@ -1,0 +1,32 @@
+{
+  "query": "What are the fundamental principles and mechanisms behind the most popular quantum error correction codes currently in use?",
+  "query_hash": "b224df075b487db6",
+  "timestamp": "2026-02-05T20:17:50.594972",
+  "results": [
+    {
+      "url": "https://iontrap.duke.edu/files/2025/03/arxiv_sub_v2.pdf",
+      "title": "[PDF] Quantum error correction : an introductory guide",
+      "content": "The basic principle behind error correction is that the number of bits used to encode a given amount of information is increased. The exact way in which this"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Quantum_error_correction",
+      "title": "Quantum error correction - Wikipedia",
+      "content": "Quantum error correction (QEC) comprises a set of techniques used in quantum memory and quantum computing to protect quantum information from errors arising"
+    },
+    {
+      "url": "https://www.preskill.caltech.edu/ph229/notes/chap7.pdf",
+      "title": "[PDF] Chapter 7 Quantum Error Correction",
+      "content": "In this and the next chapter we will see how clever encoding of quan- tum information can protect against errors (in principle). This chapter will present the"
+    },
+    {
+      "url": "https://arxiv.org/abs/quant-ph/0611026",
+      "title": "Introduction to error correcting codes in quantum computers - arXiv",
+      "content": "The goal of this paper is to review the theoretical basis for achieving a faithful quantum information transmission and processing in the presence of noise."
+    },
+    {
+      "url": "https://www.bluequbit.io/quantum-error-correction",
+      "title": "Quantum Error Correction: The Key to Quantum Computing",
+      "content": "Quantum error correction, or quantum computing error correction, is a set of techniques for protecting quantum information from errors that are caused by noise"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "query": "How do different quantum error correction codes compare in terms of resource overhead, such as qubit count and operational complexity?",
+  "query_hash": "71c0c5e420874843",
+  "timestamp": "2026-02-05T20:18:00.007347",
+  "results": [
+    {
+      "url": "https://prism.sustainability-directory.com/learn/how-do-different-quantum-error-correction-codes-e-g-surface-codes-vs-ldpc-codes-compare-in-terms-of-their-energy-consumption-per-logical-qubit/",
+      "title": "How Do Different Quantum Error Correction Codes (E.g. ...",
+      "content": "Surface codes use more qubits but simpler links, while LDPC codes use fewer qubits but need complex, energy-intensive connections."
+    },
+    {
+      "url": "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "title": "Quantum Errors and Quantum Error Correction (QEC) ...",
+      "content": "Different codes target different regimes: small block codes (5-qubit, 7-qubit codes) can correct one error with modest overhead but have low threshold (they"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Quantum_error_correction",
+      "title": "Quantum error correction",
+      "content": "Conceptually, to use a quantum error-correcting code, one can append ancilla qubits \"Ancilla (quantum computing)\") to qubits that need protection, and apply a unitary encoding circuit to rotate the global state into a subspace of a larger Hilbert space. Surface codes are pivotal for scalable quantum error correction in 2025, enabling below-threshold logical qubits with improved fidelity in superconducting systems. * In 2021, an entangling gate between two logical qubits encoded in topological quantum error-correction codes has first been realized using 10 ions in a trapped-ion quantum computer. * In April 2024, researchers at Microsoft claimed to have successfully tested a quantum error correction code that allowed them to achieve an error rate with logical qubits that is 800 times better than the underlying physical error rate. | Quantum error correction | * Codes   + 5 qubit   + CSS   + GKP   + quantum convolutional   + stabilizer   + Shor   + Bacon\u2013Shor   + Steane   + Toric   + *gnu* * Entanglement-assisted |."
+    },
+    {
+      "url": "https://www.researchgate.net/publication/378165705_Benchmarking_and_Analysis_of_Quantum_Error_Correction_Codes",
+      "title": "(PDF) Benchmarking and Analysis of Quantum Error ...",
+      "content": "In order to mitigate these errors, various quantum error correction (QEC) codes have been developed, including the repetition code and surface"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.17190",
+      "title": "Comparison of spin-qubit architectures for quantum error ...",
+      "content": "> quant-ph > arXiv:2506.17190. **arXiv:2506.17190** (quant-ph). # Title:Comparison of spin-qubit architectures for quantum error-correcting codes. View a PDF of the paper titled Comparison of spin-qubit architectures for quantum error-correcting codes, by Mauricio Guti\\'errez and Juan S. > Abstract:We investigate the performance of two quantum error-correcting codes, the surface code and the Bacon-Shor code, for implementation with spin qubits in silicon. By identifying the dominant error mechanisms that limit quantum error correction performance, our study highlights concrete targets for improving spin qubit hardware and provides a path toward scalable fault-tolerant architectures. | Subjects: | Quantum Physics (quant-ph) |. | Cite as: | arXiv:2506.17190 [quant-ph] |. |  | (or  arXiv:2506.17190v1 [quant-ph] for this version) |. View a PDF of the paper titled Comparison of spin-qubit architectures for quantum error-correcting codes, by Mauricio Guti\\'errez and Juan S. ### References & Citations. # Bibliographic and Citation Tools. Papers with Code *(What is Papers with Code?)*. Have an idea for a project that will add value for arXiv's community?"
+    }
+  ]
+}

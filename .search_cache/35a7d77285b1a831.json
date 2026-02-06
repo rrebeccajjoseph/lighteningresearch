@@ -1,0 +1,32 @@
+{
+  "query": "How do different quantum error correction approaches, such as surface codes and concatenated codes, compare in terms of overhead requirements?",
+  "query_hash": "35a7d77285b1a831",
+  "timestamp": "2026-02-05T20:19:13.987462",
+  "results": [
+    {
+      "url": "https://prism.sustainability-directory.com/learn/how-do-different-quantum-error-correction-codes-e-g-surface-codes-vs-ldpc-codes-compare-in-terms-of-their-energy-consumption-per-logical-qubit/",
+      "title": "How Do Different Quantum Error Correction Codes (E.g. Surface ...",
+      "content": "Surface codes use more qubits but simpler links, while LDPC codes use fewer qubits but need complex, energy-intensive connections."
+    },
+    {
+      "url": "https://arxiv.org/abs/1312.2316",
+      "title": "[1312.2316] Comparing the Overhead of Topological and ... - arXiv",
+      "content": "> quant-ph > arXiv:1312.2316. **arXiv:1312.2316** (quant-ph). # Title:Comparing the Overhead of Topological and Concatenated Quantum Error Correction. View a PDF of the paper titled Comparing the Overhead of Topological and Concatenated Quantum Error Correction, by Martin Suchara and 5 other authors. > Abstract:This work compares the overhead of quantum error correction with concatenated and topological quantum error-correcting codes. First, topological quantum error correction requires fewer resources when physical gate error rates are high, white concatenated codes have smaller overhead for physical gate error rates below approximately 10E-7. Consequently, we show that different error-correcting codes should be chosen for two of the studied physical quantum technologies - ion traps and superconducting qubits. | Subjects: | Quantum Physics (quant-ph) |. | Cite as: | arXiv:1312.2316 [quant-ph] |. |  | (or  arXiv:1312.2316v1 [quant-ph] for this version) |. View a PDF of the paper titled Comparing the Overhead of Topological and Concatenated Quantum Error Correction, by Martin Suchara and 5 other authors. # Bibliographic and Citation Tools."
+    },
+    {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "title": "Quantum Error Correction State Of Play: Surface Code & Emerging ...",
+      "content": "The report highlights the surface code as a foundational model for large-scale quantum error correction, despite its high overheads,"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/259212249_Comparing_the_Overhead_of_Topological_and_Concatenated_Quantum_Error_Correction",
+      "title": "(PDF) Comparing the Overhead of Topological and Concatenated ...",
+      "content": "First, topological quantum error correction requires fewer resources when physical gate error rates are high, white concatenated codes have smaller overhead for"
+    },
+    {
+      "url": "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "title": "Quantum Errors and Quantum Error Correction (QEC) Methods",
+      "content": "The main downside of the surface code is the overhead \u2013 it may require hundreds or thousands of physical qubits per logical qubit to reach very low error rates"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "query": "What are the practical implementations and experimental results of leading quantum error correction approaches in real-world quantum computing platforms?",
+  "query_hash": "104a3cee86b82d9a",
+  "timestamp": "2026-02-05T20:17:53.280877",
+  "results": [
+    {
+      "url": "https://phys.org/news/2026-01-error-technology-quantum-real-world.html",
+      "title": "Error-correction technology to turn quantum computing into real ...",
+      "content": "# Error-correction technology to turn quantum computing into real-world power. Over many years, researchers have developed numerous quantum error-correction methods, but every approach faced a limit\u2014an accuracy ceiling beyond which it could not go. A team led by Associate Professor Kenta Kasai at Institute of Science Tokyo (Science Tokyo) has discovered a new quantum error-correction method that comes extremely close to the theoretical limit\u2014the hashing bound. In conventional quantum computer designs, there has been a built-in flaw that causes information to trigger errors during computation. The research team developed a new mechanism that eliminates this source of error, successfully pushing the computational accuracy of quantum computing to almost the theoretical limit. A new quantum error-correction method achieves near-theoretical accuracy and high computational efficiency, overcoming previous limitations that hindered large-scale quantum computing. This advancement enables error correction with minimal computational overhead as system size increases, significantly advancing the feasibility of practical, large-scale quantum computers. ##### Error-correction technology to turn quantum computing into real-world power."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8XP_xoPwR9o",
+      "title": "Session 11. Quantum Error Correction and Future Directions",
+      "content": "Welcome to the Quantum AI Lab Tutorials 2026. This session explores Quantum Error Correction and the future directions toward fault.tolerant"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YPFpll1NFQc",
+      "title": "Making quantum error correction practical with quantum control ...",
+      "content": "Making quantum error correction practical with quantum control infrastructure software | QCE Keynote\nQ-CTRL\n3290 subscribers\n30 likes\n1271 views\n28 Sep 2022\nQCE22 IEEE Quantum Week Keynote presented by our CEO and Founder Prof. Michael J. Biercuk.\n\nAbstract: Noise and error are the Achilles Heel of quantum computing and limit our ability to deliver practical quantum advantage.  Quantum error correction delivers the mathematical foundation for optimism that errors can be overcome and large-scale quantum computing realized.  Nonetheless, a substantial gap lies between the mathematical promise of quantum error correction and the practical matter of delivering quantum computers with improved performance.\n\nIn this talk we address this challenge holistically, focusing on the various ways that quantum control infrastructure software can make error-robust quantum computing a practical reality by deterministically suppressing hardware errors.\n\nWe frame our discussion around experimental demonstrations on commercial IBM quantum computers that achieve up to 9,000x enhancements in QED-C algorithmic benchmarks and quantum volume measurements with no changes to the underlying hardware.  These results are achieved via execution of a single autonomous workflow with no manual intervention, built on quantum control techniques.\n\nOur presentation then unpacks the building blocks of these achievements, highlighting deterministic error suppression techniques including: AI-designed quantum logic gates and context-aware circuit-level crosstalk and error cancellation.  We conclude by demonstrating how combining these techniques with QEC encoding enhances the efficacy of syndrome measurements in a quantum error correction cycle.\n\nOverall these experiments reveal how software can help unlock error-robust performance in quantum computer hardware.\n\n#quantum #quantumphysics #quantumcomputing"
+    },
+    {
+      "url": "https://www.techmonitor.ai/quantum/quantum-error-correction-breakthroughs/",
+      "title": "Quantum computing squares up to the error-correction challenge",
+      "content": "Boston-based QuEra and collaborators at Harvard and Yale have developed a new framework for quantum error correction called Algorithmic Fault"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/396003470_Advances_in_Quantum_Error_Correction_From_Theory_to_Experimental_Realization",
+      "title": "Advances in Quantum Error Correction - ResearchGate",
+      "content": "Quantum error correction (QEC) has emerged as a cornerstone in the quest for scalable and fault-tolerant quantum technologies."
+    }
+  ]
+}

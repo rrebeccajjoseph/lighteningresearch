@@ -1,0 +1,32 @@
+{
+  "query": "What are the major scientific advancements and improvements in CRISPR-Cas9 technology since 2020?",
+  "query_hash": "dbf1c29b7d5dabeb",
+  "timestamp": "2026-02-05T20:18:18.900194",
+  "results": [
+    {
+      "url": "https://www.jneonatalsurg.com/index.php/jns/article/view/6384",
+      "title": "Recent Advancements in CRISPR-Cas9 Technology for Precision ...",
+      "content": "# Recent Advancements in CRISPR-Cas9 Technology for Precision Gene Editing and Therapeutic Applications. CRISPR-Cas9, gene editing, base editing, prime editing, genome engineering, high-fidelity Cas9, off-target effects, precision medicine. This paper presents a comprehensive review of the most recent advancements in CRISPR-Cas9 technology, particularly focusing on innovations that enhance the accuracy, versatility, and therapeutic utility of gene editing. Innovations in delivery strategies, including the use of viral vectors (e.g., AAV, lentivirus), lipid nanoparticles, and electroporation of ribonucleoprotein complexes, have improved the in vivo and ex vivo application of CRISPR-Cas9 for therapeutic purposes. In conclusion, recent advancements in CRISPR-Cas9 technology are not only pushing the boundaries of what is technically feasible in genome editing but are also laying the groundwork for safe, effective, and personalized therapeutic applications. Delivery of CRISPR-Cas9 for Therapeutic Genome Editing: Challenges and Future Prospects. CRISPR-based therapeutic genome editing: strategies and in vivo delivery by AAV vectors. CRISPR/Cas9-based genome editing for disease modeling and therapy: challenges and opportunities for nonviral delivery. Recent Advancements in CRISPR-Cas9 Technology for Precision Gene Editing and Therapeutic Applications."
+    },
+    {
+      "url": "https://innovativegenomics.org/news/crispr-clinical-trials-2025/",
+      "title": "CRISPR Clinical Trials: A 2025 Update - Innovative Genomics Institute",
+      "content": "New Advances \u00b7 CRISPR On-Demand: Personalized Therapy \u00b7 CRISPR Redosing, For The First Time \u00b7 Liver Targeting Delivers \u00b7 Phage Therapy Comes of Age."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486967/",
+      "title": "CRISPR/Cas9: an overview of recent developments and ...",
+      "content": "CRISPR-Cas9 technology has revolutionized cancer research and therapy by allowing precise genome changes with remarkable accuracy. This technology offers"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6447755/",
+      "title": "Advancements and Obstacles of CRISPR-Cas9 Technology in ... - NIH",
+      "content": "Promising Breakthroughs in Cancer Treatment Using CRISPR-Cas9 Technology. CRISPR-Cas9 genome editing has been considered a powerful tool in cancer research."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211383525003132",
+      "title": "Advancements in CRISPR/Cas systems for disease treatment",
+      "content": "# REVIEW Advancements in CRISPR/Cas systems for disease treatment. ## Abstract. Due to its simplicity, cost-effectiveness, and precise gene editing capabilities, CRISPR/Cas technology has emerged as a promising tool for treating diseases. Nevertheless, the heterogeneous physiopathological nature of diseases and variations in disease onset sites pose significant challenges for *in vivo* applications of CRISPR systems. The efficiency of CRISPR systems in disease treatment is directly influenced by the performance of the delivery system. This review provides a comprehensive overview of the development of CRISPR systems, vector technologies, and their applications in disease treatment, while also addressing the challenges encountered in clinical settings. ## Graphical abstract. This review summarizes CRISPR/Cas systems' development and their therapeutic applications across diseases using advanced delivery strategies. :   Peer review under the responsibility of Chinese Pharmaceutical Association and Institute of Materia Medica, Chinese Academy of Medical Sciences. Published by Elsevier B.V. on behalf of Chinese Pharmaceutical Association and Institute of Materia Medica, Chinese Academy of Medical Sciences."
+    }
+  ]
+}

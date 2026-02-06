@@ -1,0 +1,32 @@
+{
+  "query": "What are the latest advancements in fault-tolerance thresholds for quantum error correction, and how do they impact practical quantum computing?",
+  "query_hash": "3a8c6c28e759dc56",
+  "timestamp": "2026-02-05T20:19:16.609731",
+  "results": [
+    {
+      "url": "https://phys.org/news/2026-01-fault-tolerant-quantum-protocol-efficiently.html",
+      "title": "Fault-tolerant quantum computing: Novel protocol ...",
+      "content": "The new protocol combines two distinct types of codes for the correction of quantum errors, known as quantum low-density parity-check (QLDPC)"
+    },
+    {
+      "url": "https://www.surf.nl/files/2025-10/sf_ttr26_en_quantum_v3.pdf",
+      "title": "Quantum Technologies",
+      "content": "Fault-tolerant quantum computing (FTQC) addresses this susceptibility with quantum error correction (QEC). By correcting errors without"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/386088521_Quantum_Error_Correction_Foundations_Latest_Innovations_and_Interdisciplinary_Applications_Driving_the_Future_of_Fault-Tolerant_Quantum_Technologies",
+      "title": "Quantum Error Correction: Foundations, Latest Innovations ...",
+      "content": "This article comprehensively reviews the latest advancements in QEC, covering innovations in code design, integration with quantum hardware, and"
+    },
+    {
+      "url": "https://insights.pluto.im/advancements-in-quantum-error-correction-and-control-towards-fault-tolerant-quantum-computing-2020-2024/",
+      "title": "Advancements in Quantum Error Correction and Control",
+      "content": "Fault-Tolerant Quantum Computing: 2020-24 progress review. Key advances in QEC (surface codes+), qubit control, & high-fidelity gates."
+    },
+    {
+      "url": "https://quantumcomputing.stackexchange.com/questions/35809/recent-hardware-advances-towards-fault-tolerant-quantum-computing-and-quantum-er",
+      "title": "Recent hardware advances towards fault-tolerant quantum ...",
+      "content": "I am interested in understanding recent developments by various hardware companies and their approaches towards quantum error correction."
+    }
+  ]
+}

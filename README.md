@@ -19,8 +19,7 @@ Given a research question, LightningResearch:
 5. Synthesizes a structured research report  
 6. Evaluates output quality automatically  
 
-The system is built on 
-LangGraph, enabling dynamic routing, concurrency, and stateful orchestration rather than a static DAG.
+The system is built on LangGraph, enabling dynamic routing, concurrency, and stateful orchestration rather than a static DAG.
 
 ---
 
@@ -124,7 +123,7 @@ Run all tests:
 pytest
 
 Fast unit-only subset:
-pytest tests/test_config.py tests/test_models.py tests/test_cache.py
+pytest tests/unit/test_config.py tests/unit/test_models.py tests/unit/test_cache.py
 
 What the unit tests cover:
 - Config loading/validation and env handling
@@ -132,7 +131,7 @@ What the unit tests cover:
 - Search cache behavior and reproducible corpus
 
 Integration tests:
-pytest tests/test_evaluation.py tests/test_baselines.py tests/test_experiments.py
+pytest tests/integration/test_evaluation.py tests/integration/test_baselines.py tests/integration/test_experiments.py
 
 ⸻
 
@@ -274,17 +273,23 @@ result = await app.ainvoke(state)
 
 Project Structure
 
-├── run.py                # CLI entry
-├── benchmark.py          # Batch evaluation
+├── run.py                # CLI entry (shim)
+├── benchmark.py          # Benchmark CLI (shim)
+├── run_experiments.py    # Experiments CLI (shim)
 ├── sample_tasks.json
 ├── lighteningresearch/
 │   ├── config.py         # Configuration system
+│   ├── configs/          # Preset configurations
 │   ├── graph.py          # LangGraph orchestration
 │   ├── nodes.py          # Planner/search/synth nodes
 │   ├── tools.py          # Search tools
 │   ├── state_builder.py  # Shared initial state builder
 │   ├── memory.py         # Memory seeding
-│   └── evaluation.py     # RACE + FACT scoring
+│   ├── evaluation.py     # RACE + FACT scoring
+│   └── cli/              # CLI implementations
+├── tests/
+│   ├── unit/
+│   └── integration/
 
 
 Why I built this

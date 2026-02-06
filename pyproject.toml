@@ -35,8 +35,8 @@ dev = [
 ]
 
 [project.scripts]
-flashresearch = "run:main"
-flashresearch-benchmark = "benchmark:main"
+flashresearch = "lighteningresearch.cli.run:main"
+flashresearch-benchmark = "lighteningresearch.cli.benchmark:main"
 
 [build-system]
 requires = ["hatchling"]

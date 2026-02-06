@@ -1,0 +1,32 @@
+{
+  "query": "What are the most prominent quantum error correction codes currently being developed, and what are their specific overhead requirements in terms of qubit usage and gate operations?",
+  "query_hash": "6059fb799c9166fe",
+  "timestamp": "2026-02-05T20:19:55.235909",
+  "results": [
+    {
+      "url": "https://quantum.microsoft.com/en-us/insights/education/concepts/quantum-error-correction",
+      "title": "Quantum error correction - Microsoft Quantum",
+      "content": "Shor code: This was the first quantum error correction code, developed by Peter Shor. \u00b7 Steane code: This is a seven-qubit code that can correct both bit flip"
+    },
+    {
+      "url": "https://www.riverlane.com/blog/quantum-error-correction-our-2025-trends-and-2026-predictions",
+      "title": "Quantum Error Correction: Our 2025 trends and 2026 predictions",
+      "content": "A QEC code uses multiple noisy physical qubits to create a single, more reliable logical qubit by distributing the quantum information"
+    },
+    {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "title": "Quantum Error Correction State Of Play: Surface Code & Emerging ...",
+      "content": "The report highlights the surface code as a foundational model for large-scale quantum error correction, despite its high overheads,"
+    },
+    {
+      "url": "https://thequantuminsider.com/2025/11/19/quantum-report-says-error-correction-now-the-industrys-defining-challenge/",
+      "title": "Quantum Report Says Error Correction Now The Industry's Defining ...",
+      "content": "Surface codes remain the most mature option, but a wave of new interest has emerged around quantum LDPC codes, bosonic codes and hybrid designs"
+    },
+    {
+      "url": "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "title": "Quantum Errors and Quantum Error Correction (QEC) Methods",
+      "content": "Quantum Error Correcting Codes (QECCs). These are the standard QEC codes that encode logical qubits into multiple physical qubits and use measurements to detect"
+    }
+  ]
+}

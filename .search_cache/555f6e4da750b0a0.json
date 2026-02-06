@@ -1,0 +1,32 @@
+{
+  "query": "What are the key challenges and limitations faced by researchers in the clinical application of CRISPR-Cas9 technology since 2020?",
+  "query_hash": "555f6e4da750b0a0",
+  "timestamp": "2026-02-05T20:18:25.401265",
+  "results": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892709/",
+      "title": "Strategies to overcome the main challenges of the use of CRISPR ...",
+      "content": "Here, we highlighted the main challenges facing CRISPR/Cas9-based treatments and proposed strategies to overcome these limitations."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.01387/full",
+      "title": "CRISPR Gene Therapy: Applications, Limitations, and Implications ...",
+      "content": "This review aims to (1) provide a brief history of gene therapy prior to CRISPR and discuss its ethical dilemmas, (2) describe the mechanisms by which CRISPR/Cas9 induces gene edits, (3) discuss the current limitations and advancements made for CRISPR technology for therapeutic translation, and (4) highlight a few recent clinical trials utilizing CRISPR gene therapy while opening a discussion for the ethical barriers that these and future trials may hinge upon. This was followed by studies demonstrating successful genome editing by CRISPR/Cas9 in mammalian cells, thereby opening the possibility of implementing CRISPR/Cas9 in gene therapy (29) (Figure 1). However, based on the limited evidence, CRISPR/Cas9 was likely used to target this gene, but rather than replicate the naturally observed and beneficial 32-base deletion, the edits merely induced DSBs at one end of the deletion, allowing NHEJ to repair the damaged DNA while introducing random, uncharacterized mutations."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1877117324001704",
+      "title": "CRISPR challenges in clinical developments - ScienceDirect.com",
+      "content": "The CRISPR-Cas system faces many challenges such as: off-target effects, limitations of PAM, delivery systems limitations, immune response and immunogenicity,"
+    },
+    {
+      "url": "https://academic.oup.com/pcm/article/4/3/179/6318867",
+      "title": "Applications and challenges of CRISPR-Cas gene-editing to ...",
+      "content": "This article summarizes the applications of CRISPR-Cas from bench to bedside and highlights the current obstacles that may limit the usage of CRISPR-Cas systems"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S216225312500188X",
+      "title": "Recent applications, future perspectives, and limitations of the ...",
+      "content": "# Review Recent applications, future perspectives, and limitations of the CRISPR-Cas system. The CRISPR-Cas system has transformed our ability to edit and modify genomes in eukaryotic cells, offering unmatched precision and broad applicability. By utilizing a programmable RNA protein complex to introduce targeted double-strand breaks, the CRISPR-Cas system enables the correction of pathogenic mutations and the modulation of gene function with unprecedented efficiency. In this review, we first outline the molecular architecture and mechanistic basis of CRISPR-Cas9 and then consider its latest applications in modeling, drug screening, small-molecule-mediated editing, and treating hereditary, autoimmune, and oncological diseases. Emphasis is placed on the generation of disease-relevant cellular and animal models and on the potential of CRISPR-Cas9-mediated gene therapy to address hitherto intractable disorders. Finally, we discuss current challenges including off-target activity, gene editing efficiency, delivery constraints, and immunogenicity and highlight emerging strategies to overcome these hurdles and broaden the clinical impact of CRISPR-Cas systems. Published by Elsevier Inc. on behalf of The American Society of Gene and Cell Therapy."
+    }
+  ]
+}

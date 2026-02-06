@@ -1,0 +1,32 @@
+{
+  "query": "What are the fault-tolerance thresholds for various quantum error correction codes, and how do they impact the scalability of quantum computing systems?",
+  "query_hash": "dd137dffc9db753c",
+  "timestamp": "2026-02-05T20:17:55.707069",
+  "results": [
+    {
+      "url": "https://www.spinquanta.com/news-detail/fault-tolerant-quantum-computing-explained-simply",
+      "title": "Fault-Tolerant Quantum Computing: Key to Scalability - SpinQ",
+      "content": "# Fault-Tolerant Quantum Computing: Key to Scalability. 2025.05.01 \u00b7 Blog fault tolerance quantum computing. ## **What Is Fault-Tolerant Quantum Computing?**. Fault-tolerant quantum computing refers to a computing system\u2019s ability to **perform accurate quantum operations even when errors occur** at the hardware level. Due to this, real-world quantum computers must incorporate sophisticated error correction and fault-tolerance strategies to run long, complex algorithms like Shor\u2019s factoring or quantum simulations for material design. * Can detect and correct quantum errors during computation,. ## **Why Are Quantum Computers So Error-Prone?**. ## **Quantum Error Correction: The Core of** **Fault Tolerance**. Quantum error correction allows quantum information to be preserved across multiple physical qubits. ## **Who Is Working on Fault-Tolerant Quantum Computing?**. * **IBM Quantum**: Roadmap includes logical qubits and error-corrected circuits on their superconducting processors. ## **Fault Tolerance in Quantum Computing: Challenges Ahead**. Fault-tolerant quantum computing is the cornerstone of scalable, reliable quantum processing. [What Is a Qubit in Quantum Computing?"
+    },
+    {
+      "url": "https://www.ibm.com/quantum/blog/what-is-ftqc",
+      "title": "What is fault-tolerant quantum computing? - IBM",
+      "content": "Understanding the basics of quantum error correction and fault tolerance. When the field of quantum computing started to take off after Peter Shor's 1994 discovery of a quantum algorithm for integer factorization, a natural question arose: could we somehow use error correcting codes to protect *qubits* from errors, so that quantum computations could be made more resilient against noise? And of course, we don't just want to \u201cprotect\u201d quantum information using quantum error correcting codes; we also want to perform *computations* on logical qubits. As it turns out, some operations are easier to perform on encoded quantum information than others, and which operations are easy and which are hard can depend on the quantum error correcting code we choose. The idea is that certain operations on encoded quantum information can be performed in a fault-tolerant way \u2014 meaning that they can be done with unreliable components without magnifying the error rate and spoiling the computation \u2014 provided that we have additional qubits initialized to these very special states."
+    },
+    {
+      "url": "https://link.aps.org/doi/10.1103/PhysRevA.89.022321",
+      "title": "Fault-tolerant thresholds for quantum error correction with the ...",
+      "content": "# Fault-tolerant thresholds for quantum error correction with the surface code. Rev. A **89**, 022321 \u2013 **Published 14 February, 2014**. The surface code is a promising candidate for fault-tolerant quantum computation, achieving a high threshold error rate with nearest-neighbor gates in two spatial dimensions. We observe thresholds between 0.502(1)% and 1.140(1)% per gate, values which are generally lower than previous estimates. We need you to provide your credentials before accessing this content. ## Log in via your institution. If your institution provides access using Shibboleth/OpenAthens log in. ## Log in via APS Member Subscription. If you have a personal subscription through your APS membership please log in. Starting August 1, 2019 APS member subscribers will need to log in using your member credentials instead of your APS Journal Account. * Log in with APS Journals Account. * Log in with username/password provided by your institution. ## References (Subscription Required). Rev. A **89**, 022321\u2013 Published 14 February, 2014. Vol. 89, Iss. 2 \u2014 February 2014."
+    },
+    {
+      "url": "https://www.itsoc.org/jsait/jsait-issue/quantum-error-correction-and-fault-tolerance",
+      "title": "Quantum Error Correction and Fault Tolerance",
+      "content": "The most established fault tolerance framework uses quantum error correcting codes and decoders. The theory of quantum error correction has recently produced codes with optimal parameters that could potentially reduce the resource overhead of fault tolerance. The protocol achieves superdense coding gain over comparable classical baselines for Q-E-B-MDS-X-TPIR, recovers as special cases the state of art results for various other quantum PIR settings previously studied in the literature, and paves the way for applications in quantum coded distributed computation, where CSA code structures are important for communication efficiency, while security and resilience to stragglers and Byzantine servers are critical. Starting with an m-uniform state realized as the graph state associated with an m-regular graph, and a classical n,k,d\u2265m+1 binary linear code with certain additional properties, we show that pure [n,k,m+1]]2 quantum error-correcting codes (QECCs) can be constructed within the codeword stabilized (CWS) code framework. We show that the proposed generalization contains a family of asymptotically good quantum codes that are based on non-Cayley Schreier graphs, i.e., a new family of (generalized) quantum Tanner codes is provided."
+    },
+    {
+      "url": "https://phys.org/news/2025-09-quantum-error-codes-enable-efficient.html",
+      "title": "Quantum error correction codes enable efficient scaling to hundreds ...",
+      "content": "These novel error correction codes can handle quantum codes with hundreds of thousands of qubits, potentially enabling large-scale fault-"
+    }
+  ]
+}

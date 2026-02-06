@@ -104,6 +104,7 @@ venv.bak/
 benchmark_output/
 results/
 experiment_results/
+artifacts/
 *.log
 
 # Keep .env.example

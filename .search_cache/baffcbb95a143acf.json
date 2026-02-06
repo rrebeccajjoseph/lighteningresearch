@@ -1,0 +1,32 @@
+{
+  "query": "What are the practical implications of quantum error correction approaches on real-world quantum computing applications and their scalability?",
+  "query_hash": "baffcbb95a143acf",
+  "timestamp": "2026-02-05T20:18:50.696969",
+  "results": [
+    {
+      "url": "https://shortcourses.lsbr.uk/blog/harnessing-quantum-error-correction-real-world-applications-and-case-studies",
+      "title": "# Harnessing Quantum Error Correction: Real-World Applications...",
+      "content": "Discover how the Professional Certificate in Quantum Error Correction enables professionals to build fault-tolerant quantum computers,"
+    },
+    {
+      "url": "https://zenodo.org/records/15499658/files/Quantum%20Error%20Correction%20Codes%20and%20Their%20Impact%20on%20Scalable%20Quantum%20Computation-24052025-0.pdf?download=1",
+      "title": "[PDF] Quantum Error Correction Codes and Their Impact on Scalable ...",
+      "content": "This work aims to underscore the central role of QEC in the future of quantum computing and the importance of continuous progress in this field."
+    },
+    {
+      "url": "https://medium.com/@joshua.jj.jaxson/quantum-computing-leaps-forward-breakthroughs-in-error-correction-pave-the-way-for-practical-5971fa7aea1c",
+      "title": "Quantum Computing Leaps Forward: Breakthroughs in Error ...",
+      "content": "# Quantum Computing Leaps Forward: Breakthroughs in Error Correction Pave the Way for Practical Quantum Computers. These errors, caused by the extreme sensitivity of qubits to their environment, have long hindered the development of reliable, practical quantum computers capable of outperforming their classical counterparts. This article explores the critical role of error correction in quantum computing, the unique challenges it poses, the innovative solutions being developed, and the transformative potential these advancements promise for science, industry, and society. For quantum computers to fulfill their promise \u2014 solving real-world problems like optimizing supply chains or designing new pharmaceuticals \u2014 error correction must be robust and scalable. In a landmark achievement, researchers demonstrated quantum error correction on an atomic processor with **48 logical qubits**, recognized as the *Physics World 2024 Breakthrough of the Year*. Companies like IBM aim for **1000-qubit systems with error correction by 2030**, while others speculate that smaller, specialized quantum devices could achieve practical utility even sooner."
+    },
+    {
+      "url": "https://phys.org/news/2026-01-error-technology-quantum-real-world.html",
+      "title": "Error-correction technology to turn quantum computing into real ...",
+      "content": "# Error-correction technology to turn quantum computing into real-world power. Over many years, researchers have developed numerous quantum error-correction methods, but every approach faced a limit\u2014an accuracy ceiling beyond which it could not go. A team led by Associate Professor Kenta Kasai at Institute of Science Tokyo (Science Tokyo) has discovered a new quantum error-correction method that comes extremely close to the theoretical limit\u2014the hashing bound. In conventional quantum computer designs, there has been a built-in flaw that causes information to trigger errors during computation. The research team developed a new mechanism that eliminates this source of error, successfully pushing the computational accuracy of quantum computing to almost the theoretical limit. A new quantum error-correction method achieves near-theoretical accuracy and high computational efficiency, overcoming previous limitations that hindered large-scale quantum computing. This advancement enables error correction with minimal computational overhead as system size increases, significantly advancing the feasibility of practical, large-scale quantum computers. ##### Error-correction technology to turn quantum computing into real-world power."
+    },
+    {
+      "url": "https://research.ibm.com/publications/applications-of-quantum-error-correction",
+      "title": "Applications of quantum error correction - IBM Research",
+      "content": "# Applications of quantum error correction. Circumventing this problem, we can develop new quantum algorithms that achieve quantum advantage already at present-day quantum processors or use redundancy in the algorithm of interest to monitor physical errors and reconstruct the outcome of the error-free calculation by means of quantum error correcting (QEC) codes. In this talk I will present different benchmarking techniques that characterize how well the quantum device performs at executing QEC codes. An important figure of merit to gauge the hardware improvement necessary for practical quantum error correction is the detector likelihood, which tells us how often the code detects an error [1]. Using the direct output of quantum measurements, we show that higher error suppression can be achieved when the decoder is supplied with this richer, yet easily available, information [2]. Error suppression is helpful only if quantum algorithms can be applied within the framework of the QEC code."
+    }
+  ]
+}

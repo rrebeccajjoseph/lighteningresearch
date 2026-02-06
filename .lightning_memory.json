@@ -1,6 +1,6 @@
 {
   "created": "2026-02-05T17:48:37.918577",
-  "updated": "2026-02-05T17:51:09.665529",
+  "updated": "2026-02-05T20:19:59.098781",
   "sources": {
     "https://pedalcommander.com/blogs/garage/the-rise-of-solid-state-battery-in-electric-vehicles": {
       "url": "https://pedalcommander.com/blogs/garage/the-rise-of-solid-state-battery-in-electric-vehicles",
@@ -574,6 +574,599 @@
         "how do different architectural innovations (e.g., sparse attention, model distillation) contribute to the scalability of large language models?",
         "what are the main challenges and solutions for scaling large language models?"
       ]
+    },
+    "https://en.wikipedia.org/wiki/Quantum_error_correction": {
+      "url": "https://en.wikipedia.org/wiki/Quantum_error_correction",
+      "title": "Quantum error correction",
+      "content": "Conceptually, to use a quantum error-correcting code, one can append ancilla qubits \"Ancilla (quantum computing)\") to qubits that need protection, and apply a unitary encoding circuit to rotate the global state into a subspace of a larger Hilbert space. Surface codes are pivotal for scalable quantum error correction in 2025, enabling below-threshold logical qubits with improved fidelity in superconducting systems. * In 2021, an entangling gate between two logical qubits encoded in topological quantum error-correction codes has first been realized using 10 ions in a trapped-ion quantum computer. * In April 2024, researchers at Microsoft claimed to have successfully tested a quantum error correction code that allowed them to achieve an error rate with logical qubits that is 800 times better than the underlying physical error rate. | Quantum error correction | * Codes   + 5 qubit   + CSS   + GKP   + quantum convolutional   + stabilizer   + Shor   + Bacon\u2013Shor   + Steane   + Toric   + *gnu* * Entanglement-assisted |.",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:01.875146",
+      "queries": [
+        "how do different quantum error correction codes compare in terms of resource overhead, such as qubit count and operational complexity?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the fundamental principles and mechanisms behind the most popular quantum error correction codes currently in use?"
+      ]
+    },
+    "https://www.preskill.caltech.edu/ph229/notes/chap7.pdf": {
+      "url": "https://www.preskill.caltech.edu/ph229/notes/chap7.pdf",
+      "title": "[PDF] Chapter 7 Quantum Error Correction",
+      "content": "In this and the next chapter we will see how clever encoding of quan- tum information can protect against errors (in principle). This chapter will present the",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:17:53.280198",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the fundamental principles and mechanisms behind the most popular quantum error correction codes currently in use?"
+      ]
+    },
+    "https://phys.org/news/2026-01-error-technology-quantum-real-world.html": {
+      "url": "https://phys.org/news/2026-01-error-technology-quantum-real-world.html",
+      "title": "Error-correction technology to turn quantum computing into real ...",
+      "content": "# Error-correction technology to turn quantum computing into real-world power. Over many years, researchers have developed numerous quantum error-correction methods, but every approach faced a limit\u2014an accuracy ceiling beyond which it could not go. A team led by Associate Professor Kenta Kasai at Institute of Science Tokyo (Science Tokyo) has discovered a new quantum error-correction method that comes extremely close to the theoretical limit\u2014the hashing bound. In conventional quantum computer designs, there has been a built-in flaw that causes information to trigger errors during computation. The research team developed a new mechanism that eliminates this source of error, successfully pushing the computational accuracy of quantum computing to almost the theoretical limit. A new quantum error-correction method achieves near-theoretical accuracy and high computational efficiency, overcoming previous limitations that hindered large-scale quantum computing. This advancement enables error correction with minimal computational overhead as system size increases, significantly advancing the feasibility of practical, large-scale quantum computers. ##### Error-correction technology to turn ",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:01.869264",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the practical implementations and experimental results of leading quantum error correction approaches in real-world quantum computing platforms?"
+      ]
+    },
+    "https://www.youtube.com/watch?v=YPFpll1NFQc": {
+      "url": "https://www.youtube.com/watch?v=YPFpll1NFQc",
+      "title": "Making quantum error correction practical with quantum control ...",
+      "content": "Making quantum error correction practical with quantum control infrastructure software | QCE Keynote\nQ-CTRL\n3290 subscribers\n30 likes\n1271 views\n28 Sep 2022\nQCE22 IEEE Quantum Week Keynote presented by our CEO and Founder Prof. Michael J. Biercuk.\n\nAbstract: Noise and error are the Achilles Heel of quantum computing and limit our ability to deliver practical quantum advantage.  Quantum error correction delivers the mathematical foundation for optimism that errors can be overcome and large-scale quantum computing realized.  Nonetheless, a substantial gap lies between the mathematical promise of quantum error correction and the practical matter of delivering quantum computers with improved performance.\n\nIn this talk we address this challenge holistically, focusing on the various ways that quantum control infrastructure software can make error-robust quantum computing a practical reality by deterministically suppressing hardware errors.\n\nWe frame our discussion around experimental demonstrations on commercial IBM quantum computers that achieve up to 9,000x enhancements in QED-C algorithmic benchmarks and quantum volume measurements with no changes to the underlying hardware.  These re",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:01.869282",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the practical implementations and experimental results of leading quantum error correction approaches in real-world quantum computing platforms?"
+      ]
+    },
+    "https://www.techmonitor.ai/quantum/quantum-error-correction-breakthroughs/": {
+      "url": "https://www.techmonitor.ai/quantum/quantum-error-correction-breakthroughs/",
+      "title": "Quantum computing squares up to the error-correction challenge",
+      "content": "Boston-based QuEra and collaborators at Harvard and Yale have developed a new framework for quantum error correction called Algorithmic Fault",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:01.869288",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the practical implementations and experimental results of leading quantum error correction approaches in real-world quantum computing platforms?"
+      ]
+    },
+    "https://www.researchgate.net/publication/396003470_Advances_in_Quantum_Error_Correction_From_Theory_to_Experimental_Realization": {
+      "url": "https://www.researchgate.net/publication/396003470_Advances_in_Quantum_Error_Correction_From_Theory_to_Experimental_Realization",
+      "title": "Advances in Quantum Error Correction - ResearchGate",
+      "content": "Quantum error correction (QEC) has emerged as a cornerstone in the quest for scalable and fault-tolerant quantum technologies.",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:01.869294",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the practical implementations and experimental results of leading quantum error correction approaches in real-world quantum computing platforms?"
+      ]
+    },
+    "https://www.spinquanta.com/news-detail/fault-tolerant-quantum-computing-explained-simply": {
+      "url": "https://www.spinquanta.com/news-detail/fault-tolerant-quantum-computing-explained-simply",
+      "title": "Fault-Tolerant Quantum Computing: Key to Scalability - SpinQ",
+      "content": "# Fault-Tolerant Quantum Computing: Key to Scalability. 2025.05.01 \u00b7 Blog fault tolerance quantum computing. ## **What Is Fault-Tolerant Quantum Computing?**. Fault-tolerant quantum computing refers to a computing system\u2019s ability to **perform accurate quantum operations even when errors occur** at the hardware level. Due to this, real-world quantum computers must incorporate sophisticated error correction and fault-tolerance strategies to run long, complex algorithms like Shor\u2019s factoring or quantum simulations for material design. * Can detect and correct quantum errors during computation,. ## **Why Are Quantum Computers So Error-Prone?**. ## **Quantum Error Correction: The Core of** **Fault Tolerance**. Quantum error correction allows quantum information to be preserved across multiple physical qubits. ## **Who Is Working on Fault-Tolerant Quantum Computing?**. * **IBM Quantum**: Roadmap includes logical qubits and error-corrected circuits on their superconducting processors. ## **Fault Tolerance in Quantum Computing: Challenges Ahead**. Fault-tolerant quantum computing is the cornerstone of scalable, reliable quantum processing. [What Is a Qubit in Quantum Computing?",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:01.872435",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the fault-tolerance thresholds for various quantum error correction codes, and how do they impact the scalability of quantum computing systems?"
+      ]
+    },
+    "https://www.itsoc.org/jsait/jsait-issue/quantum-error-correction-and-fault-tolerance": {
+      "url": "https://www.itsoc.org/jsait/jsait-issue/quantum-error-correction-and-fault-tolerance",
+      "title": "Quantum Error Correction and Fault Tolerance",
+      "content": "The most established fault tolerance framework uses quantum error correcting codes and decoders. The theory of quantum error correction has recently produced codes with optimal parameters that could potentially reduce the resource overhead of fault tolerance. The protocol achieves superdense coding gain over comparable classical baselines for Q-E-B-MDS-X-TPIR, recovers as special cases the state of art results for various other quantum PIR settings previously studied in the literature, and paves the way for applications in quantum coded distributed computation, where CSA code structures are important for communication efficiency, while security and resilience to stragglers and Byzantine servers are critical. Starting with an m-uniform state realized as the graph state associated with an m-regular graph, and a classical n,k,d\u2265m+1 binary linear code with certain additional properties, we show that pure [n,k,m+1]]2 quantum error-correcting codes (QECCs) can be constructed within the codeword stabilized (CWS) code framework. We show that the proposed generalization contains a family of asymptotically good quantum codes that are based on non-Cayley Schreier graphs, i.e., a new family of",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:01.872445",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the fault-tolerance thresholds for various quantum error correction codes, and how do they impact the scalability of quantum computing systems?"
+      ]
+    },
+    "https://phys.org/news/2025-09-quantum-error-codes-enable-efficient.html": {
+      "url": "https://phys.org/news/2025-09-quantum-error-codes-enable-efficient.html",
+      "title": "Quantum error correction codes enable efficient scaling to hundreds ...",
+      "content": "These novel error correction codes can handle quantum codes with hundreds of thousands of qubits, potentially enabling large-scale fault-",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:01.872448",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the fault-tolerance thresholds for various quantum error correction codes, and how do they impact the scalability of quantum computing systems?"
+      ]
+    },
+    "https://prism.sustainability-directory.com/learn/how-do-different-quantum-error-correction-codes-e-g-surface-codes-vs-ldpc-codes-compare-in-terms-of-their-energy-consumption-per-logical-qubit/": {
+      "url": "https://prism.sustainability-directory.com/learn/how-do-different-quantum-error-correction-codes-e-g-surface-codes-vs-ldpc-codes-compare-in-terms-of-their-energy-consumption-per-logical-qubit/",
+      "title": "How Do Different Quantum Error Correction Codes (E.g. Surface ...",
+      "content": "Surface codes use more qubits but simpler links, while LDPC codes use fewer qubits but need complex, energy-intensive connections.",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:16.609086",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes and concatenated codes, compare in terms of overhead requirements?",
+        "how do different quantum error correction codes compare in terms of resource overhead, such as qubit count and operational complexity?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://postquantum.com/quantum-computing/quantum-error-correction/": {
+      "url": "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "title": "Quantum Errors and Quantum Error Correction (QEC) Methods",
+      "content": "Quantum Error Correcting Codes (QECCs). These are the standard QEC codes that encode logical qubits into multiple physical qubits and use measurements to detect",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:19:57.257512",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes and concatenated codes, compare in terms of overhead requirements?",
+        "how do different quantum error correction codes compare in terms of resource overhead, such as qubit count and operational complexity?",
+        "how do different quantum error correction methods compare in terms of resource overhead, including qubit count and gate complexity?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the most prominent quantum error correction codes currently being developed, and what are their specific overhead requirements in terms of qubit usage and gate operations?"
+      ]
+    },
+    "https://www.researchgate.net/publication/378165705_Benchmarking_and_Analysis_of_Quantum_Error_Correction_Codes": {
+      "url": "https://www.researchgate.net/publication/378165705_Benchmarking_and_Analysis_of_Quantum_Error_Correction_Codes",
+      "title": "(PDF) Benchmarking and Analysis of Quantum Error ...",
+      "content": "In order to mitigate these errors, various quantum error correction (QEC) codes have been developed, including the repetition code and surface",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:01.875150",
+      "queries": [
+        "how do different quantum error correction codes compare in terms of resource overhead, such as qubit count and operational complexity?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://arxiv.org/abs/2506.17190": {
+      "url": "https://arxiv.org/abs/2506.17190",
+      "title": "Comparison of spin-qubit architectures for quantum error ...",
+      "content": "> quant-ph > arXiv:2506.17190. **arXiv:2506.17190** (quant-ph). # Title:Comparison of spin-qubit architectures for quantum error-correcting codes. View a PDF of the paper titled Comparison of spin-qubit architectures for quantum error-correcting codes, by Mauricio Guti\\'errez and Juan S. > Abstract:We investigate the performance of two quantum error-correcting codes, the surface code and the Bacon-Shor code, for implementation with spin qubits in silicon. By identifying the dominant error mechanisms that limit quantum error correction performance, our study highlights concrete targets for improving spin qubit hardware and provides a path toward scalable fault-tolerant architectures. | Subjects: | Quantum Physics (quant-ph) |. | Cite as: | arXiv:2506.17190 [quant-ph] |. |  | (or  arXiv:2506.17190v1 [quant-ph] for this version) |. View a PDF of the paper titled Comparison of spin-qubit architectures for quantum error-correcting codes, by Mauricio Guti\\'errez and Juan S. ### References & Citations. # Bibliographic and Citation Tools. Papers with Code *(What is Papers with Code?)*. Have an idea for a project that will add value for arXiv's community?",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:01.875153",
+      "queries": [
+        "how do different quantum error correction codes compare in terms of resource overhead, such as qubit count and operational complexity?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://www.jneonatalsurg.com/index.php/jns/article/view/6384": {
+      "url": "https://www.jneonatalsurg.com/index.php/jns/article/view/6384",
+      "title": "Recent Advancements in CRISPR-Cas9 Technology for Precision ...",
+      "content": "# Recent Advancements in CRISPR-Cas9 Technology for Precision Gene Editing and Therapeutic Applications. CRISPR-Cas9, gene editing, base editing, prime editing, genome engineering, high-fidelity Cas9, off-target effects, precision medicine. This paper presents a comprehensive review of the most recent advancements in CRISPR-Cas9 technology, particularly focusing on innovations that enhance the accuracy, versatility, and therapeutic utility of gene editing. Innovations in delivery strategies, including the use of viral vectors (e.g., AAV, lentivirus), lipid nanoparticles, and electroporation of ribonucleoprotein complexes, have improved the in vivo and ex vivo application of CRISPR-Cas9 for therapeutic purposes. In conclusion, recent advancements in CRISPR-Cas9 technology are not only pushing the boundaries of what is technically feasible in genome editing but are also laying the groundwork for safe, effective, and personalized therapeutic applications. Delivery of CRISPR-Cas9 for Therapeutic Genome Editing: Challenges and Future Prospects. CRISPR-based therapeutic genome editing: strategies and in vivo delivery by AAV vectors. CRISPR/Cas9-based genome editing for disease modeling a",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:21.015522",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the major scientific advancements and improvements in crispr-cas9 technology since 2020?"
+      ]
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486967/": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486967/",
+      "title": "CRISPR/Cas9: an overview of recent developments and ...",
+      "content": "CRISPR-Cas9 technology has revolutionized cancer research and therapy by allowing precise genome changes with remarkable accuracy. This technology offers",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:21.015533",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the major scientific advancements and improvements in crispr-cas9 technology since 2020?"
+      ]
+    },
+    "https://www.sciencedirect.com/science/article/pii/S2211383525003132": {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211383525003132",
+      "title": "Advancements in CRISPR/Cas systems for disease treatment",
+      "content": "# REVIEW Advancements in CRISPR/Cas systems for disease treatment. ## Abstract. Due to its simplicity, cost-effectiveness, and precise gene editing capabilities, CRISPR/Cas technology has emerged as a promising tool for treating diseases. Nevertheless, the heterogeneous physiopathological nature of diseases and variations in disease onset sites pose significant challenges for *in vivo* applications of CRISPR systems. The efficiency of CRISPR systems in disease treatment is directly influenced by the performance of the delivery system. This review provides a comprehensive overview of the development of CRISPR systems, vector technologies, and their applications in disease treatment, while also addressing the challenges encountered in clinical settings. ## Graphical abstract. This review summarizes CRISPR/Cas systems' development and their therapeutic applications across diseases using advanced delivery strategies. :   Peer review under the responsibility of Chinese Pharmaceutical Association and Institute of Materia Medica, Chinese Academy of Medical Sciences. Published by Elsevier B.V. on behalf of Chinese Pharmaceutical Association and Institute of Materia Medica, Chinese Academy ",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:21.015536",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the major scientific advancements and improvements in crispr-cas9 technology since 2020?"
+      ]
+    },
+    "https://criticaldebateshsgj.scholasticahq.com/article/144179-ethical-and-scientific-concerns-relating-to-crispr-cas-gene-therapy": {
+      "url": "https://criticaldebateshsgj.scholasticahq.com/article/144179-ethical-and-scientific-concerns-relating-to-crispr-cas-gene-therapy",
+      "title": "Ethical and Scientific Concerns Relating to CRISPR/Cas Gene ...",
+      "content": "CRISPR is a genome editing tool that uses the Cas protein to edit genes. CRISPR/Cas9 is a targeted genome editing technology that uses the Cas protein from certain species of bacteria and archaea. Due to the possibility of off-target effects with no way to definitively prevent them, CRISPR\u2019s use in human clinical research has been heavily set back making it nearly impossible to continue progress until this issue has been addressed. CRISPR works by targeting certain sequences of DNA and manually editing them to cure certain diseases, but off-target effects happen when other sequences are unintentionally changed causing major complications (Guo et al., 2023). Fortunately, through continued research, these problems are being solved through new developments like *in silico* tools which can find off-target effects and improved viral delivery services that prevent continued gene editing. Off-target effects in CRISPR/Cas9 gene editing. Latest Developed Strategies to Minimize the Off-Target Effects in CRISPR-Cas-Mediated Genome Editing.",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:27.555932",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the primary ethical concerns raised by the use of crispr-cas9 in human gene editing, and how have these debates evolved since 2020?"
+      ]
+    },
+    "https://www.researchgate.net/post/What_are_the_key_ethical_concerns_surrounding_CRISPR-Cas9_in_human_genome_editing_and_how_can_they_be_addressed_through_policy": {
+      "url": "https://www.researchgate.net/post/What_are_the_key_ethical_concerns_surrounding_CRISPR-Cas9_in_human_genome_editing_and_how_can_they_be_addressed_through_policy",
+      "title": "What are the key ethical concerns surrounding CRISPR-Cas9 in ...",
+      "content": "As CRISPR-Cas9 moves closer to clinical use, concerns like unintended effects, germline editing, and access inequality are growing.",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:27.555958",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the primary ethical concerns raised by the use of crispr-cas9 in human gene editing, and how have these debates evolved since 2020?"
+      ]
+    },
+    "https://link.springer.com/article/10.1007/s10730-024-09538-1": {
+      "url": "https://link.springer.com/article/10.1007/s10730-024-09538-1",
+      "title": "The Ethics of Human Embryo Editing via CRISPR-Cas9 Technology",
+      "content": "This systematic review included 223 publications to identify the ethical arguments, reasons, and concerns that have been offered for and against the editing of human embryos using CRISPR-Cas9 technology. This systematic review was to designed to analyze the biomedical and bioethics literature that addresses the use of CRISPR-Cas9 technology for human embryo editing to identify the ethical arguments and reasons that have been offered for and against heritable human genome editing as well as concerns raised. \u201cTowards a CRISPR View of Early Human Development: Applications, Limitations and Ethical Concerns of Genome Editing in Human Embryos.\u201d *Development* 144 (1): 3\u20137. \u201cThe Consent Form in the Chinese CRISPR Study: In Search of Ethical Gene Editing.\u201d *J Bioeth Inq* 17 (1): 5\u201310. \u201cThe DNA-Dialogue: A Broad Societal Dialogue about Human Germline Genome Editing in the Netherlands.\u201d *CRISPR J.* 4 (4): 616\u201325. \u201cGoverning Heritable Human Genome Editing: A Textual History and a Proposal for the Future.\u201d *CRISPR J.* 4 (4): 469\u201376.",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:27.555969",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the primary ethical concerns raised by the use of crispr-cas9 in human gene editing, and how have these debates evolved since 2020?"
+      ]
+    },
+    "https://www.researchgate.net/publication/393775562_CRISPR-Cas9_in_2025_Editing_Life_Ethics_and_the_Future_of_Medicine_Overview": {
+      "url": "https://www.researchgate.net/publication/393775562_CRISPR-Cas9_in_2025_Editing_Life_Ethics_and_the_Future_of_Medicine_Overview",
+      "title": "(PDF) CRISPR-Cas9 in 2025: Editing Life, Ethics, and the Future of ...",
+      "content": "CRISPR is currently being utilized to identify diseases, address cardiovascular and immune disorders, and even combat HIV. Beyond medicine,",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:29.607232",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "how has the public perception of crispr-cas9 technology changed since 2020, particularly in relation to its clinical applications?"
+      ]
+    },
+    "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.01387/full": {
+      "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.01387/full",
+      "title": "CRISPR Gene Therapy: Applications, Limitations, and Implications ...",
+      "content": "This review aims to (1) provide a brief history of gene therapy prior to CRISPR and discuss its ethical dilemmas, (2) describe the mechanisms by which CRISPR/Cas9 induces gene edits, (3) discuss the current limitations and advancements made for CRISPR technology for therapeutic translation, and (4) highlight a few recent clinical trials utilizing CRISPR gene therapy while opening a discussion for the ethical barriers that these and future trials may hinge upon. This was followed by studies demonstrating successful genome editing by CRISPR/Cas9 in mammalian cells, thereby opening the possibility of implementing CRISPR/Cas9 in gene therapy (29) (Figure 1). However, based on the limited evidence, CRISPR/Cas9 was likely used to target this gene, but rather than replicate the naturally observed and beneficial 32-base deletion, the edits merely induced DSBs at one end of the deletion, allowing NHEJ to repair the damaged DNA while introducing random, uncharacterized mutations.",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:29.611069",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the key challenges and limitations faced by researchers in the clinical application of crispr-cas9 technology since 2020?"
+      ]
+    },
+    "https://www.sciencedirect.com/science/article/pii/S216225312500188X": {
+      "url": "https://www.sciencedirect.com/science/article/pii/S216225312500188X",
+      "title": "Recent applications, future perspectives, and limitations of the ...",
+      "content": "# Review Recent applications, future perspectives, and limitations of the CRISPR-Cas system. The CRISPR-Cas system has transformed our ability to edit and modify genomes in eukaryotic cells, offering unmatched precision and broad applicability. By utilizing a programmable RNA protein complex to introduce targeted double-strand breaks, the CRISPR-Cas system enables the correction of pathogenic mutations and the modulation of gene function with unprecedented efficiency. In this review, we first outline the molecular architecture and mechanistic basis of CRISPR-Cas9 and then consider its latest applications in modeling, drug screening, small-molecule-mediated editing, and treating hereditary, autoimmune, and oncological diseases. Emphasis is placed on the generation of disease-relevant cellular and animal models and on the potential of CRISPR-Cas9-mediated gene therapy to address hitherto intractable disorders. Finally, we discuss current challenges including off-target activity, gene editing efficiency, delivery constraints, and immunogenicity and highlight emerging strategies to overcome these hurdles and broaden the clinical impact of CRISPR-Cas systems. Published by Elsevier Inc. ",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:29.611086",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "what are the key challenges and limitations faced by researchers in the clinical application of crispr-cas9 technology since 2020?"
+      ]
+    },
+    "https://journals.sagepub.com/doi/10.1089/crispr.2021.0148": {
+      "url": "https://journals.sagepub.com/doi/10.1089/crispr.2021.0148",
+      "title": "Regulatory Considerations for Clinical Trial Applications ...",
+      "content": "by B Anliker \u00b7 2022 \u00b7 Cited by 27 \u2014 Since first proposed as a new tool for gene targeting and genome editing, CRISPR technology has quickly advanced into the clinical stage.",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:29.614017",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "how have global regulatory frameworks adapted to the advancements in crispr-cas9 technology for clinical applications?"
+      ]
+    },
+    "https://www.jneonatalsurg.com/index.php/jns/article/view/9147": {
+      "url": "https://www.jneonatalsurg.com/index.php/jns/article/view/9147",
+      "title": "A New Era for Genome Editing in Gene Therapy and Stem ...",
+      "content": "# Advancements In CRISPR-CAS9: A New Era for Genome Editing in Gene Therapy and Stem Cell Applications. CRISPR-Cas9, Gene Therapy, Stem Cell Research, Ethical Implications, Genome Editing, Public Perception, Genetic Disorders, Ethical Governance. **Purpose:** This study explores the advancements in CRISPR-Cas9 technology and its potential to revolutionize gene therapy and stem cell applications. The questionnaire consisted of sections covering demographic data, awareness of CRISPR-Cas9, its potential in gene therapy, ethical considerations, and its role in stem cell research. Lotfi, M., et al., Recent advances in CRISPR/Cas9 delivery approaches for therapeutic gene editing of stem cells. De Masi, C., et al., Application of CRISPR/Cas9 to human-induced pluripotent stem cells: from gene editing to drug discovery. Tao, R., et al., Revolutionizing cancer treatment: enhancing CAR-T cell therapy with CRISPR/Cas9 gene editing technology. Advancements In CRISPR-CAS9: A New Era for Genome Editing in Gene Therapy and Stem Cell Applications.",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:29.614028",
+      "queries": [
+        "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+        "how have global regulatory frameworks adapted to the advancements in crispr-cas9 technology for clinical applications?"
+      ]
+    },
+    "https://phys.org/news/2026-02-surgery-quantum-bits-bit-flip.html": {
+      "url": "https://phys.org/news/2026-02-surgery-quantum-bits-bit-flip.html",
+      "title": "Surgery for quantum bits: Bit-flip errors corrected during ... - Phys.org",
+      "content": "One way to ensure that bit- and phase-flip errors are corrected is to use so-called surface codes. In these codes, the state of a qubit is",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:38.922614",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the key principles and techniques used in surface code quantum error correction, and how do they achieve fault tolerance?",
+        "what are the most prominent quantum error correction codes currently in use, and how do they function?"
+      ]
+    },
+    "https://www.cqt.sg/highlight/2026-01-contextuality-quantum-error-correction/": {
+      "url": "https://www.cqt.sg/highlight/2026-01-contextuality-quantum-error-correction/",
+      "title": "New role discovered for contextuality in quantum error correction",
+      "content": "Researchers find that contextuality is necessary for error correction schemes that use code-switching to deliver fault-tolerant quantum",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:11.803606",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the most prominent quantum error correction codes currently in use, and how do they function?"
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-error-correction-takes-leap-forward-code-designs/": {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-takes-leap-forward-code-designs/",
+      "title": "Quantum Error Correction Takes A Leap Forward With New Code ...",
+      "content": "Researchers are actively seeking quantum low-density parity-check (qLDPC) codes offering constant rate, linear distance and bounded-weight",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:11.803617",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the most prominent quantum error correction codes currently in use, and how do they function?"
+      ]
+    },
+    "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/": {
+      "url": "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/",
+      "title": "Dynamic surface codes open new avenues for quantum error ...",
+      "content": "We present results showing the operation of new dynamic circuits for quantum error correction, going beyond their static counterparts by",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:50.694155",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the most prominent quantum error correction codes currently in use, and how do they function?"
+      ]
+    },
+    "https://medium.com/@joshua.jj.jaxson/quantum-computing-leaps-forward-breakthroughs-in-error-correction-pave-the-way-for-practical-5971fa7aea1c": {
+      "url": "https://medium.com/@joshua.jj.jaxson/quantum-computing-leaps-forward-breakthroughs-in-error-correction-pave-the-way-for-practical-5971fa7aea1c",
+      "title": "Quantum Computing Leaps Forward: Breakthroughs in Error ...",
+      "content": "# Quantum Computing Leaps Forward: Breakthroughs in Error Correction Pave the Way for Practical Quantum Computers. These errors, caused by the extreme sensitivity of qubits to their environment, have long hindered the development of reliable, practical quantum computers capable of outperforming their classical counterparts. This article explores the critical role of error correction in quantum computing, the unique challenges it poses, the innovative solutions being developed, and the transformative potential these advancements promise for science, industry, and society. For quantum computers to fulfill their promise \u2014 solving real-world problems like optimizing supply chains or designing new pharmaceuticals \u2014 error correction must be robust and scalable. In a landmark achievement, researchers demonstrated quantum error correction on an atomic processor with **48 logical qubits**, recognized as the *Physics World 2024 Breakthrough of the Year*. Companies like IBM aim for **1000-qubit systems with error correction by 2030**, while others speculate that smaller, specialized quantum devices could achieve practical utility even sooner.",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:18:55.704472",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the practical implications of quantum error correction approaches on real-world quantum computing applications and their scalability?"
+      ]
+    },
+    "https://insights.pluto.im/advancements-in-quantum-error-correction-and-control-towards-fault-tolerant-quantum-computing-2020-2024/": {
+      "url": "https://insights.pluto.im/advancements-in-quantum-error-correction-and-control-towards-fault-tolerant-quantum-computing-2020-2024/",
+      "title": "Advancements in Quantum Error Correction and Control",
+      "content": "Fault-Tolerant Quantum Computing: 2020-24 progress review. Key advances in QEC (surface codes+), qubit control, & high-fidelity gates.",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:19:20.285364",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the latest advancements in fault-tolerance thresholds for quantum error correction, and how do they impact practical quantum computing?",
+        "what are the latest advancements in fault-tolerance thresholds for various quantum error correction techniques, and how have these thresholds evolved?"
+      ]
+    },
+    "https://www.researchgate.net/publication/386088521_Quantum_Error_Correction_Foundations_Latest_Innovations_and_Interdisciplinary_Applications_Driving_the_Future_of_Fault-Tolerant_Quantum_Technologies": {
+      "url": "https://www.researchgate.net/publication/386088521_Quantum_Error_Correction_Foundations_Latest_Innovations_and_Interdisciplinary_Applications_Driving_the_Future_of_Fault-Tolerant_Quantum_Technologies",
+      "title": "Quantum Error Correction: Foundations, Latest Innovations ...",
+      "content": "This article comprehensively reviews the latest advancements in QEC, covering innovations in code design, integration with quantum hardware, and",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:20.285346",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the latest advancements in fault-tolerance thresholds for quantum error correction, and how do they impact practical quantum computing?",
+        "what are the latest advancements in fault-tolerance thresholds for various quantum error correction techniques, and how have these thresholds evolved?"
+      ]
+    },
+    "https://sciety.org/articles/activity/10.20944/preprints202509.2149.v2": {
+      "url": "https://sciety.org/articles/activity/10.20944/preprints202509.2149.v2",
+      "title": "Quantum Error Correction and Fault-Tolerant Computing - Sciety",
+      "content": "This comprehensive review examines recent advances in QEC implementations from 2020-2024, spanning theoretical foundations to practical hardware",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:18:55.712050",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the latest advancements in fault-tolerance thresholds for various quantum error correction techniques, and how have these thresholds evolved?"
+      ]
+    },
+    "https://www.preprints.org/manuscript/202509.2149/v1": {
+      "url": "https://www.preprints.org/manuscript/202509.2149/v1",
+      "title": "Quantum Error Correction and Fault-Tolerant Computing",
+      "content": "This review serves as a comprehensive guide for researchers and engineers working toward the next generation of fault-tolerant quantum computers",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:55.712057",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the latest advancements in fault-tolerance thresholds for various quantum error correction techniques, and how have these thresholds evolved?"
+      ]
+    },
+    "https://arxiv.org/html/2508.06011v2": {
+      "url": "https://arxiv.org/html/2508.06011v2",
+      "title": "State-adaptive quantum error correction and fault-tolerant ... - arXiv",
+      "content": "We demonstrate practical applications in fault-tolerant quantum computation, showing how state-adaptivity enables enhanced error correction",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:55.712064",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the latest advancements in fault-tolerance thresholds for various quantum error correction techniques, and how have these thresholds evolved?"
+      ]
+    },
+    "https://quantum-journal.org/papers/q-2025-02-06-1623/": {
+      "url": "https://quantum-journal.org/papers/q-2025-02-06-1623/",
+      "title": "Comparative study of quantum error correction strategies for the ...",
+      "content": "In this work, we compared different strategies for embedding error-correcting codes into the architecture of IBM Quantum systems, which utilize",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:55.716306",
+      "queries": [
+        "how do different quantum error correction methods compare in terms of resource overhead, including qubit count and gate complexity?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-error-correction-speed-gets-boost-future-computers/": {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-speed-gets-boost-future-computers/",
+      "title": "Quantum Error Correction Gets A Speed Boost For Future Computers",
+      "content": "Scientists are continually seeking methods to enhance the performance of fault-tolerant quantum computing, and efficient soft-output decoding is paramount for improving accuracy and accelerating operations such as lattice surgery. ### Efficient soft-output evaluation via early-stopping for scalable quantum error correction enables practical decoding with limited resources. The bounded cluster gap method reduces computational complexity by implementing early-stopping techniques during soft output calculation. ### Reduced computational scaling of quantum decoding via bounded and extra-cluster gap techniques enables more practical applications. Researchers developed new techniques for evaluating soft outputs in cluster-based quantum decoders, addressing computational inefficiencies inherent in existing methods. These advancements lay a foundation for future real-time decoders with soft outputs, crucial for fault-tolerant quantum computing and advanced quantum error correction techniques. Researchers have developed more efficient methods for evaluating soft outputs within cluster-based quantum error correction decoders, addressing limitations in existing approaches. This work introduce",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:18:55.716315",
+      "queries": [
+        "how do different quantum error correction methods compare in terms of resource overhead, including qubit count and gate complexity?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://arxiv.org/abs/1312.2316": {
+      "url": "https://arxiv.org/abs/1312.2316",
+      "title": "[1312.2316] Comparing the Overhead of Topological and ... - arXiv",
+      "content": "> quant-ph > arXiv:1312.2316. **arXiv:1312.2316** (quant-ph). # Title:Comparing the Overhead of Topological and Concatenated Quantum Error Correction. View a PDF of the paper titled Comparing the Overhead of Topological and Concatenated Quantum Error Correction, by Martin Suchara and 5 other authors. > Abstract:This work compares the overhead of quantum error correction with concatenated and topological quantum error-correcting codes. First, topological quantum error correction requires fewer resources when physical gate error rates are high, white concatenated codes have smaller overhead for physical gate error rates below approximately 10E-7. Consequently, we show that different error-correcting codes should be chosen for two of the studied physical quantum technologies - ion traps and superconducting qubits. | Subjects: | Quantum Physics (quant-ph) |. | Cite as: | arXiv:1312.2316 [quant-ph] |. |  | (or  arXiv:1312.2316v1 [quant-ph] for this version) |. View a PDF of the paper titled Comparing the Overhead of Topological and Concatenated Quantum Error Correction, by Martin Suchara and 5 other authors. # Bibliographic and Citation Tools.",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:16.609108",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes and concatenated codes, compare in terms of overhead requirements?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/": {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "title": "Quantum Error Correction State Of Play: Surface Code & Emerging ...",
+      "content": "The report examines key themes, including the surface code's role as the Standard Model for large-scale fault-tolerant quantum computing.",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:59.098615",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes and concatenated codes, compare in terms of overhead requirements?",
+        "how do different quantum error correction approaches, such as surface codes, color codes, and concatenated codes, compare in terms of their fault-tolerance thresholds and practical implementation challenges?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the most prominent quantum error correction codes currently being developed, and what are their specific overhead requirements in terms of qubit usage and gate operations?"
+      ]
+    },
+    "https://www.researchgate.net/publication/259212249_Comparing_the_Overhead_of_Topological_and_Concatenated_Quantum_Error_Correction": {
+      "url": "https://www.researchgate.net/publication/259212249_Comparing_the_Overhead_of_Topological_and_Concatenated_Quantum_Error_Correction",
+      "title": "(PDF) Comparing the Overhead of Topological and Concatenated ...",
+      "content": "First, topological quantum error correction requires fewer resources when physical gate error rates are high, white concatenated codes have smaller overhead for",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:16.609125",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes and concatenated codes, compare in terms of overhead requirements?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://phys.org/news/2026-01-fault-tolerant-quantum-protocol-efficiently.html": {
+      "url": "https://phys.org/news/2026-01-fault-tolerant-quantum-protocol-efficiently.html",
+      "title": "Fault-tolerant quantum computing: Novel protocol ...",
+      "content": "The new protocol combines two distinct types of codes for the correction of quantum errors, known as quantum low-density parity-check (QLDPC)",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:20.285311",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the latest advancements in fault-tolerance thresholds for quantum error correction, and how do they impact practical quantum computing?"
+      ]
+    },
+    "https://quantumcomputing.stackexchange.com/questions/35809/recent-hardware-advances-towards-fault-tolerant-quantum-computing-and-quantum-er": {
+      "url": "https://quantumcomputing.stackexchange.com/questions/35809/recent-hardware-advances-towards-fault-tolerant-quantum-computing-and-quantum-er",
+      "title": "Recent hardware advances towards fault-tolerant quantum ...",
+      "content": "I am interested in understanding recent developments by various hardware companies and their approaches towards quantum error correction.",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:20.285377",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the latest advancements in fault-tolerance thresholds for quantum error correction, and how do they impact practical quantum computing?"
+      ]
+    },
+    "https://www.eurekalert.org/news-releases/1099924": {
+      "url": "https://www.eurekalert.org/news-releases/1099924",
+      "title": "Scalable and efficient quantum error correction for fault-tolerant ...",
+      "content": "Scientists develop a new class of highly efficient quantum error correction codes, targeting hundreds of thousands of logical qubits. **A new class of highly efficient and scalable quantum low-density parity-check error correction codes, capable of performance approaching the theoretical hashing bound, has been developed by scientists at Institute of Science Tokyo, Japan. These novel error-correction codes can handle quantum codes with hundreds of thousands of qubits, potentially enabling large-scale fault-tolerant quantum computing, with applications in diverse fields, including quantum chemistry and optimization problems.**. In a recent breakthrough, Associate Professor Kenta Kasai and Master\u2019s student Mr. Daiki Komoto from the Department of Information and Communications Engineering, School of Engineering at Institute of Science Tokyo (Science Tokyo), Japan, have successfully developed novel LDPC quantum error correction codes, capable of approaching the hashing bound, while maintaining high efficiency. Importantly, these error correction codes have a decoding complexity proportional to the number of qubits, making them highly efficient and scalable for large-scale quantum compu",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:20.288983",
+      "queries": [
+        "how do the scalability and implementation challenges of various quantum error correction methods affect their adoption in real-world quantum computing systems?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://research.ibm.com/topics/quantum-error-correction": {
+      "url": "https://research.ibm.com/topics/quantum-error-correction",
+      "title": "Quantum Error Correction - IBM Research",
+      "content": "# Quantum Error Correction. IBM Quantum has a clear roadmap to practical quantum advantage in the coming years. This goal requires scalable, error-corrected quantum systems. * ### Scaling for quantum advantage and beyond. * ### Relay-BP: The world\u2019s fastest, most accurate decoder for qLDPC error correction codes. * ### How IBM will build the world's first large-scale, fault-tolerant quantum computer. Ryan Mandelbaum, Jay Gambetta, Jerry Chow, Tushar Mittal, Theodore J. * ### What is fault-tolerant quantum computing? Robert Davis, Olivia Lanes, and John Watrous. Egger, Maika Takita, and Robert Davis. * ### IBM Quantum delivers on performance challenge made two years ago. Jay Gambetta and Ryan Mandelbaum. * See more of our work on Quantum Error Correction. * ### Feedforward suppression of readout-induced faults in quantum error correction. * ### Dynamical simulations of many-body quantum chaos on a quantum computer. * ### Applications of quantum error correction. * ### Modeling error correction with Lindblad dynamics and approximate channels.",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:20.289008",
+      "queries": [
+        "how do the scalability and implementation challenges of various quantum error correction methods affect their adoption in real-world quantum computing systems?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "http://www.ijarset.com/upload/2024/november/01-janakiram-05.pdf": {
+      "url": "http://www.ijarset.com/upload/2024/november/01-janakiram-05.pdf",
+      "title": "[PDF] Quantum Error Correction: A Review of Methods, Challenges, and ...",
+      "content": "ISSN: 2350-0328 International Journal of AdvancedResearch in Science, Engineering and Technology Vol. 11, Issue 11, November 2024 Copyright to IJARSET www.ijarset.com 22462 Quantum Error Correction: A Review of Methods, Challenges, and Advances Janakiram Saripalli P.G. Graduate, Department of Information Technology Management, Indiana Wesleyan University Marion, IN USA = ABSTRACT: Quantum error correction (QEC) addresses the challenge of maintaining stable quantum information in the face of decoherence and other quantum errors. QUANTUM ERROR CORRECTION CODES Quantum Error Correction (QEC) codes provide ways to encode qubit information into a larger, multi-qubit state, enabling quantum systems to detect and correct errors. V. CHALLENGES IN QUNATUM ERROR CORRECTION Quantum Error Correction faces several technical and practical challenges: \u2022 Qubit Fidelity and Coherence Time: For QEC to be effective, qubits must have high fidelity (accuracy) and sufficient coherence time (duration they remain in a superposition state) to prevent errors from spreading.",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:19:20.289019",
+      "queries": [
+        "how do the scalability and implementation challenges of various quantum error correction methods affect their adoption in real-world quantum computing systems?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://quantumzeitgeist.com/quantum-error-correction-achieves-99-9-fidelity-using-surface-codes/": {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-achieves-99-9-fidelity-using-surface-codes/",
+      "title": "Quantum Error Correction Achieves 99.9% Fidelity Using Surface ...",
+      "content": "# Quantum Error Correction Achieves 99.9% Fidelity Using Surface Codes. January 27, 2026 by Rohail\u00a0T. Researchers at Google Quantum AI have achieved a significant milestone in quantum error correction by demonstrating surface codes on superconducting quantum processors. Fault-tolerant quantum computing requires robust mechanisms to detect and correct errors arising from decoherence and operational noise. The experimental results showed logical error rates as low as 10\u207b\u2074 per correction cycle, significantly below the commonly accepted fault-tolerance threshold of 10\u207b\u00b3. This work provides compelling evidence that scalable quantum error correction is achievable on superconducting platforms. By operating below the critical error threshold, the demonstrated approach offers a clear pathway toward practical fault-tolerant quantum computation. Future efforts will focus on scaling to larger surface codes and integrating error-corrected logical qubits with quantum algorithms, bringing fully functional quantum computers closer to reality. \ud83d\uddde *Quantum Error Correction with Surface Codes on Superconducting Processors*. Error-Correction Quantum-computing Superconducting-qubits Surface-codes. #### ",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:38.922563",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the key principles and techniques used in surface code quantum error correction, and how do they achieve fault tolerance?"
+      ]
+    },
+    "https://www.nature.com/articles/s41586-024-08449-y": {
+      "url": "https://www.nature.com/articles/s41586-024-08449-y",
+      "title": "Quantum error correction below the surface code threshold - Nature",
+      "content": "Quantum error correction[1](https://www.nature.com/articles/s41586-024-08449-y#ref-CR1 \"Shor, P. Stabilizer Codes and Quantum Error Correction (California Institute of Technology, 1997).\"),[3](https://www.nature.com/articles/s41586-024-08449-y#ref-CR3 \"Dennis, E., Kitaev, A. ### [Suppressing quantum errors by scaling a surface code logical qubit](https://www.nature.com/articles/s41586-022-05434-1?fromPaywallRec=false). for error-corrected surface code logical qubits[3](https://www.nature.com/articles/s41586-024-08449-y#ref-CR3 \"Dennis, E., Kitaev, A. We operate a distance-7 surface code memory comprising 49 data qubits, 48 measure qubits and 4 additional leakage removal qubits[17](https://www.nature.com/articles/s41586-024-08449-y#ref-CR17 \"Google Quantum AI. From the surface code data, we can characterize the physical error rate of the processor using the bulk error detection probability[33](https://www.nature.com/articles/s41586-024-08449-y#ref-CR33 \"Hesner, I., Het\u00e9nyi, B. [2b](https://www.nature.com/articles/s41586-024-08449-y#Fig2), we plot the logical error per cycle versus detection probability for the distance-3, distance-5 and distance-7 codes. [1d](https://www.nature.com/",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:38.922596",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the key principles and techniques used in surface code quantum error correction, and how do they achieve fault tolerance?"
+      ]
+    },
+    "https://postquantum.com/quantum-computing/surface-code-qec/": {
+      "url": "https://postquantum.com/quantum-computing/surface-code-qec/",
+      "title": "Surface Code Quantum Error Correction",
+      "content": "The principle of QEC is to encode a single logical qubit into multiple physical qubits such that errors can be detected and fixed without measuring the actual",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:19:38.922606",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the key principles and techniques used in surface code quantum error correction, and how do they achieve fault tolerance?"
+      ]
+    },
+    "https://quantum.microsoft.com/en-us/insights/education/concepts/quantum-error-correction": {
+      "url": "https://quantum.microsoft.com/en-us/insights/education/concepts/quantum-error-correction",
+      "title": "Quantum error correction - Microsoft Quantum",
+      "content": "Shor code: This was the first quantum error correction code, developed by Peter Shor. \u00b7 Steane code: This is a seven-qubit code that can correct both bit flip",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:57.257460",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the most prominent quantum error correction codes currently being developed, and what are their specific overhead requirements in terms of qubit usage and gate operations?"
+      ]
+    },
+    "https://thequantuminsider.com/2025/11/19/quantum-report-says-error-correction-now-the-industrys-defining-challenge/": {
+      "url": "https://thequantuminsider.com/2025/11/19/quantum-report-says-error-correction-now-the-industrys-defining-challenge/",
+      "title": "Quantum Report Says Error Correction Now The Industry's Defining ...",
+      "content": "Surface codes remain the most mature option, but a wave of new interest has emerged around quantum LDPC codes, bosonic codes and hybrid designs",
+      "score": 0.8,
+      "last_seen": "2026-02-05T20:19:57.257500",
+      "queries": [
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "what are the most prominent quantum error correction codes currently being developed, and what are their specific overhead requirements in terms of qubit usage and gate operations?"
+      ]
+    },
+    "https://www.preprints.org/manuscript/202509.2149/v1/download": {
+      "url": "https://www.preprints.org/manuscript/202509.2149/v1/download",
+      "title": "[PDF] Quantum Error Correction and Fault- Tolerant Computing",
+      "content": "Keywords: quantum error correction; fault-tolerant quantum computing; surface codes; quantum decoders;. logical qubits; noise threshold; quantum information theory; entropy; stabilizer codes; topological codes. # Quantum Error Correction and Fault -Tolerant. Keywords: quantum error correction; fault -tolerant quantum computing; surface codes; quantum. decoders; logical qubits; noise threshold; quantum information theory; entropy; stabilizer codes;. Fault -tolerant quantum computing requires not only error correction but also fault -tolerant. 5.  Steane, A.M. Error correcting codes in quantum theory. Stabilizer codes and quantum error correction. Realizing repeated quantum error correction in a distance -three surface code. Optimally adaptive quantum error correction of surface codes. Fault -tolerant quantum computation with constant error rate. Landahl, A.J.; Anderson, J.T.; Rice, P.R. Fault -tolerant quantum computing with color codes. Suppressing quantum errors by scaling a surface code logical qubit. Quantum error correction below the surface code threshold. Quantum error correction with the color code. Neural belief -propagation decoders for quantum error -correcting codes. bas",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:59.098522",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes, color codes, and concatenated codes, compare in terms of their fault-tolerance thresholds and practical implementation challenges?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://www.preprints.org/manuscript/202509.2149": {
+      "url": "https://www.preprints.org/manuscript/202509.2149",
+      "title": "Quantum Error Correction and Fault-Tolerant Computing",
+      "content": "Surface codes and color codes occupy distinct regions reflecting their trade-offs between resource overhead and fault-tolerance, while quantum",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:59.098563",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes, color codes, and concatenated codes, compare in terms of their fault-tolerance thresholds and practical implementation challenges?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://physics.stackexchange.com/questions/169176/quantum-error-correction-surface-code-vs-color-code": {
+      "url": "https://physics.stackexchange.com/questions/169176/quantum-error-correction-surface-code-vs-color-code",
+      "title": "Quantum Error Correction: Surface code vs. color code",
+      "content": "# Quantum Error Correction: Surface code vs. The first was Rainer Blatt's group, who used trapped ions to perform a *topologically encoded* qubit using \"color code\": Quantum computations on a topologically encoded qubit (arxiv). The other one was John Martinis' group, who used superconducting qubits and performed a simplified version of a \"surface code\": State preservation by repetitive error detection in a superconducting quantum circuit (arxiv). The Martinis group has shown recently that they are above the threshold for surface-code QEC arxiv. Are there other groups who have the same level of control over their systems to perform multi-qubits quantum error-correction codes? * $\\begingroup$ I'm no experimentalist, but this paper here: arxiv.org/pdf/1108.5738v1.pdf suggests that the color codes might sometimes have better thresholds, but maybe they are just similar. The color code and surface code are very similar. The Rainer Blatt group demonstrated the smallest possible color-code which also uses 7 qubits (this instance is also referred to as the Steane code).",
+      "score": 1.0,
+      "last_seen": "2026-02-05T20:19:59.098582",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes, color codes, and concatenated codes, compare in terms of their fault-tolerance thresholds and practical implementation challenges?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
+    },
+    "https://thequantuminsider.com/2024/12/22/researchers-take-a-colorful-approach-to-error-correction-to-bring-fault-tolerant-quantum-computing-a-step-closer/": {
+      "url": "https://thequantuminsider.com/2024/12/22/researchers-take-a-colorful-approach-to-error-correction-to-bring-fault-tolerant-quantum-computing-a-step-closer/",
+      "title": "Researchers Take a 'Colorful' Approach to Error Correction to Bring ...",
+      "content": "If hardware improvements continue, the color code could rival the surface code, paving the way for more scalable, cost-effective quantum",
+      "score": 0.7,
+      "last_seen": "2026-02-05T20:19:59.098598",
+      "queries": [
+        "how do different quantum error correction approaches, such as surface codes, color codes, and concatenated codes, compare in terms of their fault-tolerance thresholds and practical implementation challenges?",
+        "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?"
+      ]
     }
   },
   "queries": {
@@ -727,6 +1320,164 @@
     ],
     "how do different architectural innovations (e.g., sparse attention, model distillation) contribute to the scalability of large language models?": [
       "https://www.mdpi.com/2673-4591/97/1/8"
+    ],
+    "what are the fundamental principles and mechanisms behind the most popular quantum error correction codes currently in use?": [
+      "https://en.wikipedia.org/wiki/Quantum_error_correction",
+      "https://www.preskill.caltech.edu/ph229/notes/chap7.pdf"
+    ],
+    "what are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?": [
+      "http://www.ijarset.com/upload/2024/november/01-janakiram-05.pdf",
+      "https://arxiv.org/abs/1312.2316",
+      "https://arxiv.org/abs/2506.17190",
+      "https://arxiv.org/html/2508.06011v2",
+      "https://en.wikipedia.org/wiki/Quantum_error_correction",
+      "https://insights.pluto.im/advancements-in-quantum-error-correction-and-control-towards-fault-tolerant-quantum-computing-2020-2024/",
+      "https://medium.com/@joshua.jj.jaxson/quantum-computing-leaps-forward-breakthroughs-in-error-correction-pave-the-way-for-practical-5971fa7aea1c",
+      "https://phys.org/news/2025-09-quantum-error-codes-enable-efficient.html",
+      "https://phys.org/news/2026-01-error-technology-quantum-real-world.html",
+      "https://phys.org/news/2026-01-fault-tolerant-quantum-protocol-efficiently.html",
+      "https://phys.org/news/2026-02-surgery-quantum-bits-bit-flip.html",
+      "https://physics.stackexchange.com/questions/169176/quantum-error-correction-surface-code-vs-color-code",
+      "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "https://postquantum.com/quantum-computing/surface-code-qec/",
+      "https://prism.sustainability-directory.com/learn/how-do-different-quantum-error-correction-codes-e-g-surface-codes-vs-ldpc-codes-compare-in-terms-of-their-energy-consumption-per-logical-qubit/",
+      "https://quantum-journal.org/papers/q-2025-02-06-1623/",
+      "https://quantum.microsoft.com/en-us/insights/education/concepts/quantum-error-correction",
+      "https://quantumcomputing.stackexchange.com/questions/35809/recent-hardware-advances-towards-fault-tolerant-quantum-computing-and-quantum-er",
+      "https://quantumzeitgeist.com/quantum-error-correction-achieves-99-9-fidelity-using-surface-codes/",
+      "https://quantumzeitgeist.com/quantum-error-correction-speed-gets-boost-future-computers/",
+      "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "https://quantumzeitgeist.com/quantum-error-correction-takes-leap-forward-code-designs/",
+      "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/",
+      "https://research.ibm.com/topics/quantum-error-correction",
+      "https://sciety.org/articles/activity/10.20944/preprints202509.2149.v2",
+      "https://thequantuminsider.com/2024/12/22/researchers-take-a-colorful-approach-to-error-correction-to-bring-fault-tolerant-quantum-computing-a-step-closer/",
+      "https://thequantuminsider.com/2025/11/19/quantum-report-says-error-correction-now-the-industrys-defining-challenge/",
+      "https://www.cqt.sg/highlight/2026-01-contextuality-quantum-error-correction/",
+      "https://www.eurekalert.org/news-releases/1099924",
+      "https://www.itsoc.org/jsait/jsait-issue/quantum-error-correction-and-fault-tolerance",
+      "https://www.nature.com/articles/s41586-024-08449-y",
+      "https://www.preprints.org/manuscript/202509.2149",
+      "https://www.preprints.org/manuscript/202509.2149/v1",
+      "https://www.preprints.org/manuscript/202509.2149/v1/download",
+      "https://www.preskill.caltech.edu/ph229/notes/chap7.pdf",
+      "https://www.researchgate.net/publication/259212249_Comparing_the_Overhead_of_Topological_and_Concatenated_Quantum_Error_Correction",
+      "https://www.researchgate.net/publication/378165705_Benchmarking_and_Analysis_of_Quantum_Error_Correction_Codes",
+      "https://www.researchgate.net/publication/386088521_Quantum_Error_Correction_Foundations_Latest_Innovations_and_Interdisciplinary_Applications_Driving_the_Future_of_Fault-Tolerant_Quantum_Technologies",
+      "https://www.researchgate.net/publication/396003470_Advances_in_Quantum_Error_Correction_From_Theory_to_Experimental_Realization",
+      "https://www.spinquanta.com/news-detail/fault-tolerant-quantum-computing-explained-simply",
+      "https://www.techmonitor.ai/quantum/quantum-error-correction-breakthroughs/",
+      "https://www.youtube.com/watch?v=YPFpll1NFQc"
+    ],
+    "what are the practical implementations and experimental results of leading quantum error correction approaches in real-world quantum computing platforms?": [
+      "https://phys.org/news/2026-01-error-technology-quantum-real-world.html",
+      "https://www.researchgate.net/publication/396003470_Advances_in_Quantum_Error_Correction_From_Theory_to_Experimental_Realization",
+      "https://www.techmonitor.ai/quantum/quantum-error-correction-breakthroughs/",
+      "https://www.youtube.com/watch?v=YPFpll1NFQc"
+    ],
+    "what are the fault-tolerance thresholds for various quantum error correction codes, and how do they impact the scalability of quantum computing systems?": [
+      "https://phys.org/news/2025-09-quantum-error-codes-enable-efficient.html",
+      "https://www.itsoc.org/jsait/jsait-issue/quantum-error-correction-and-fault-tolerance",
+      "https://www.spinquanta.com/news-detail/fault-tolerant-quantum-computing-explained-simply"
+    ],
+    "how do different quantum error correction codes compare in terms of resource overhead, such as qubit count and operational complexity?": [
+      "https://arxiv.org/abs/2506.17190",
+      "https://en.wikipedia.org/wiki/Quantum_error_correction",
+      "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "https://prism.sustainability-directory.com/learn/how-do-different-quantum-error-correction-codes-e-g-surface-codes-vs-ldpc-codes-compare-in-terms-of-their-energy-consumption-per-logical-qubit/",
+      "https://www.researchgate.net/publication/378165705_Benchmarking_and_Analysis_of_Quantum_Error_Correction_Codes"
+    ],
+    "how has crispr-cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?": [
+      "https://criticaldebateshsgj.scholasticahq.com/article/144179-ethical-and-scientific-concerns-relating-to-crispr-cas-gene-therapy",
+      "https://journals.sagepub.com/doi/10.1089/crispr.2021.0148",
+      "https://link.springer.com/article/10.1007/s10730-024-09538-1",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486967/",
+      "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.01387/full",
+      "https://www.jneonatalsurg.com/index.php/jns/article/view/6384",
+      "https://www.jneonatalsurg.com/index.php/jns/article/view/9147",
+      "https://www.researchgate.net/post/What_are_the_key_ethical_concerns_surrounding_CRISPR-Cas9_in_human_genome_editing_and_how_can_they_be_addressed_through_policy",
+      "https://www.researchgate.net/publication/393775562_CRISPR-Cas9_in_2025_Editing_Life_Ethics_and_the_Future_of_Medicine_Overview",
+      "https://www.sciencedirect.com/science/article/pii/S216225312500188X",
+      "https://www.sciencedirect.com/science/article/pii/S2211383525003132"
+    ],
+    "what are the major scientific advancements and improvements in crispr-cas9 technology since 2020?": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11486967/",
+      "https://www.jneonatalsurg.com/index.php/jns/article/view/6384",
+      "https://www.sciencedirect.com/science/article/pii/S2211383525003132"
+    ],
+    "what are the primary ethical concerns raised by the use of crispr-cas9 in human gene editing, and how have these debates evolved since 2020?": [
+      "https://criticaldebateshsgj.scholasticahq.com/article/144179-ethical-and-scientific-concerns-relating-to-crispr-cas-gene-therapy",
+      "https://link.springer.com/article/10.1007/s10730-024-09538-1",
+      "https://www.researchgate.net/post/What_are_the_key_ethical_concerns_surrounding_CRISPR-Cas9_in_human_genome_editing_and_how_can_they_be_addressed_through_policy"
+    ],
+    "how has the public perception of crispr-cas9 technology changed since 2020, particularly in relation to its clinical applications?": [
+      "https://www.researchgate.net/publication/393775562_CRISPR-Cas9_in_2025_Editing_Life_Ethics_and_the_Future_of_Medicine_Overview"
+    ],
+    "what are the key challenges and limitations faced by researchers in the clinical application of crispr-cas9 technology since 2020?": [
+      "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.01387/full",
+      "https://www.sciencedirect.com/science/article/pii/S216225312500188X"
+    ],
+    "how have global regulatory frameworks adapted to the advancements in crispr-cas9 technology for clinical applications?": [
+      "https://journals.sagepub.com/doi/10.1089/crispr.2021.0148",
+      "https://www.jneonatalsurg.com/index.php/jns/article/view/9147"
+    ],
+    "what are the most prominent quantum error correction codes currently in use, and how do they function?": [
+      "https://phys.org/news/2026-02-surgery-quantum-bits-bit-flip.html",
+      "https://quantumzeitgeist.com/quantum-error-correction-takes-leap-forward-code-designs/",
+      "https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/",
+      "https://www.cqt.sg/highlight/2026-01-contextuality-quantum-error-correction/"
+    ],
+    "what are the practical implications of quantum error correction approaches on real-world quantum computing applications and their scalability?": [
+      "https://medium.com/@joshua.jj.jaxson/quantum-computing-leaps-forward-breakthroughs-in-error-correction-pave-the-way-for-practical-5971fa7aea1c"
+    ],
+    "what are the latest advancements in fault-tolerance thresholds for various quantum error correction techniques, and how have these thresholds evolved?": [
+      "https://arxiv.org/html/2508.06011v2",
+      "https://insights.pluto.im/advancements-in-quantum-error-correction-and-control-towards-fault-tolerant-quantum-computing-2020-2024/",
+      "https://sciety.org/articles/activity/10.20944/preprints202509.2149.v2",
+      "https://www.preprints.org/manuscript/202509.2149/v1",
+      "https://www.researchgate.net/publication/386088521_Quantum_Error_Correction_Foundations_Latest_Innovations_and_Interdisciplinary_Applications_Driving_the_Future_of_Fault-Tolerant_Quantum_Technologies"
+    ],
+    "how do different quantum error correction methods compare in terms of resource overhead, including qubit count and gate complexity?": [
+      "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "https://quantum-journal.org/papers/q-2025-02-06-1623/",
+      "https://quantumzeitgeist.com/quantum-error-correction-speed-gets-boost-future-computers/"
+    ],
+    "how do different quantum error correction approaches, such as surface codes and concatenated codes, compare in terms of overhead requirements?": [
+      "https://arxiv.org/abs/1312.2316",
+      "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "https://prism.sustainability-directory.com/learn/how-do-different-quantum-error-correction-codes-e-g-surface-codes-vs-ldpc-codes-compare-in-terms-of-their-energy-consumption-per-logical-qubit/",
+      "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "https://www.researchgate.net/publication/259212249_Comparing_the_Overhead_of_Topological_and_Concatenated_Quantum_Error_Correction"
+    ],
+    "what are the latest advancements in fault-tolerance thresholds for quantum error correction, and how do they impact practical quantum computing?": [
+      "https://insights.pluto.im/advancements-in-quantum-error-correction-and-control-towards-fault-tolerant-quantum-computing-2020-2024/",
+      "https://phys.org/news/2026-01-fault-tolerant-quantum-protocol-efficiently.html",
+      "https://quantumcomputing.stackexchange.com/questions/35809/recent-hardware-advances-towards-fault-tolerant-quantum-computing-and-quantum-er",
+      "https://www.researchgate.net/publication/386088521_Quantum_Error_Correction_Foundations_Latest_Innovations_and_Interdisciplinary_Applications_Driving_the_Future_of_Fault-Tolerant_Quantum_Technologies"
+    ],
+    "how do the scalability and implementation challenges of various quantum error correction methods affect their adoption in real-world quantum computing systems?": [
+      "http://www.ijarset.com/upload/2024/november/01-janakiram-05.pdf",
+      "https://research.ibm.com/topics/quantum-error-correction",
+      "https://www.eurekalert.org/news-releases/1099924"
+    ],
+    "what are the key principles and techniques used in surface code quantum error correction, and how do they achieve fault tolerance?": [
+      "https://phys.org/news/2026-02-surgery-quantum-bits-bit-flip.html",
+      "https://postquantum.com/quantum-computing/surface-code-qec/",
+      "https://quantumzeitgeist.com/quantum-error-correction-achieves-99-9-fidelity-using-surface-codes/",
+      "https://www.nature.com/articles/s41586-024-08449-y"
+    ],
+    "what are the most prominent quantum error correction codes currently being developed, and what are their specific overhead requirements in terms of qubit usage and gate operations?": [
+      "https://postquantum.com/quantum-computing/quantum-error-correction/",
+      "https://quantum.microsoft.com/en-us/insights/education/concepts/quantum-error-correction",
+      "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "https://thequantuminsider.com/2025/11/19/quantum-report-says-error-correction-now-the-industrys-defining-challenge/"
+    ],
+    "how do different quantum error correction approaches, such as surface codes, color codes, and concatenated codes, compare in terms of their fault-tolerance thresholds and practical implementation challenges?": [
+      "https://physics.stackexchange.com/questions/169176/quantum-error-correction-surface-code-vs-color-code",
+      "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "https://thequantuminsider.com/2024/12/22/researchers-take-a-colorful-approach-to-error-correction-to-bring-fault-tolerant-quantum-computing-a-step-closer/",
+      "https://www.preprints.org/manuscript/202509.2149",
+      "https://www.preprints.org/manuscript/202509.2149/v1/download"
     ]
   }
 }

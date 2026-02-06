@@ -1,0 +1,63 @@
+{
+  "results": [
+    {
+      "question_id": "rq_001",
+      "query": "What are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+      "system": "lightningresearch",
+      "time_budget_s": 60,
+      "elapsed_time": 28.59603214263916,
+      "node_count": 5,
+      "findings_count": 25,
+      "report_length": 3520,
+      "scores": {
+        "quality": 85.0,
+        "relevance": 90.0,
+        "faithfulness": 80.0,
+        "overall": 85.0,
+        "explanation": "The report is well-organized with clear sections and logical flow, though it could benefit from more detailed citations. It directly addresses the query by comparing leading quantum error correction approaches in terms of overhead and fault-tolerance thresholds. However, some claims, particularly about new methods approaching theoretical limits, lack direct support from the provided context, indicating minor faithfulness issues."
+      },
+      "report": "## Executive Summary\nCurrent leading approaches to quantum error correction (QEC) include surface codes, Bacon-Shor codes, and new methods approaching the theoretical limits of error correction. These methods vary significantly in terms of overhead and fault-tolerance thresholds, with surface codes being particularly promising for scalable quantum computing due to their relatively low overhead and high fault-tolerance thresholds.\n\n## Key Findings\n- **Surface Codes**: These codes are pivotal for scalable quantum error correction, enabling below-threshold logical qubits with improved fidelity in superconducting systems, making them a leading choice for future quantum computers [Quantum error correction](https://en.wikipedia.org/wiki/Quantum_error_correction).\n- **Bacon-Shor Codes**: These codes are effective for implementation with spin qubits in silicon, providing a balance between overhead and error correction capabilities [Comparison of spin-qubit architectures for quantum error](https://arxiv.org/abs/2506.17190).\n- **New Methods**: Recent advancements have led to new QEC methods that approach the theoretical limits of error correction, significantly improving fault tolerance and reducing overhead [Error-correction technology to turn quantum computing into real-world power](https://phys.org/news/2026-01-error-technology-quantum-real-world.html).\n- **Overhead and Fault-Tolerance**: Small block codes (like 5-qubit and 7-qubit codes) offer modest overhead but have low fault-tolerance thresholds, while more complex codes like surface codes provide higher thresholds with increased resource requirements [Quantum Errors and Quantum Error Correction (QEC)](https://postquantum.com/quantum-computing/quantum-error-correction/).\n- **Scalability**: Novel error correction codes are being developed that can handle hundreds of thousands of qubits, which is essential for achieving large-scale fault-tolerant quantum computing [Quantum error correction codes enable efficient scaling to hundreds](https://phys.org/news/2025-09-quantum-error-codes-enable-efficient.html).\n\n## Analysis\nThe landscape of quantum error correction is rapidly evolving, with surface codes emerging as a frontrunner due to their scalability and robustness against errors. However, the Bacon-Shor code also shows promise, particularly in specific architectures like silicon spin qubits. The introduction of new methods that approach the hashing bound indicates a significant leap in the field, potentially overcoming previous limitations in fault tolerance. While small block codes are easier to implement, their low fault-tolerance thresholds make them less viable for practical applications compared to more sophisticated codes. The ongoing research highlights a tension between achieving low overhead and high fault tolerance, a critical factor for the practical deployment of quantum computers.\n\n## Conclusion\nThe current approaches to quantum error correction demonstrate a diverse range of strategies, each with its own strengths and weaknesses in terms of overhead and fault-tolerance thresholds. Surface codes and emerging methods show the most promise for future scalability and practical application. However, there remain gaps in understanding how these codes will perform in real-world scenarios, particularly as quantum systems scale up. Continued research is essential to refine these techniques and address the challenges of implementing robust quantum error correction in practical quantum computing environments."
+    },
+    {
+      "question_id": "rq_002",
+      "query": "How has CRISPR-Cas9 technology evolved since 2020, and what are the key regulatory and ethical debates surrounding its clinical applications?",
+      "system": "lightningresearch",
+      "time_budget_s": 60,
+      "elapsed_time": 28.678921937942505,
+      "node_count": 5,
+      "findings_count": 25,
+      "report_length": 4563,
+      "scores": {
+        "quality": 85.0,
+        "relevance": 90.0,
+        "faithfulness": 95.0,
+        "overall": 90.0,
+        "explanation": "The report is well-organized with clear sections and logical flow, though it could benefit from more detailed citations and slightly improved formatting. It directly and comprehensively addresses the query, covering both technological advancements and ethical/regulatory debates. The information is largely supported by the provided context, with no significant hallucinations detected."
+      },
+      "report": "## Executive Summary\nSince 2020, CRISPR-Cas9 technology has seen significant advancements in precision and therapeutic applications, alongside growing regulatory and ethical debates regarding its use in clinical settings. Key concerns include the implications of germline editing, potential off-target effects, and equitable access to these technologies.\n\n## Key Findings\n- **Technological Advancements**: Innovations such as base editing and prime editing have enhanced the precision and versatility of CRISPR-Cas9, reducing off-target effects and improving therapeutic outcomes ([Recent Advancements in CRISPR-Cas9 Technology for Precision](https://www.jneonatalsurg.com/index.php/jns/article/view/6384)).\n- **Clinical Applications**: CRISPR-Cas9 has been increasingly utilized in clinical trials for various diseases, including genetic disorders and cancers, demonstrating its potential as a transformative therapeutic tool ([CRISPR Gene Therapy: Applications, Limitations, and Implications](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2020.01387/full)).\n- **Regulatory Landscape**: Regulatory frameworks are evolving to address the complexities of CRISPR applications, with ongoing discussions about safety, efficacy, and ethical governance in clinical trials ([Regulatory Considerations for Clinical Trial Applications](https://journals.sagepub.com/doi/10.1089/crispr.2021.0148)).\n- **Ethical Concerns**: The editing of human embryos and germline modifications raise significant ethical debates, focusing on the potential for unintended consequences and the moral implications of heritable changes ([The Ethics of Human Embryo Editing via CRISPR-Cas9 Technology](https://link.springer.com/article/10.1007/s10730-024-09538-1)).\n- **Public Perception and Access**: There is growing concern about equitable access to CRISPR technologies, as disparities in availability may exacerbate existing health inequalities ([What are the key ethical concerns surrounding CRISPR-Cas9 in human genome editing and how can they be addressed through policy](https://www.researchgate.net/post/What_are_the_key_ethical_concerns_surrounding_CRISPR-Cas9_in_human_genome_editing_and_how_can_they_be_addressed_through_policy)).\n\n## Analysis\nThe evolution of CRISPR-Cas9 technology since 2020 has been marked by significant advancements that enhance its precision and therapeutic potential. Innovations like base and prime editing have addressed some of the limitations of earlier CRISPR applications, particularly concerning off-target effects, which have been a major concern in clinical settings ([Recent applications, future perspectives, and limitations of the CRISPR-Cas system](https://www.sciencedirect.com/science/article/pii/S216225312500188X)). However, despite these advancements, ethical debates surrounding germline editing remain contentious, with arguments both for and against its use in human embryos ([Beyond safety: mapping the ethical debate on heritable genome](https://www.nature.com/articles/s41599-022-01147-y)). \n\nRegulatory frameworks are adapting to these challenges, but there is still uncertainty regarding how best to govern the clinical applications of CRISPR technology. The potential for unintended consequences and the moral implications of editing human embryos necessitate careful consideration and public discourse ([The Ethics of Human Embryo Editing via CRISPR-Cas9 Technology](https://link.springer.com/article/10.1007/s10730-024-09538-1)). Additionally, the issue of equitable access to CRISPR technologies raises concerns about health disparities, as those with fewer resources may be left behind in the benefits of these advancements ([What are the key ethical concerns surrounding CRISPR-Cas9 in human genome editing and how can they be addressed through policy](https://www.researchgate.net/post/What_are_the_key_ethical_concerns_surrounding_CRISPR-Cas9_in_human_genome_editing_and_how_can_they_be_addressed_through_policy)).\n\n## Conclusion\nThe advancements in CRISPR-Cas9 technology since 2020 highlight its potential to revolutionize gene therapy and precision medicine. However, the accompanying regulatory and ethical debates underscore the complexities of its clinical applications. There are significant gaps in public understanding and regulatory frameworks that need to be addressed to ensure safe and equitable use of CRISPR technologies. Ongoing dialogue among scientists, ethicists, and policymakers will be crucial in navigating these challenges and maximizing the benefits of CRISPR-Cas9 for society."
+    }
+  ],
+  "summaries": [
+    {
+      "system": "lightningresearch",
+      "time_budget_s": 60,
+      "num_questions": 2,
+      "avg_quality": 85.0,
+      "avg_relevance": 90.0,
+      "avg_faithfulness": 87.5,
+      "avg_overall": 87.5,
+      "avg_node_count": 5,
+      "avg_elapsed_time": 28.637477040290833,
+      "std_overall": 3.5355339059327378
+    }
+  ],
+  "config": {
+    "time_budgets": [
+      60
+    ],
+    "use_paper_models": false,
+    "judge_model": "gpt-4o",
+    "num_questions": 2
+  },
+  "formatted_table": "# Table 1: Performance on DeepResearchGym\n\n| System | Time Budget | Quality | Relevance | Faithfulness | Overall | Nodes |\n|--------|-------------|---------|-----------|--------------|---------|-------|\n| lightningresearch | 1min        | 85.0 | 90.0 | 87.5 | 87.5\u00b13.5 | 5.0 |\n\n_Based on 2 questions._"
+}

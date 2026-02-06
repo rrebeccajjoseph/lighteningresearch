@@ -1,0 +1,32 @@
+{
+  "query": "What are the primary ethical concerns raised by the use of CRISPR-Cas9 in human gene editing, and how have these debates evolved since 2020?",
+  "query_hash": "013329975bd8a5c1",
+  "timestamp": "2026-02-05T20:18:21.016934",
+  "results": [
+    {
+      "url": "https://criticaldebateshsgj.scholasticahq.com/article/144179-ethical-and-scientific-concerns-relating-to-crispr-cas-gene-therapy",
+      "title": "Ethical and Scientific Concerns Relating to CRISPR/Cas Gene ...",
+      "content": "CRISPR is a genome editing tool that uses the Cas protein to edit genes. CRISPR/Cas9 is a targeted genome editing technology that uses the Cas protein from certain species of bacteria and archaea. Due to the possibility of off-target effects with no way to definitively prevent them, CRISPR\u2019s use in human clinical research has been heavily set back making it nearly impossible to continue progress until this issue has been addressed. CRISPR works by targeting certain sequences of DNA and manually editing them to cure certain diseases, but off-target effects happen when other sequences are unintentionally changed causing major complications (Guo et al., 2023). Fortunately, through continued research, these problems are being solved through new developments like *in silico* tools which can find off-target effects and improved viral delivery services that prevent continued gene editing. Off-target effects in CRISPR/Cas9 gene editing. Latest Developed Strategies to Minimize the Off-Target Effects in CRISPR-Cas-Mediated Genome Editing."
+    },
+    {
+      "url": "https://www.researchgate.net/post/What_are_the_key_ethical_concerns_surrounding_CRISPR-Cas9_in_human_genome_editing_and_how_can_they_be_addressed_through_policy",
+      "title": "What are the key ethical concerns surrounding CRISPR-Cas9 in ...",
+      "content": "As CRISPR-Cas9 moves closer to clinical use, concerns like unintended effects, germline editing, and access inequality are growing."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10730-024-09538-1",
+      "title": "The Ethics of Human Embryo Editing via CRISPR-Cas9 Technology",
+      "content": "This systematic review included 223 publications to identify the ethical arguments, reasons, and concerns that have been offered for and against the editing of human embryos using CRISPR-Cas9 technology. This systematic review was to designed to analyze the biomedical and bioethics literature that addresses the use of CRISPR-Cas9 technology for human embryo editing to identify the ethical arguments and reasons that have been offered for and against heritable human genome editing as well as concerns raised. \u201cTowards a CRISPR View of Early Human Development: Applications, Limitations and Ethical Concerns of Genome Editing in Human Embryos.\u201d *Development* 144 (1): 3\u20137. \u201cThe Consent Form in the Chinese CRISPR Study: In Search of Ethical Gene Editing.\u201d *J Bioeth Inq* 17 (1): 5\u201310. \u201cThe DNA-Dialogue: A Broad Societal Dialogue about Human Germline Genome Editing in the Netherlands.\u201d *CRISPR J.* 4 (4): 616\u201325. \u201cGoverning Heritable Human Genome Editing: A Textual History and a Proposal for the Future.\u201d *CRISPR J.* 4 (4): 469\u201376."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41599-022-01147-y",
+      "title": "Beyond safety: mapping the ethical debate on heritable genome ...",
+      "content": "J Hum Genetics65(12):1055\u20131065\"); Scheufele et al., 2017 U.S. attitudes on human genome editing. By contrast, the 2018 Nuffield Council on Bioethics Report does not seem to limit the uses of genome editing to specific applications, though suggests that applications should be aligned with fundamental guiding ethical principles and need to have followed public debate (Savulescu et al., 2015 The moral imperative to continue gene editing research on human embryos. Nevertheless, others argue that genetic enhancement through HGE could be possible in the near future (de Araujo, 2017 Editing the genome of human beings: CRISPR-Cas9 and the ethics of genetic enhancement. More specifically, some authors consider HGE a positive step towards allowing humans the opportunity to obtain beneficial traits that otherwise would not be achievable through human reproduction, thus providing a more radical interference in human life to overcome human limitations (de Araujo, 2017 Editing the genome of human beings: CRISPR-Cas9 and the ethics of genetic enhancement."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7129066/",
+      "title": "Bioethical issues in genome editing by CRISPR-Cas9 technology",
+      "content": "Germline genome editing leads to serial bioethical issues, such as the occurrence of undesirable changes in the genome, from whom and how informed consent is"
+    }
+  ]
+}

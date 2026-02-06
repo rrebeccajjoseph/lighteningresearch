@@ -1,0 +1,176 @@
+{
+  "depth_ablation": {
+    "experiment": "depth",
+    "fixed_param_name": "breadth",
+    "fixed_param_value": 4,
+    "varied_param_name": "depth",
+    "varied_values": [
+      1,
+      2
+    ],
+    "results": [
+      {
+        "question_id": "rq_001",
+        "query": "What are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "experiment": "depth",
+        "fixed_param": 4,
+        "varied_param": 1,
+        "depth": 1,
+        "breadth": 4,
+        "node_count": 4,
+        "elapsed_time": 21.032113075256348,
+        "findings_count": 23,
+        "scores": {
+          "quality": 85.0,
+          "relevance": 90.0,
+          "faithfulness": 80.0,
+          "overall": 85.0,
+          "explanation": "The report is well-structured with clear sections and logical flow, though it could benefit from more detailed citations and professional formatting. It directly addresses the query by discussing leading quantum error correction approaches and comparing them in terms of overhead and fault-tolerance thresholds. However, some claims, particularly about the specific advantages of dynamic surface codes and recent innovations, lack direct support from the provided context, indicating minor faithfulness issues."
+        },
+        "report": "## Executive Summary\nCurrent leading approaches to quantum error correction (QEC) include surface codes, Bacon-Shor codes, and dynamic surface codes. These methods vary significantly in terms of overhead and fault-tolerance thresholds, with surface codes being particularly prominent due to their scalability and effectiveness in superconducting systems.\n\n## Key Findings\n- **Surface Codes**: Recognized as pivotal for scalable quantum error correction, surface codes enable below-threshold logical qubits with improved fidelity, especially in superconducting systems ([Quantum error correction](https://en.wikipedia.org/wiki/Quantum_error_correction)).\n- **Bacon-Shor Codes**: These codes are effective in mitigating errors in spin-qubit architectures, demonstrating competitive performance with surface codes ([Comparison of spin-qubit architectures for quantum error ...](https://arxiv.org/abs/2506.17190)).\n- **Dynamic Surface Codes**: Recent advancements have introduced dynamic surface codes, which enhance error correction capabilities beyond static implementations, potentially reducing overhead and improving fault tolerance ([Dynamic surface codes open new avenues for quantum error ...](https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/)).\n- **Thresholds and Overhead**: Smaller block codes (e.g., 5-qubit, 7-qubit codes) can correct single errors with modest overhead but have low fault-tolerance thresholds, while larger codes like surface codes require more resources but offer higher thresholds ([Quantum Errors and Quantum Error Correction (QEC) Methods](https://postquantum.com/quantum-computing/quantum-error-correction/)).\n- **Recent Innovations**: New methods, such as efficient soft-output decoding and early-stopping techniques, are being developed to enhance the performance of QEC, allowing for practical decoding with limited resources ([Quantum Error Correction Gets A Speed Boost For Future Computers](https://quantumzeitgeist.com/quantum-error-correction-speed-gets-boost-future-computers/)).\n\n## Analysis\nThe landscape of quantum error correction is rapidly evolving, with surface codes leading due to their robustness and scalability. However, the Bacon-Shor codes present a viable alternative, particularly in specific architectures like spin qubits. Dynamic surface codes represent a significant advancement, potentially addressing some limitations of static codes by adapting to error conditions in real-time. \n\nDespite these advancements, there remains a trade-off between overhead and fault tolerance. Smaller codes may be easier to implement but do not provide the same level of protection as larger codes, which require more resources. The introduction of techniques such as efficient soft-output decoding indicates a trend towards optimizing existing codes to reduce overhead while maintaining or improving fault tolerance.\n\n## Conclusion\nThe current state of quantum error correction reflects a diverse set of approaches, each with unique advantages and challenges. Surface codes remain the frontrunner for scalable applications, but innovations like dynamic surface codes and efficient decoding methods are promising avenues for future research. However, gaps remain in understanding the practical limits of these codes in real-world applications, particularly concerning resource requirements and error thresholds. Continued exploration in this field is essential to bridge these gaps and enhance the reliability of quantum computing technologies."
+      },
+      {
+        "question_id": "rq_001",
+        "query": "What are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "experiment": "depth",
+        "fixed_param": 4,
+        "varied_param": 2,
+        "depth": 2,
+        "breadth": 4,
+        "node_count": 4,
+        "elapsed_time": 21.972023010253906,
+        "findings_count": 23,
+        "scores": {
+          "quality": 85.0,
+          "relevance": 90.0,
+          "faithfulness": 80.0,
+          "overall": 85.0,
+          "explanation": "The report is well-structured with clear sections and logical flow, though it could benefit from more detailed citations. It directly addresses the query by comparing leading quantum error correction approaches, focusing on overhead and fault-tolerance. However, some claims, particularly about the comparative overhead of different codes, lack direct support from the provided context, leading to a slightly lower faithfulness score."
+        },
+        "report": "# Quantum Error Correction: Current Approaches and Comparisons\n\n## Executive Summary\nCurrent leading approaches to quantum error correction (QEC) include surface codes, Bacon-Shor codes, and low-density parity-check (LDPC) codes. While surface codes are recognized for their scalability and fault-tolerance, they exhibit higher overhead compared to other methods like concatenated codes, which may offer lower resource requirements under certain conditions.\n\n## Key Findings\n- **Surface Codes**: Widely regarded as the foundational model for scalable QEC, surface codes enable below-threshold logical qubits with improved fidelity, particularly in superconducting systems. However, they require significant overhead, which can be a limiting factor for large-scale implementations ([Wikipedia](https://en.wikipedia.org/wiki/Quantum_error_correction)).\n- **Bacon-Shor Codes**: These codes have been investigated for their performance with spin qubits, showing promise in specific architectures but still facing challenges in overhead compared to surface codes ([Comparison of spin-qubit architectures for quantum error ...](https://arxiv.org/abs/2506.17190)).\n- **Low-Density Parity-Check Codes**: A new class of LDPC codes has been developed that approaches the theoretical hashing bound, potentially allowing for efficient error correction with fewer resources, especially for large-scale systems ([Error-correction technology to turn quantum computing into real ...](https://phys.org/news/2026-01-error-technology-quantum-real-world.html)).\n- **Dynamic Surface Codes**: Recent advancements in dynamic surface codes have shown potential for improved performance over static counterparts, although their overhead remains a concern ([Dynamic surface codes open new avenues for quantum error ...](https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/)).\n- **Comparative Overhead**: Topological codes generally require fewer resources than concatenated codes when physical gate error rates are high, while concatenated codes may have smaller overhead in other scenarios ([1312.2316](https://arxiv.org/abs/1312.2316)).\n\n## Analysis\nThe landscape of quantum error correction is evolving, with surface codes leading the way due to their robustness and scalability. However, their high overhead poses challenges for practical implementations, particularly as the number of qubits increases. Bacon-Shor codes offer an alternative but have not yet demonstrated the same level of scalability. The emergence of LDPC codes presents a promising avenue for reducing overhead, potentially enabling the use of hundreds of thousands of logical qubits. Dynamic surface codes also introduce innovative approaches to error correction but require further exploration to assess their practical viability.\n\nConflicting information arises regarding the optimal choice of QEC methods based on specific use cases, such as the type of quantum hardware and the error rates involved. While some studies advocate for the use of topological codes under high error rates, others suggest that concatenated codes may be more efficient in different contexts. This indicates a need for further empirical studies to clarify the best approaches under varying conditions.\n\n## Conclusion\nThe current state of quantum error correction reveals a diverse array of approaches, each with its strengths and weaknesses in terms of overhead and fault-tolerance thresholds. Surface codes remain a cornerstone of QEC, but the development of LDPC codes and dynamic surface codes may provide pathways to more efficient implementations. There are still gaps in understanding the comparative performance of these codes across different quantum architectures and error regimes, highlighting the need for ongoing research and experimentation in the field."
+      }
+    ],
+    "summaries": [
+      {
+        "experiment": "depth",
+        "varied_param": 1,
+        "depth": 1,
+        "breadth": 4,
+        "avg_node_count": 4,
+        "avg_quality": 85.0,
+        "avg_relevance": 90.0,
+        "avg_faithfulness": 80.0,
+        "avg_overall": 85.0,
+        "std_overall": 0.0,
+        "num_runs": 1
+      },
+      {
+        "experiment": "depth",
+        "varied_param": 2,
+        "depth": 2,
+        "breadth": 4,
+        "avg_node_count": 4,
+        "avg_quality": 85.0,
+        "avg_relevance": 90.0,
+        "avg_faithfulness": 80.0,
+        "avg_overall": 85.0,
+        "std_overall": 0.0,
+        "num_runs": 1
+      }
+    ]
+  },
+  "breadth_ablation": {
+    "experiment": "breadth",
+    "fixed_param_name": "depth",
+    "fixed_param_value": 3,
+    "varied_param_name": "breadth",
+    "varied_values": [
+      1,
+      2
+    ],
+    "results": [
+      {
+        "question_id": "rq_001",
+        "query": "What are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "experiment": "breadth",
+        "fixed_param": 3,
+        "varied_param": 1,
+        "depth": 3,
+        "breadth": 1,
+        "node_count": 1,
+        "elapsed_time": 15.885019063949585,
+        "findings_count": 10,
+        "scores": {
+          "quality": 85.0,
+          "relevance": 90.0,
+          "faithfulness": 95.0,
+          "overall": 90.0,
+          "explanation": "The report is well-structured with clear sections and logical flow, though it could benefit from more detailed citations and slightly improved formatting. It directly addresses the query by comparing topological and concatenated codes in terms of overhead and fault-tolerance, with comprehensive coverage of surface codes. The claims are well-supported by the provided context, with only minor details lacking explicit citation."
+        },
+        "report": "# Current Approaches to Quantum Error Correction\n\n## Executive Summary\nThe leading approaches to quantum error correction (QEC) include topological codes, particularly surface codes, and concatenated codes. Surface codes are currently favored for their lower overhead and higher fault-tolerance thresholds, making them suitable for scalable quantum computing. Recent advancements have further improved their performance, achieving logical error rates as low as 10\u207b\u2074 per correction cycle.\n\n## Key Findings\n- **Topological Codes**: Surface codes are a prominent example of topological quantum error correction, requiring fewer physical qubits for effective error correction compared to concatenated codes, which demand higher overhead [Comparing the Overhead of Topological and Concatenated Quantum Error Correction](https://arxiv.org/abs/1312.2316).\n- **Concatenated Codes**: While concatenated codes provide a robust framework for error correction, they typically incur greater overhead, making them less efficient than surface codes in practical implementations [Comparing the Overhead of Topological and Concatenated Quantum Error Correction](https://arxiv.org/abs/1312.2316).\n- **Fault-Tolerance Thresholds**: Surface codes have demonstrated fault-tolerance thresholds that are critical for maintaining quantum coherence, with recent studies indicating that they can operate effectively below the theoretical limits of error rates [Quantum error correction below the surface code threshold](https://www.nature.com/articles/s41586-024-08449-y).\n- **Dynamic Surface Codes**: Innovations such as dynamic surface codes are being explored, which enhance the traditional static surface codes by adapting to error rates in real-time, potentially improving overall error correction efficiency [Dynamic surface codes open new avenues for quantum error correction](https://research.google/blog/dynamic-surface-codes-open-new-avenues-for-quantum-error-correction/).\n- **Recent Achievements**: Researchers have achieved a fidelity of 99.9% using surface codes on superconducting quantum processors, indicating significant progress in practical QEC implementations [Quantum Error Correction Achieves 99.9% Fidelity Using Surface Codes](https://quantumzeitgeist.com/quantum-error-correction-achieves-99-9-fidelity-using-surface-codes/).\n\n## Analysis\nThe comparison between topological and concatenated codes reveals a clear advantage for surface codes in terms of both overhead and fault-tolerance. Surface codes require fewer physical qubits to achieve the same level of error correction, which is crucial for scaling quantum computers. However, concatenated codes may still hold value in specific contexts where their structure can be leveraged effectively. The introduction of dynamic surface codes represents a promising direction, as they could adapt to varying error conditions, potentially enhancing their utility in real-world applications.\n\nDespite these advancements, there remain uncertainties regarding the long-term scalability of these approaches, particularly as quantum systems continue to evolve. The need for further empirical studies to validate the performance of dynamic surface codes and other emerging techniques is evident.\n\n## Conclusion\nThe current landscape of quantum error correction is dominated by surface codes due to their efficiency and robustness. As quantum computing technology progresses, the development of dynamic error correction methods may provide additional avenues for improving fault tolerance. However, gaps remain in understanding the full implications of these advancements, particularly in terms of scalability and practical application in diverse quantum architectures. Continued research is essential to address these challenges and optimize quantum error correction strategies for future quantum computing systems."
+      },
+      {
+        "question_id": "rq_001",
+        "query": "What are the current leading approaches to quantum error correction and how do they compare in terms of overhead and fault-tolerance thresholds?",
+        "experiment": "breadth",
+        "fixed_param": 3,
+        "varied_param": 2,
+        "depth": 3,
+        "breadth": 2,
+        "node_count": 2,
+        "elapsed_time": 18.284651041030884,
+        "findings_count": 15,
+        "scores": {
+          "quality": 85.0,
+          "relevance": 90.0,
+          "faithfulness": 88.0,
+          "overall": 87.66666666666667,
+          "explanation": "The report is well-structured with clear sections and logical flow, though it could benefit from more detailed citations. It directly addresses the query by comparing leading quantum error correction approaches in terms of overhead and fault-tolerance thresholds. Most claims are supported by the provided context, but some details could be more explicitly linked to the sources."
+        },
+        "report": "## Executive Summary\nCurrent leading approaches to quantum error correction (QEC) include surface codes, topological codes, and emerging methods like low-density parity-check (LDPC) codes. While surface codes are recognized for their robustness and maturity, they also exhibit high overhead. In contrast, topological codes offer lower overhead but face challenges in implementation. Emerging codes show promise but are still in the early stages of development.\n\n## Key Findings\n- **Surface Codes**: Widely regarded as the standard model for fault-tolerant quantum computing, surface codes achieve high fidelity (up to 99.9%) and are pivotal for scalable quantum error correction, but they require significant overhead in terms of qubits and operations [Quantum Error Correction Achieves 99.9% Fidelity Using Surface Codes](https://quantumzeitgeist.com/quantum-error-correction-achieves-99-9-fidelity-using-surface-codes/).\n- **Topological Codes**: These codes, including the Bacon-Shor code, require fewer resources compared to surface codes but are less mature in terms of practical implementation [1312.2316](https://arxiv.org/abs/1312.2316) and [Comparison of spin-qubit architectures for quantum error-correcting codes](https://arxiv.org/abs/2506.17190).\n- **Fault-Tolerance Thresholds**: Surface codes have demonstrated fault-tolerance thresholds around 1% error rates, while topological codes can achieve similar thresholds with potentially lower overhead [Quantum Error Correction and Fault-Tolerant Computing](https://www.preprints.org/manuscript/202509.2149).\n- **Emerging Codes**: New approaches like LDPC codes and bosonic codes are gaining attention for their potential to reduce overhead while maintaining fault tolerance, but they are still under investigation [Quantum Report Says Error Correction Now The Industry's Defining Challenge](https://thequantuminsider.com/2025/11/19/quantum-report-says-error-correction-now-the-industrys-defining-challenge/).\n\n## Analysis\nThe landscape of quantum error correction is characterized by a trade-off between overhead and fault-tolerance. Surface codes, while robust and achieving high fidelity, require a large number of physical qubits to encode a single logical qubit, leading to significant overhead. In contrast, topological codes offer a more efficient resource utilization but are not as widely implemented, which raises questions about their practical viability in large-scale quantum systems.\n\nEmerging codes like LDPC and bosonic codes present exciting possibilities for reducing overhead, yet they are still in the experimental phase and lack the extensive validation that surface and topological codes have undergone. This creates a gap in understanding their long-term reliability and performance in real-world applications.\n\n## Conclusion\nThe current state of quantum error correction reveals a clear preference for surface codes due to their maturity and high fidelity, despite their overhead challenges. Topological codes offer a promising alternative but require further development for practical use. Emerging codes may provide solutions to overhead issues, but their effectiveness remains to be fully realized. Continued research is essential to bridge the gaps in knowledge and to explore the potential of these new approaches in achieving scalable, fault-tolerant quantum computing."
+      }
+    ],
+    "summaries": [
+      {
+        "experiment": "breadth",
+        "varied_param": 1,
+        "depth": 3,
+        "breadth": 1,
+        "avg_node_count": 1,
+        "avg_quality": 85.0,
+        "avg_relevance": 90.0,
+        "avg_faithfulness": 95.0,
+        "avg_overall": 90.0,
+        "std_overall": 0.0,
+        "num_runs": 1
+      },
+      {
+        "experiment": "breadth",
+        "varied_param": 2,
+        "depth": 3,
+        "breadth": 2,
+        "avg_node_count": 2,
+        "avg_quality": 85.0,
+        "avg_relevance": 90.0,
+        "avg_faithfulness": 88.0,
+        "avg_overall": 87.66666666666667,
+        "std_overall": 0.0,
+        "num_runs": 1
+      }
+    ]
+  },
+  "config": {
+    "depth_values": [
+      1,
+      2
+    ],
+    "breadth_values": [
+      1,
+      2
+    ],
+    "fixed_breadth": 4,
+    "fixed_depth": 3,
+    "time_budget_s": 60,
+    "num_questions": 1
+  }
+}

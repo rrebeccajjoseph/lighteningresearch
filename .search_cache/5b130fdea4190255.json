@@ -1,0 +1,32 @@
+{
+  "query": "How do the scalability and implementation challenges of various quantum error correction methods affect their adoption in real-world quantum computing systems?",
+  "query_hash": "5b130fdea4190255",
+  "timestamp": "2026-02-05T20:19:18.357337",
+  "results": [
+    {
+      "url": "https://www.eurekalert.org/news-releases/1099924",
+      "title": "Scalable and efficient quantum error correction for fault-tolerant ...",
+      "content": "Scientists develop a new class of highly efficient quantum error correction codes, targeting hundreds of thousands of logical qubits. **A new class of highly efficient and scalable quantum low-density parity-check error correction codes, capable of performance approaching the theoretical hashing bound, has been developed by scientists at Institute of Science Tokyo, Japan. These novel error-correction codes can handle quantum codes with hundreds of thousands of qubits, potentially enabling large-scale fault-tolerant quantum computing, with applications in diverse fields, including quantum chemistry and optimization problems.**. In a recent breakthrough, Associate Professor Kenta Kasai and Master\u2019s student Mr. Daiki Komoto from the Department of Information and Communications Engineering, School of Engineering at Institute of Science Tokyo (Science Tokyo), Japan, have successfully developed novel LDPC quantum error correction codes, capable of approaching the hashing bound, while maintaining high efficiency. Importantly, these error correction codes have a decoding complexity proportional to the number of qubits, making them highly efficient and scalable for large-scale quantum computing. \u201cOur quantum LDPC error correction codes can potentially enable quantum computers to scale up to millions of logical qubits,\u201d remarks Kasai."
+    },
+    {
+      "url": "https://research.ibm.com/topics/quantum-error-correction",
+      "title": "Quantum Error Correction - IBM Research",
+      "content": "# Quantum Error Correction. IBM Quantum has a clear roadmap to practical quantum advantage in the coming years. This goal requires scalable, error-corrected quantum systems. * ### Scaling for quantum advantage and beyond. * ### Relay-BP: The world\u2019s fastest, most accurate decoder for qLDPC error correction codes. * ### How IBM will build the world's first large-scale, fault-tolerant quantum computer. Ryan Mandelbaum, Jay Gambetta, Jerry Chow, Tushar Mittal, Theodore J. * ### What is fault-tolerant quantum computing? Robert Davis, Olivia Lanes, and John Watrous. Egger, Maika Takita, and Robert Davis. * ### IBM Quantum delivers on performance challenge made two years ago. Jay Gambetta and Ryan Mandelbaum. * See more of our work on Quantum Error Correction. * ### Feedforward suppression of readout-induced faults in quantum error correction. * ### Dynamical simulations of many-body quantum chaos on a quantum computer. * ### Applications of quantum error correction. * ### Modeling error correction with Lindblad dynamics and approximate channels."
+    },
+    {
+      "url": "https://phys.org/news/2026-01-error-technology-quantum-real-world.html",
+      "title": "Error-correction technology to turn quantum computing into real ...",
+      "content": "# Error-correction technology to turn quantum computing into real-world power. Over many years, researchers have developed numerous quantum error-correction methods, but every approach faced a limit\u2014an accuracy ceiling beyond which it could not go. A team led by Associate Professor Kenta Kasai at Institute of Science Tokyo (Science Tokyo) has discovered a new quantum error-correction method that comes extremely close to the theoretical limit\u2014the hashing bound. In conventional quantum computer designs, there has been a built-in flaw that causes information to trigger errors during computation. The research team developed a new mechanism that eliminates this source of error, successfully pushing the computational accuracy of quantum computing to almost the theoretical limit. A new quantum error-correction method achieves near-theoretical accuracy and high computational efficiency, overcoming previous limitations that hindered large-scale quantum computing. This advancement enables error correction with minimal computational overhead as system size increases, significantly advancing the feasibility of practical, large-scale quantum computers. ##### Error-correction technology to turn quantum computing into real-world power."
+    },
+    {
+      "url": "http://www.ijarset.com/upload/2024/november/01-janakiram-05.pdf",
+      "title": "[PDF] Quantum Error Correction: A Review of Methods, Challenges, and ...",
+      "content": "ISSN: 2350-0328 International Journal of AdvancedResearch in Science, Engineering and Technology Vol. 11, Issue 11, November 2024 Copyright to IJARSET www.ijarset.com 22462 Quantum Error Correction: A Review of Methods, Challenges, and Advances Janakiram Saripalli P.G. Graduate, Department of Information Technology Management, Indiana Wesleyan University Marion, IN USA = ABSTRACT: Quantum error correction (QEC) addresses the challenge of maintaining stable quantum information in the face of decoherence and other quantum errors. QUANTUM ERROR CORRECTION CODES Quantum Error Correction (QEC) codes provide ways to encode qubit information into a larger, multi-qubit state, enabling quantum systems to detect and correct errors. V. CHALLENGES IN QUNATUM ERROR CORRECTION Quantum Error Correction faces several technical and practical challenges: \u2022 Qubit Fidelity and Coherence Time: For QEC to be effective, qubits must have high fidelity (accuracy) and sufficient coherence time (duration they remain in a superposition state) to prevent errors from spreading."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=S1yZUNH0IMg",
+      "title": "Scalability of quantum error mitigation techniques - YouTube",
+      "content": "Episode 157 Error mitigation has elevated quantum computing to the scale of hundreds of qubits and tens of layers; however,"
+    }
+  ]
+}

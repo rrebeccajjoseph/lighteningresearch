@@ -24,6 +24,36 @@
       "query": "How do different architectural innovations (e.g., sparse attention, model distillation) contribute t",
       "timestamp": "2026-02-05T17:51:07.418329",
       "result_count": 5
+    },
+    "71c0c5e420874843": {
+      "query": "How do different quantum error correction codes compare in terms of resource overhead, such as qubit",
+      "timestamp": "2026-02-05T20:18:00.007347",
+      "result_count": 5
+    },
+    "ecf3af61fe46537d": {
+      "query": "How have global regulatory frameworks adapted to the advancements in CRISPR-Cas9 technology for clin",
+      "timestamp": "2026-02-05T20:18:27.556143",
+      "result_count": 5
+    },
+    "fe9e1652390899b0": {
+      "query": "How do different quantum error correction methods compare in terms of resource overhead, including q",
+      "timestamp": "2026-02-05T20:18:54.135774",
+      "result_count": 4
+    },
+    "5b130fdea4190255": {
+      "query": "How do the scalability and implementation challenges of various quantum error correction methods aff",
+      "timestamp": "2026-02-05T20:19:18.357337",
+      "result_count": 5
+    },
+    "751109f8feabe209": {
+      "query": "What are the key principles and techniques used in surface code quantum error correction, and how do",
+      "timestamp": "2026-02-05T20:19:36.774576",
+      "result_count": 5
+    },
+    "7ad2bfb3c79b1b6e": {
+      "query": "How do different quantum error correction approaches, such as surface codes, color codes, and concat",
+      "timestamp": "2026-02-05T20:19:57.257729",
+      "result_count": 5
     }
   },
   "created": "2026-02-05T17:48:35.092627"

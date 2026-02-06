@@ -1,0 +1,32 @@
+{
+  "query": "How do different quantum error correction approaches, such as surface codes, color codes, and concatenated codes, compare in terms of their fault-tolerance thresholds and practical implementation challenges?",
+  "query_hash": "7ad2bfb3c79b1b6e",
+  "timestamp": "2026-02-05T20:19:57.257729",
+  "results": [
+    {
+      "url": "https://www.preprints.org/manuscript/202509.2149/v1/download",
+      "title": "[PDF] Quantum Error Correction and Fault- Tolerant Computing",
+      "content": "Keywords: quantum error correction; fault-tolerant quantum computing; surface codes; quantum decoders;. logical qubits; noise threshold; quantum information theory; entropy; stabilizer codes; topological codes. # Quantum Error Correction and Fault -Tolerant. Keywords: quantum error correction; fault -tolerant quantum computing; surface codes; quantum. decoders; logical qubits; noise threshold; quantum information theory; entropy; stabilizer codes;. Fault -tolerant quantum computing requires not only error correction but also fault -tolerant. 5.  Steane, A.M. Error correcting codes in quantum theory. Stabilizer codes and quantum error correction. Realizing repeated quantum error correction in a distance -three surface code. Optimally adaptive quantum error correction of surface codes. Fault -tolerant quantum computation with constant error rate. Landahl, A.J.; Anderson, J.T.; Rice, P.R. Fault -tolerant quantum computing with color codes. Suppressing quantum errors by scaling a surface code logical qubit. Quantum error correction below the surface code threshold. Quantum error correction with the color code. Neural belief -propagation decoders for quantum error -correcting codes. based decoder for fault -tolerant quantum error correction."
+    },
+    {
+      "url": "https://www.preprints.org/manuscript/202509.2149",
+      "title": "Quantum Error Correction and Fault-Tolerant Computing",
+      "content": "Surface codes and color codes occupy distinct regions reflecting their trade-offs between resource overhead and fault-tolerance, while quantum"
+    },
+    {
+      "url": "https://physics.stackexchange.com/questions/169176/quantum-error-correction-surface-code-vs-color-code",
+      "title": "Quantum Error Correction: Surface code vs. color code",
+      "content": "# Quantum Error Correction: Surface code vs. The first was Rainer Blatt's group, who used trapped ions to perform a *topologically encoded* qubit using \"color code\": Quantum computations on a topologically encoded qubit (arxiv). The other one was John Martinis' group, who used superconducting qubits and performed a simplified version of a \"surface code\": State preservation by repetitive error detection in a superconducting quantum circuit (arxiv). The Martinis group has shown recently that they are above the threshold for surface-code QEC arxiv. Are there other groups who have the same level of control over their systems to perform multi-qubits quantum error-correction codes? * $\\begingroup$ I'm no experimentalist, but this paper here: arxiv.org/pdf/1108.5738v1.pdf suggests that the color codes might sometimes have better thresholds, but maybe they are just similar. The color code and surface code are very similar. The Rainer Blatt group demonstrated the smallest possible color-code which also uses 7 qubits (this instance is also referred to as the Steane code)."
+    },
+    {
+      "url": "https://thequantuminsider.com/2024/12/22/researchers-take-a-colorful-approach-to-error-correction-to-bring-fault-tolerant-quantum-computing-a-step-closer/",
+      "title": "Researchers Take a 'Colorful' Approach to Error Correction to Bring ...",
+      "content": "If hardware improvements continue, the color code could rival the surface code, paving the way for more scalable, cost-effective quantum"
+    },
+    {
+      "url": "https://quantumzeitgeist.com/quantum-error-correction-state-of-play-surface-code-emerging-codes-analyzed-in-new-report/",
+      "title": "Quantum Error Correction State Of Play: Surface Code & Emerging ...",
+      "content": "The report examines key themes, including the surface code's role as the Standard Model for large-scale fault-tolerant quantum computing."
+    }
+  ]
+}

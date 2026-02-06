@@ -1,0 +1,32 @@
+{
+  "query": "How has the public perception of CRISPR-Cas9 technology changed since 2020, particularly in relation to its clinical applications?",
+  "query_hash": "b644b5796bc91e4b",
+  "timestamp": "2026-02-05T20:18:23.261479",
+  "results": [
+    {
+      "url": "https://journals.library.columbia.edu/index.php/bioethics/article/view/8595",
+      "title": "Shifting Perceptions of CRISPR | Voices in Bioethics",
+      "content": "# Shifting Perceptions of CRISPR From Controversial Gene Editing Tool to Indispensable SARS-CoV-2 Variant Surveillance Tool. Amid the COVID-19 pandemic, the broad potential applications of CRISPR have extended beyond gene editing. Yet, there is also an underlying assumption that gene editing for therapeutic purposes would be a good use of CRISPR. As cell and gene therapies move to market treating a small number of people with rare genetic diseases, public perceptions of these technologies are already shifting and may shift more over time. CRISPR\u2019s application as a diagnostic testing tool is different from its gene-editing use. Jim Daley, \u201cGene Therapy Arrives,\u201d Scientific American, January 1, 2020, https://www.scientificamerican.com/article/gene-therapy-arrives/. \u201cA COVID-19 Test to Detect Virus Variants.\u201d; Kean Hean Ooi et al., \u201cAn Engineered CRISPR-Cas12a Variant and DNA-RNA Hybrid Guides Enable Robust and Rapid COVID-19 Testing,\u201d *Nature Communications* 12, no. Gene Therapy, CRISPR, COVID-19, Diagnostic Testing, Public Health, Clinical Trials. Shifting Perceptions of CRISPR: From Controversial Gene Editing Tool to Indispensable SARS-CoV-2 Variant Surveillance Tool."
+    },
+    {
+      "url": "https://www.researchgate.net/publication/395612837_Public_Perception_of_CRISPR-Cas9_Among_Youth_and_Young_Adults",
+      "title": "(PDF) Public Perception of CRISPR-Cas9 Among Youth and Young ...",
+      "content": "Earlier studies found initial optimism toward CRISPR-Cas9 that later became more cautious, and younger generations generally showed greater"
+    },
+    {
+      "url": "https://www.datananalysis.com/global-cRISPR-CAS9-gene-editing-technologies-market",
+      "title": "Global CRISPR-CAS9 Gene Editing Technologies Market Ovrview",
+      "content": "The global CRISPR-CAS9 gene editing technologies market is expected to grow at a healthy CAGR of 14.6% during 2019-2026. Gene editing is the modern"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/393775562_CRISPR-Cas9_in_2025_Editing_Life_Ethics_and_the_Future_of_Medicine_Overview",
+      "title": "(PDF) CRISPR-Cas9 in 2025: Editing Life, Ethics, and the Future of ...",
+      "content": "CRISPR is currently being utilized to identify diseases, address cardiovascular and immune disorders, and even combat HIV. Beyond medicine,"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7490675/",
+      "title": "Assessing Public Opinion on CRISPR-Cas9 - PMC - NIH",
+      "content": "Such surveys have found that participants are largely in favor of the technology used for somatic purposes (eg, in the context of treatment) but less so for"
+    }
+  ]
+}
